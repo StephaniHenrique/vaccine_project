@@ -1,58 +1,52 @@
 import pandas as pd
+import numpy as np
+from sklearn.preprocessing import StandardScaler
 
-dataset = 'JM-experiments'
-df = pd.read_csv(f'Dataset/Private_dt/{dataset}.csv')
+# 1. Carregar os dados
+df = pd.read_csv('JM-experiments.csv')
 
+# 2. Definir as variáveis
+# Confirme qual é a string exata para 4 dias no seu dataset (ex: '4dpc', 'Day4', etc)
+baseline_timepoint = 'Pre'
+peak_timepoint = '4dpc' 
 
-#Extracting basic metrics about the dataset
-total_rows = len(df)
-unique_experiments = df['Experiment'].nunique()
-unique_timepoints = df['Timepoint'].unique()
-unique_mice = df['Mouse'].nunique()
-unique_tissues = df['Tissue'].unique()
+# Colunas que DEVEM ser iguais para cruzar os ratos
+group_cols = ['Treatment', 'Tissue', 'Target']
 
-print("=== MÉTRICAS BÁSICAS ===")
-print(f"Total de registros: {total_rows}")
-print(f"Total de experimentos diferentes: {unique_experiments}")
-print(f"Timepoints encontrados: {', '.join(unique_timepoints)}")
-print(f"Tecidos analisados: {', '.join(unique_tissues)}")
-print(f"Total de camundongos (Mouse) únicos na base: {unique_mice}\n")
+# Identificar as colunas que são as características das células (features)
+meta_cols = ['Experiment', 'Timepoint', 'Treatment', 'Tissue', 'Mouse', 'Target']
+feature_cols = [col for col in df.columns if col not in meta_cols]
 
-# ==========================================
-# 3. CONSTRUIR O MATCH ENTRE TIMEPOINTS
-# ==========================================
-# Definimos as colunas que, juntas, identificam uma amostra/sujeito único
-chaves_de_busca = ['Treatment', 'Tissue']
+# 3. Filtrar os dados (apenas Pre e Pico)
+df_pre = df[df['Timepoint'] == baseline_timepoint]
+df_peak = df[df['Timepoint'] == peak_timepoint]
 
-# Agrupamos pelas chaves e contamos quantos Timepoints únicos cada grupo possui
-contagem_timepoints = df.groupby(chaves_de_busca)['Timepoint'].nunique().reset_index()
-contagem_timepoints.rename(columns={'Timepoint': 'Qtd_Timepoints'}, inplace=True)
+# 4. Combinar os dados (Produto Cartesiano por grupo)
+# O "merge" vai cruzar todos os ratos Pre com todos os ratos Pico que tenham o mesmo Treatment, Tissue e Target.
+df_combined = pd.merge(df_pre, df_peak, on=group_cols, suffixes=('_pre', '_peak'))
 
-# Mesclamos essa informação de volta ao dataframe original
-df_completo = pd.merge(df, contagem_timepoints, on=chaves_de_busca, how='left')
+# 5. Criar o DataFrame final e calcular o efeito
+df_effect = df_combined[group_cols + ['Mouse_pre', 'Mouse_peak']].copy()
 
-# Separamos os dados: 
-# MATCH: Grupos que apareceram em mais de 1 timepoint (ex: Pre e 15dpc)
-# SEM MATCH: Grupos que apareceram em apenas 1 timepoint
-df_com_match = df_completo[df_completo['Qtd_Timepoints'] > 1].copy()
-df_sem_match = df_completo[df_completo['Qtd_Timepoints'] == 1].copy()
+for col in feature_cols:
+    val_pre = df_combined[f'{col}_pre']
+    val_peak = df_combined[f'{col}_peak']
+    
+    # OPÇÃO 1: Subtração Simples (Descomente a linha abaixo se preferir usar subtração)
+    # df_effect[col] = val_peak - val_pre
+    
+    # OPÇÃO 2: Log2 Fold Change (Recomendado para dados biológicos)
+    # Adicionamos um número muito pequeno (1e-5) para evitar divisão por zero ou log(0)
+    df_effect[col] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
 
-print("=== RESULTADOS DO MATCHING ===")
-print(f"Registros COM match (monitorados ao longo do tempo): {len(df_com_match)}")
-print(f"Registros SEM match (aparecem em apenas 1 timepoint): {len(df_sem_match)}\n")
+# 6. Normalização (Z-score)
+# Vamos normalizar as colunas numéricas para que todas fiquem na mesma escala (média 0, desvio padrão 1)
+scaler = StandardScaler()
+df_effect[feature_cols] = scaler.fit_transform(df_effect[feature_cols])
 
-print(df_com_match)
+# Checar o resultado
+print(f"Total de combinações geradas: {len(df_effect)}")
+print(df_effect.head())
 
-# ==========================================
-# 4. VISUALIZAR OS RESULTADOS
-# ==========================================
-print("-> Exemplos de amostras COM match:")
-# Mostramos as chaves + o Timepoint, ordenados para facilitar a visualização
-# display(df_com_match[chaves_de_busca + ['Timepoint']].sort_values(by=chaves_de_busca).head(6))
-
-# print("\n-> Exemplos de amostras SEM match (órfãs):")
-# display(df_sem_match[chaves_de_busca + ['Timepoint']].head(6))
-
-# Opcional: Salvar os resultados em novos arquivos CSV para inspecionar no Excel
-# df_com_match.to_csv('amostras_com_match.csv', index=False)
-# df_sem_match.to_csv('amostras_sem_match.csv', index=False)
+# Salvar o novo dataset pronto para ser usado nos seus modelos
+df_effect.to_csv('JM-experiments_combinacoes_normalizadas.csv', index=False)
