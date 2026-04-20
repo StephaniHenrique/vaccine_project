@@ -76,12 +76,10 @@ from sklearn.svm import SVC
 
 #from sklearn.utils import parallel_backend
 
-from xgboost import XGBClassifier
-
 ### Standard font size in the Matplotlib graphs
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'Dev_Test'
+exp_id = 'select k best and balance _ Julia'
 script_path = 'Private_dt'
 input_folder = f'./Dataset/{script_path}'
 output_folder = f'./Results/{script_path}/{exp_id}'
@@ -101,7 +99,8 @@ warnings.filterwarnings('ignore')
 
 logging.info(f'>>>>>>>>>>>>>>> START OF SCRIPT EXECUTION: {dt_script_start_string}. <<<<<<<<<<<<<<<')
 
-dataset = 'JM-experiments_cross' #MUDAR
+dataset = 'JM_TRAIN_final' #MUDAR
+dataset_validation = 'JM_VAL_final' #MUDAR
 dataset_file = None
 balancer = None
 
@@ -110,8 +109,8 @@ development_test = False #ADJUST
 # hout_test_size = 0.2
 # hout_test_size = 0.3
 
-k_hout = 5
-k_cv = 10
+k_hout = 3
+k_cv = 3
 
 n_jobs = 2
 
@@ -152,31 +151,25 @@ logging.info(f'\t sample_balancing_option = {sample_balancing_option}')
 
 scoring = {
     'f1_weighted_scorer': make_scorer(f1_score, average='weighted', zero_division=0),
-    'roc_auc_scorer': make_scorer(roc_auc_score, needs_proba=True),
+    'roc_auc_scorer': make_scorer(roc_auc_score, response_method='predict_proba'),
     'accuracy_scorer': make_scorer(accuracy_score)
 }
 
 dataset_file = pd.read_csv(f"{input_folder}/{dataset}.csv")
+df_val = pd.read_csv(f"{input_folder}/{dataset_validation}.csv")
 
 dataset_q_rows = len(dataset_file)
 dataset_q_features = len(dataset_file.columns) - 1
 n_classes = dataset_file['Target'].nunique()
 
-#NOVA LÓGICA
-# 2. Definir as colunas de metadados e o 'Target' que devem ser excluídas do treinamento
-colunas_para_remover = ['Treatment', 'Tissue', 'Target', 'Mouse_pre', 'Mouse_peak']
-
-# 3. Filtrar apenas as colunas que realmente existem no seu CSV para não dar erro
-colunas_para_remover = [col for col in colunas_para_remover if col in dataset_file.columns]
-
-# 4. Criar a matriz X (apenas atributos biológicos)
-dataset_features = dataset_file.drop(columns=colunas_para_remover)
-dataset_q_features = len(dataset_features.columns) # Atualiza a qtd de features corretamente
+dataset_features = dataset_file.drop('Target', axis=1)
 X = dataset_features.to_numpy()
 
-# 5. Criar o vetor y (alvo)
 y = dataset_file.loc[:, 'Target']
 y = y.to_numpy()
+
+X_val = df_val.drop('Target', axis=1).to_numpy()
+y_val = df_val.loc[:, 'Target'].to_numpy()
 
 # https://imbalanced-learn.org/stable/under_sampling.html
 # https://imbalanced-learn.org/stable/auto_examples/under-sampling/plot_comparison_under_sampling.html#sphx-glr-auto-examples-under-sampling-plot-comparison-under-sampling-py
@@ -391,8 +384,13 @@ if not(development_test):
             'params': [
                 {#Sem seleção de caracteristicas e transformação
                     'impute': [ SimpleImputer(strategy='median') ],
-                    'balance': [ None ],
-                    'select': [ None ],
+                    'balance': [
+                        None,
+                        RandomUnderSampler(random_state=random_state_model),
+                        SMOTE(random_state=random_state_model)
+                    ],
+                    'select': [ SelectKBest(mutual_info_classif) ],
+                    'select__k': [5, 8, 11],
                     'transform': [ None ], 
                     'classify__penalty': ['l2'],
                     'classify__tol': [1.0e-8,1.0e-6,1.0e-4],
@@ -1629,8 +1627,13 @@ for model_name, model_parameters in models_parameters.items():
     logging.info(f'>>>>>>>>>> PROCESSING ALGORITHM {model_name}.')
 
     cv_test_results = init_cv_result_mean_metrics()
+    jt_test_results = init_cv_result_mean_metrics()
     
     test_cv_it_metrics = init_cv_it_metrics()
+    test_jt_it_metrics = init_cv_it_metrics()
+
+    best_model_params = None
+    best_model_score = -np.inf
 
     ########## OUTER CV ##########
     for i in range(k_hout):
@@ -1699,7 +1702,7 @@ for model_name, model_parameters in models_parameters.items():
             best_gridsearchcv_result = gridsearchcv_results.head(1)
             
             test_cv_it_metrics['params'] = np.append(test_cv_it_metrics['params'], best_gridsearchcv_result['params'])
-            
+            test_jt_it_metrics['params'] = np.append(test_jt_it_metrics['params'], best_gridsearchcv_result['params'])
             try:
                 # Calcula as métricas
 
@@ -1720,10 +1723,12 @@ for model_name, model_parameters in models_parameters.items():
                 y_test_pred = grid_search.predict(X_hout_it)
                 y_test_score = grid_search.predict_proba(X_hout_it)
                 
-               
                 calculate_metrics(test_cv_it_metrics, y_hout_it, y_test_pred, y_test_score)
-        
-        
+
+                y_jt_pred = grid_search.predict(X_val)
+                y_jt_score = grid_search.predict_proba(X_val)
+                calculate_metrics(test_jt_it_metrics, y_val, y_jt_pred, y_jt_score)
+
             except Exception as e:
                 logging.error(f'An error occurred. {e}')
                 if len(test_cv_it_metrics[mean_metric_name]) <= i:
@@ -1741,10 +1746,18 @@ for model_name, model_parameters in models_parameters.items():
     df_test_cv_it_metrics = pd.DataFrame(test_cv_it_metrics)
     df_test_cv_it_metrics.to_csv(f'{output_folder}/cv_test_it_metrics_{dt_string}_{dataset}_{model_name}.csv', index=False)
     
+    df_test_jt_it_metrics = pd.DataFrame(test_jt_it_metrics)
+    df_test_jt_it_metrics.to_csv(f'{output_folder}/cv_test_jt_metrics_{dt_string}_{dataset}_{model_name}.csv', index=False)
+
     calculate_mean_metrics(cv_test_results, test_cv_it_metrics)
     
     df_cv_test_results = pd.DataFrame(cv_test_results)
     df_cv_test_results.to_csv(f'{output_folder}/cv_test_mean_metrics_{dt_string}_{dataset}_{model_name}.csv', index=False)
+
+    calculate_mean_metrics(jt_test_results, test_jt_it_metrics)
+    
+    df_jt_test_results = pd.DataFrame(jt_test_results)
+    df_jt_test_results.to_csv(f'{output_folder}/jt_test_mean_metrics_{dt_string}_{dataset}_{model_name}.csv', index=False)
 
     # datetime object containing current date and time
 now = datetime.now()
