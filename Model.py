@@ -56,6 +56,7 @@ from sklearn.metrics import root_mean_squared_error
 
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.model_selection import train_test_split
 
 from sklearn.naive_bayes import BernoulliNB
@@ -69,6 +70,8 @@ from sklearn.preprocessing import LabelBinarizer
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 
+from sklearn.impute import SimpleImputer
+
 from sklearn.svm import SVC
 
 #from sklearn.utils import parallel_backend
@@ -79,7 +82,7 @@ from xgboost import XGBClassifier
 
 matplotlib.rcParams.update({'font.size': 15})
 exp_id = 'Dev_Test'
-script_path = 'private_dt'
+script_path = 'Private_dt'
 input_folder = f'./Dataset/{script_path}'
 output_folder = f'./Results/{script_path}/{exp_id}'
 
@@ -98,11 +101,11 @@ warnings.filterwarnings('ignore')
 
 logging.info(f'>>>>>>>>>>>>>>> START OF SCRIPT EXECUTION: {dt_script_start_string}. <<<<<<<<<<<<<<<')
 
-dataset = 'JM_experiments' #MUDAR
+dataset = 'JM-experiments_cross' #MUDAR
 dataset_file = None
 balancer = None
 
-development_test = True #ADJUST
+development_test = False #ADJUST
 
 # hout_test_size = 0.2
 # hout_test_size = 0.3
@@ -153,17 +156,26 @@ scoring = {
     'accuracy_scorer': make_scorer(accuracy_score)
 }
 
-dataset_file = pd.read_csv(f"{input_folder}\{dataset}.csv")
+dataset_file = pd.read_csv(f"{input_folder}/{dataset}.csv")
 
 dataset_q_rows = len(dataset_file)
 dataset_q_features = len(dataset_file.columns) - 1
-n_classes = dataset_file['target'].nunique()
+n_classes = dataset_file['Target'].nunique()
 
+#NOVA LÓGICA
+# 2. Definir as colunas de metadados e o 'Target' que devem ser excluídas do treinamento
+colunas_para_remover = ['Treatment', 'Tissue', 'Target', 'Mouse_pre', 'Mouse_peak']
 
-dataset_features = dataset_file.drop('target', axis=1)
+# 3. Filtrar apenas as colunas que realmente existem no seu CSV para não dar erro
+colunas_para_remover = [col for col in colunas_para_remover if col in dataset_file.columns]
+
+# 4. Criar a matriz X (apenas atributos biológicos)
+dataset_features = dataset_file.drop(columns=colunas_para_remover)
+dataset_q_features = len(dataset_features.columns) # Atualiza a qtd de features corretamente
 X = dataset_features.to_numpy()
 
-y = dataset_file.loc[:, 'target']
+# 5. Criar o vetor y (alvo)
+y = dataset_file.loc[:, 'Target']
 y = y.to_numpy()
 
 # https://imbalanced-learn.org/stable/under_sampling.html
@@ -378,22 +390,17 @@ if not(development_test):
             'model': LogisticRegression(),
             'params': [
                 {#Sem seleção de caracteristicas e transformação
-                   'balance': [
-                        None,
-                        RandomUnderSampler(random_state=random_state_model),
-                        SMOTE(random_state=random_state_model)
-                    ],
+                    'impute': [ SimpleImputer(strategy='median') ],
+                    'balance': [ None ],
                     'select': [ None ],
                     'transform': [ None ], 
-                    'classify__penalty': ['l1', 'l2', 'elasticnet', None],
+                    'classify__penalty': ['l2'],
                     'classify__tol': [1.0e-8,1.0e-6,1.0e-4],
                     'classify__C': [0.01,0.1,1.0,10.0,100.0],
                     'classify__random_state': [random_state_model],
-                    'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
+                    'classify__solver': ['lbfgs'],
                     'classify__max_iter': [100,200,500,1000,2000],
-                    'classify__multi_class': ['ovr'],
-                    'classify__n_jobs': [n_jobs],
-                    'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
+                    'classify__n_jobs': [n_jobs]
                 },
                 # {#SelectKbest sem transformação
                 #     'balance': [
@@ -410,7 +417,6 @@ if not(development_test):
                 #     'classify__random_state': [random_state_model],
                 #     'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
                 #     'classify__max_iter': [100,200,500,1000,2000],
-                #     'classify__multi_class': ['ovr'],
                 #     'classify__n_jobs': [n_jobs],
                 #     'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
                 # },
@@ -429,7 +435,6 @@ if not(development_test):
                 #     'classify__random_state': [random_state_model],
                 #     'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
                 #     'classify__max_iter': [100,200,500,1000,2000],
-                #     'classify__multi_class': ['ovr'],
                 #     'classify__n_jobs': [n_jobs],
                 #     'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
                 # },
@@ -449,7 +454,6 @@ if not(development_test):
                 #     'classify__random_state': [random_state_model],
                 #     'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
                 #     'classify__max_iter': [100,200,500,1000,2000],
-                #     'classify__multi_class': ['ovr'],
                 #     'classify__n_jobs': [n_jobs],
                 #     'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
                 # },
@@ -469,7 +473,6 @@ if not(development_test):
                 #     'classify__random_state': [random_state_model],
                 #     'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
                 #     'classify__max_iter': [100,200,500,1000,2000],
-                #     'classify__multi_class': ['ovr'],
                 #     'classify__n_jobs': [n_jobs],
                 #     'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]   
                 # },
@@ -488,7 +491,6 @@ if not(development_test):
                 #     'classify__random_state': [random_state_model],
                 #     'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
                 #     'classify__max_iter': [100,200,500,1000,2000],
-                #     'classify__multi_class': ['ovr'],
                 #     'classify__n_jobs': [n_jobs],
                 #     'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
                 # },
@@ -507,7 +509,6 @@ if not(development_test):
                 #     'classify__random_state': [random_state_model],
                 #     'classify__solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga'],
                 #     'classify__max_iter': [100,200,500,1000,2000],
-                #     'classify__multi_class': ['ovr'],
                 #     'classify__n_jobs': [n_jobs],
                 #     'classify__l1_ratio': [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9] 
                 # },
@@ -1663,8 +1664,10 @@ for model_name, model_parameters in models_parameters.items():
             
             pipe = Pipeline(
                 [
+                    ('impute', 'passthrough'),
                     ('balance', 'passthrough'),
-                    ("reduce", 'passthrough'),
+                    ('select', 'passthrough'),
+                    ("transform", 'passthrough'),
                     ("classify", clf),
                 ]
             )
@@ -1726,7 +1729,12 @@ for model_name, model_parameters in models_parameters.items():
                 if len(test_cv_it_metrics[mean_metric_name]) <= i:
                     fill_metrics(test_cv_it_metrics)
         except Exception as e:
+                print(f"\n[!!!] ERRO FATAL NO FOLD {i}: {e}\n") # <--- ADICIONE ISTO
+                import traceback
+                traceback.print_exc() # <--- ISTO VAI MOSTRAR A LINHA EXATA DO ERRO
                 logging.error(f'An error occurred. {e}')
+                if len(test_cv_it_metrics[mean_metric_name]) <= i:
+                    fill_metrics(test_cv_it_metrics)
 
     # print(test_cv_it_metrics)
     

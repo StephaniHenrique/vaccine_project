@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.impute import IterativeImputer
 
 
-dataset = 'JM_experiments'
+dataset = './JM-experiments_combinacoes_normalizadas.csv'
 input_missing_values = False
 scaler_option = 2 #0 -> no Scaling, 1 -> minmax, 2 -> standard
 
