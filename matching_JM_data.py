@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 # 1. Carregar os dados
-df = pd.read_csv('./Dataset/Private_dt/Before_processing/JM_train.csv')
+df = pd.read_csv('./Dataset/Private_dt/Before_processing/JM_validation.csv')
 
 # 2. Definir as variáveis
 # Confirme qual é a string exata para 4 dias no seu dataset (ex: '4dpc', 'Day4', etc)
@@ -41,12 +41,12 @@ for col in feature_cols:
 
 # 6. Normalização (Z-score)
 # Vamos normalizar as colunas numéricas para que todas fiquem na mesma escala (média 0, desvio padrão 1)
-scaler = StandardScaler()
-df_effect[feature_cols] = scaler.fit_transform(df_effect[feature_cols])
+# scaler = StandardScaler()
+# df_effect[feature_cols] = scaler.fit_transform(df_effect[feature_cols])
 
 # Checar o resultado
 print(f"Total de combinações geradas: {len(df_effect)}")
 print(df_effect.head())
 
 # Salvar o novo dataset pronto para ser usado nos seus modelos
-df_effect.to_csv('JM-train.csv', index=False)
+df_effect.to_csv('JM_validation_no_standard.csv', index=False)

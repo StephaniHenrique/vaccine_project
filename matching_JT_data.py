@@ -104,9 +104,9 @@ for col in feature_cols:
     # Adicionamos um número muito pequeno (1e-5) para evitar divisão por zero ou log(0)
     df_effect[col] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
 
-scaler = StandardScaler()
-df_effect[feature_cols] = scaler.fit_transform(df_effect[feature_cols])
+# scaler = StandardScaler()
+# df_effect[feature_cols] = scaler.fit_transform(df_effect[feature_cols])
 
 print("Dataset com efeitos calculados:")
 print(df_effect.head())
-df_effect.to_csv('Lungs_Spleen_effects.csv', index=False)
+df_effect.to_csv('JT_no_standard.csv', index=False)

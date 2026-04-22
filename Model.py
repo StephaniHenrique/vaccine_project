@@ -79,7 +79,7 @@ from sklearn.svm import SVC
 ### Standard font size in the Matplotlib graphs
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'select k best and balance _ Julia'
+exp_id = 'SVM SEPARADO'
 script_path = 'Private_dt'
 input_folder = f'./Dataset/{script_path}'
 output_folder = f'./Results/{script_path}/{exp_id}'
@@ -99,8 +99,8 @@ warnings.filterwarnings('ignore')
 
 logging.info(f'>>>>>>>>>>>>>>> START OF SCRIPT EXECUTION: {dt_script_start_string}. <<<<<<<<<<<<<<<')
 
-dataset = 'JM_TRAIN_final' #MUDAR
-dataset_validation = 'JM_VAL_final' #MUDAR
+dataset = 'JM_final' #MUDAR
+dataset_validation = 'JT_final' #MUDAR
 dataset_file = None
 balancer = None
 
@@ -383,7 +383,7 @@ if not(development_test):
             'model': LogisticRegression(),
             'params': [
                 {#Sem seleção de caracteristicas e transformação
-                    'impute': [ SimpleImputer(strategy='median') ],
+                    'impute': [ None, SimpleImputer(strategy='median') ],
                     'balance': [
                         None,
                         RandomUnderSampler(random_state=random_state_model),
@@ -512,24 +512,27 @@ if not(development_test):
                 # },
             ]
         },
-        # 'RandomForestClassifier': { #RandomForest
-        #     'model': RandomForestClassifier(),
-        #     'params': [
-        #         {#Sem seleção de caracteristicas e transformação
-        #            'balance': [
-        #                 None,
-        #                 RandomUnderSampler(random_state=random_state_model),
-        #                 SMOTE(random_state=random_state_model)
-        #             ],
-        #             'select': [ None ],
-        #             'transform': [ None ], 
-        #             'classify__n_estimators': [10,50,100,250,500,750,1000],
-        #             'classify__criterion': ['gini','entropy','log_loss'],
-        #             'classify__max_features': ['sqrt','log2',None],
-        #             'classify__n_jobs': [n_jobs],
-        #             'classify__ccp_alpha': [0.0,0.02,0.04,0.08],
-        #             'classify__random_state': [random_state_model]
-        #         },
+        'RandomForestClassifier': { #RandomForest
+            'model': RandomForestClassifier(),
+            'params': [
+                {#Sem seleção de caracteristicas e transformação
+                   'impute': [ None, SimpleImputer(strategy='median') ],
+                   'balance': [
+                        None,
+                        RandomUnderSampler(random_state=random_state_model),
+                        SMOTE(random_state=random_state_model)
+                    ],
+                    'select': [ None ],
+                    'transform': [ None ], 
+                    'classify__n_estimators': [10,50,100,250,500,750,1000],
+                    'classify__criterion': ['gini','entropy','log_loss'],
+                    'classify__max_features': ['sqrt','log2',None],
+                    'classify__n_jobs': [n_jobs],
+                    'classify__ccp_alpha': [0.0,0.02,0.04,0.08],
+                    'classify__random_state': [random_state_model]
+                },
+            ]
+        },
         #         {#SelectKbest sem transformação
         #             'balance': [
         #                 None,

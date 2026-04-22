@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 # Carregar os datasets
-df_train = pd.read_csv('./JM-train.csv')
-df_val = pd.read_csv('./JM-validation.csv')
+df_train = pd.read_csv('./JM_no_standard.csv')
+df_val = pd.read_csv('./JM_validation_no_standard.csv')
+df_jt_train = pd.read_csv('./JT_no_standard.csv')   
+df_jt_val = pd.read_csv('./JT_validation_no_standard.csv')
 
 # Definição de metadados (colunas que não entram no modelo)
 meta_cols = ['Experiment', 'Treatment', 'Tissue', 'Mouse', 'Target', 
@@ -32,11 +35,13 @@ def clean_and_impute_features(df, meta_cols, threshold=0.5):
 # Aplicar a limpeza e imputação em ambos
 df_train_cleaned = clean_and_impute_features(df_train, meta_cols)
 df_val_cleaned = clean_and_impute_features(df_val, meta_cols)
+df_jt_train_cleaned = clean_and_impute_features(df_jt_train, meta_cols)
+df_jt_val_cleaned = clean_and_impute_features(df_jt_val, meta_cols)
 
 # 3. Encontrar as features comuns após a limpeza e imputação
 features_train = [c for c in df_train_cleaned.columns if c not in meta_cols]
-features_val = [c for c in df_val_cleaned.columns if c not in meta_cols]
-common_features = list(set(features_train).intersection(set(features_val)))
+features_train_jt = [c for c in df_jt_train_cleaned.columns if c not in meta_cols]
+common_features = list(set(features_train).intersection(set(features_train_jt))) #Lista sem meta dados incluindo target
 
 print(f"Features em comum encontradas ({len(common_features)}):")
 print(common_features)
@@ -47,21 +52,43 @@ mapping = {'no': 0, 'maybe': 1, 'yes': 1, 0.0: 0, 1.0: 1}
 
 df_train_final = df_train_cleaned[common_features + ['Target']].copy()
 df_val_final = df_val_cleaned[common_features + ['Target']].copy()
+df_JT_train_final = df_train_cleaned[common_features + ['Target']].copy()
+df_JT_val_final = df_val_cleaned[common_features + ['Target']].copy()
 
 df_train_final['Target'] = df_train_final['Target'].map(mapping)
 df_val_final['Target'] = df_val_final['Target'].map(mapping)
+df_JT_train_final['Target'] = df_JT_train_final['Target'].map(mapping)
+df_JT_val_final['Target'] = df_JT_val_final['Target'].map(mapping)
 
-# Remover linhas onde o Target ficou vazio após o mapeamento
-df_train_final = df_train_final.dropna(subset=['Target'])
-df_val_final = df_val_final.dropna(subset=['Target'])
+# # Remover linhas onde o Target ficou vazio após o mapeamento
+# df_train_final = df_train_final.dropna(subset=['Target'])
+# df_val_final = df_val_final.dropna(subset=['Target'])
 
 # Salvar os datasets harmonizados para o treinamento
-df_train_final.to_csv('JM_TRAIN_final.csv', index=False)
-df_val_final.to_csv('JM_VAL_final.csv', index=False)
+# df_train_final.to_csv('JM_TRAIN_final.csv', index=False)
+# df_val_final.to_csv('JM_VAL_final.csv', index=False)
 
-print("\nProcessamento concluído.")
-print(f"Shape Treino: {df_train_final.shape}")
-print(f"Shape Validação: {df_val_final.shape}")
+df_train_final["Role_id"] = 0
+df_val_final["Role_id"] = 1
+df_JT_train_final["Role_id"] = 2
+df_JT_val_final["Role_id"] = 3
+
+df_standardize = pd.concat([df_train_final, df_val_final, df_JT_train_final, df_JT_val_final], ignore_index=True)
+
+scaler = StandardScaler()
+df_standardize[common_features] = scaler.fit_transform(df_standardize[common_features])
+df_standardize.to_csv('Combined_Standardized.csv', index=False)
+
+df_train_final_standard = df_standardize[df_standardize['Role_id'] == 0].drop('Role_id', axis=1)
+df_val_final_standard = df_standardize[df_standardize['Role_id'] == 1].drop('Role_id', axis=1)
+df_JT_train_final_standard = df_standardize[df_standardize['Role_id'] == 2].drop('Role_id', axis=1)
+df_JT_val_final_standard = df_standardize[df_standardize['Role_id'] == 3].drop('Role_id', axis=1)
+
+df_train_final = pd.concat([df_train_final_standard, df_JT_train_final_standard], ignore_index=True).to_csv('JM_TRAIN_final_standard.csv', index=False)
+df_val_final = pd.concat([df_val_final_standard, df_JT_val_final_standard], ignore_index=True).to_csv('JM_VAL_final_standard.csv', index=False)
+# print("\nProcessamento concluído.")
+# print(f"Shape Treino: {df_train_final.shape}")
+# print(f"Shape Validação: {df_val_final.shape}")
 
 # dataset = './JM-experiments_combinacoes_normalizadas.csv'
 # input_missing_values = False
