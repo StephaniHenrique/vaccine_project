@@ -79,10 +79,13 @@ from sklearn.svm import SVC
 ### Standard font size in the Matplotlib graphs
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'SVM SEPARADO'
+exp_id = 'J&J_VAL_PUBLIC_IMUNOLOGICO_TRAIN' #MUDAR
 script_path = 'Private_dt'
 input_folder = f'./Dataset/{script_path}'
 output_folder = f'./Results/{script_path}/{exp_id}'
+dataset_validation = 'TRAIN_combo_j&j_standard_IMUNOLOGICO' #MUDAR
+dataset = 'FCS_PUBLIC_final_standard_IMUNOLOGICO' #MUDAR
+
 
 
 if not os.path.exists(output_folder):
@@ -99,8 +102,6 @@ warnings.filterwarnings('ignore')
 
 logging.info(f'>>>>>>>>>>>>>>> START OF SCRIPT EXECUTION: {dt_script_start_string}. <<<<<<<<<<<<<<<')
 
-dataset = 'JM_final' #MUDAR
-dataset_validation = 'JT_final' #MUDAR
 dataset_file = None
 balancer = None
 
@@ -155,7 +156,7 @@ scoring = {
     'accuracy_scorer': make_scorer(accuracy_score)
 }
 
-dataset_file = pd.read_csv(f"{input_folder}/{dataset}.csv")
+dataset_file = pd.read_csv(f"./Dataset/Public_dt/{dataset}.csv")
 df_val = pd.read_csv(f"{input_folder}/{dataset_validation}.csv")
 
 dataset_q_rows = len(dataset_file)
@@ -390,7 +391,7 @@ if not(development_test):
                         SMOTE(random_state=random_state_model)
                     ],
                     'select': [ SelectKBest(mutual_info_classif) ],
-                    'select__k': [5, 8, 11],
+                    'select__k': [5, 7, 9],
                     'transform': [ None ], 
                     'classify__penalty': ['l2'],
                     'classify__tol': [1.0e-8,1.0e-6,1.0e-4],

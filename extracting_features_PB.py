@@ -1,143 +1,84 @@
 import pandas as pd
 import re
 
-def processar_deltas_citometria(parquet_path):
-    print("1. Carregando dados...")
+def rankear_estudos_features_maximizadas(parquet_path):
     df = pd.read_parquet(parquet_path)
     
-    # =========================================================================
-    # CONFIGURAÇÕES DO SEU DATASET 
-    # =========================================================================
     COL_DEF = 'Population Definition Reported'
     COL_PATIENT = 'Participant ID'         
-    COL_TIME = 'Study Time Collected'          
-    COL_VALUE = 'Population Cell Number'              
-    
-    # NOVAS CONFIGURAÇÕES DE TEMPO (Janelas)
-    # Como os seus dados apareceram como float (0., 14., etc), garantimos ambos os formatos
-    VAL_BASELINE = [0, 0.0] 
-    VAL_PEAK = [13, 13.0, 14, 14.0, 15, 15.0]
     
     definitions = df[COL_DEF].dropna().astype(str).unique()
 
-    # =========================================================================
-    # 2. MOTOR DE REGEX
-    # =========================================================================
-    def pos(m): return rf"{m}(?![0-9])(?:hi|high|bright|\+|\+\+|(?=[^a-z-]|$))"
-    def neg(m): return rf"{m}(?![0-9])(?:-|lo|low|dim|neg)"
+    #Trying to define the rules for feature extraction based on the definitions
+    def pos(m): return rf"{m}(?![0-9a-zA-Z])\s*(?:hi|high|bright|dim|\+|\+\+|(?!-|lo|low|neg))"
+    def neg(m): return rf"{m}(?![0-9a-zA-Z])\s*(?:-|lo|low|neg)"
 
-    regras = {
-        "live.cd4": [pos("cd4")],
-        "cd4.treg": [pos("cd4"), pos("cd25"), neg("cd127")], 
-        "tconv": [pos("cd4")], 
-        "cd4tconv.cd103": [pos("cd4"), pos("cd103")],
-        "cd4tconv.th2": [pos("cd4"), r"(th/?2|crth2)"],
-        "live.cd8": [pos("cd8")],
-        "CD8.CD103": [pos("cd8"), pos("cd103")],
-        "CD8.GrzmB": [pos("cd8"), pos("(gzb|grzmb|granzyme\s*b)")],
-        "ILC1": [neg("cd3"), neg("cd14"), neg("cd19"), pos("cd127"), pos("cd161")],
-        "NK": [pos("cd56"), neg("cd3")],
-        "NK.GrzmB": [pos("cd56"), neg("cd3"), pos("(gzb|grzmb|granzyme\s*b)")],
-        "Neutro": [pos("cd66b")],
-        "Macro": [pos("cd14")], 
-        "Mo0": [pos("cd14"), neg("cd16")], 
-        "mo0.CD11c": [pos("cd14"), neg("cd16"), pos("cd11c")],
-        "DC": [pos("hladr"), neg("cd14"), neg("cd19"), neg("cd3")],
-        "B.memory": [pos("cd19"), pos("cd27")],
-        "B.naive.FO": [pos("cd19"), neg("cd27"), pos("igd")],
-        "B.plasma": [pos("cd19"), pos("cd38"), pos("cd138")],
-        "B.GC": [pos("cd19"), pos("cd38"), pos("cd27")],
-        "B.immature": [pos("cd19"), pos("cd24"), pos("cd38")]
-    }
+    dict_rules = [
+        {"feature": "cd4.treg", "include": [pos("cd4"), pos("cd25"), neg("cd127")], "remove": [pos("cd8")]},
+        {"feature": "CD8.GrzmB", "include": [pos("cd8"), pos(r"(gzb|grzmb|granzyme\s*b)")], "remove": [pos("cd4")]},
+        {"feature": "B.plasma", "include": [pos("cd138")], "remove": [pos("cd3"), pos("cd4"), pos("cd8")]},
+        {"feature": "B.plasma", "include": [r"cd19", pos("cd38"), pos("cd27")], "remove": [pos("cd3")]},
+        {"feature": "B.memory", "include": [pos("cd19"), pos("cd27")], "remove": [pos("cd3"), pos("cd38")]},
+        {"feature": "Mo0", "include": [pos("cd14"), neg("cd16")], "remove": [pos("cd3"), pos("cd19"), pos("cd56")]},
+        {"feature": "DC", "include": [pos(r"(hladr|mhc-?ii)")], "remove": [pos("cd3"), pos("cd14"), pos("cd19"), pos("cd56")]},
+        {"feature": "Neutro", "include": [pos(r"(cd66b|cd15)")], "remove": []},
+        {"feature": "NK", "include": [pos(r"(cd56|ncam)")], "remove": [pos("cd3"), pos("cd14"), pos("cd19"), pos("cd4")]},
+        {"feature": "Macro", "include": [pos("cd14")], "remove": [pos("cd3"), pos("cd19")]},
+        {"feature": "live.cd4tconv", "include": [pos("cd4")], "remove": [pos("cd8"), pos("cd19"), pos("cd14"), pos("cd56")]},
+        {"feature": "live.cd8", "include": [pos("cd8")], "remove": [pos("cd4"), pos("cd19"), pos("cd14"), pos("cd56")]}
+    ]
 
-    print("2. Mapeando definições para Features...")
-    mapa_definicoes = {}
+    def_map = {}
     
     for def_str in definitions:
-        def_lower = def_str.lower()
-        feature_encontrada = None
+        def_lower = str(def_str).lower()
+        feture_found = None
         
-        for feature_name, padroes in regras.items():
-            atende_condicoes = all(re.search(padrao, def_lower) for padrao in padroes)
+        for rule in dict_rules:
+            attending_inclusion = all(re.search(pattern, def_lower) for pattern in rule["include"])
+            attending_exclusion = not any(re.search(pattern, def_lower) for pattern in rule["remove"])
             
-            # Regra de Exclusão (Tconv não é Treg)
-            if atende_condicoes and (feature_name.startswith("cd4tconv") or feature_name == "tconv"):
-                if re.search(pos("cd25"), def_lower) and re.search(neg("cd127"), def_lower):
-                    atende_condicoes = False
-                    
-            if atende_condicoes:
-                feature_encontrada = feature_name
-                break 
+            if attending_inclusion and attending_exclusion:
+                feture_found = rule["feature"]
+                break
                 
-        if feature_encontrada:
-            mapa_definicoes[def_str] = feature_encontrada
+        if feture_found:
+            def_map[def_str] = feture_found
 
-    df['Feature'] = df[COL_DEF].map(mapa_definicoes)
-    df_filtrado = df.dropna(subset=['Feature'])
+    df['Feature'] = df[COL_DEF].map(def_map)
+    df_filtered = df.dropna(subset=['Feature']).copy()
     
-    # =========================================================================
-    # 3. PIVOT: TRANSFORMAR VERTICAL EM HORIZONTAL
-    # =========================================================================
-    print("3. Pivotando os dados (Long -> Wide)...")
+    #Extracting studies with features
+    df_filtered['Study'] = df_filtered[COL_PATIENT].apply(
+        lambda x: str(x).split('.')[-1] if '.' in str(x) else 'Desconhecido'
+    )
     
-    # Mantemos a coluna de tempo no Pivot para podermos filtrar na próxima etapa
-    df_wide = pd.pivot_table(
-        df_filtrado, 
-        index=[COL_PATIENT, COL_TIME], 
-        columns='Feature', 
-        values=COL_VALUE, 
-        aggfunc='mean'
-    ).reset_index()
+    # Agrupa por Estudo e cria uma lista com as features únicas que cada um tem
+    ranking_df = df_filtered.groupby('Study')['Feature'].unique().reset_index()
+    
+    # Conta quantas features cada estudo tem (máximo possível = 11)
+    ranking_df['Total_Features'] = ranking_df['Feature'].apply(len)
+    
+    # Ordena do maior para o menor
+    ranking_df = ranking_df.sort_values(by='Total_Features', ascending=False).reset_index(drop=True)
 
-    # =========================================================================
-    # 4. CÁLCULO DO DELTA (PEAK - BASELINE) COM DIAGNÓSTICO
-    # =========================================================================
-    print("\n4. Calculando Deltas pareados por paciente...")
     
-    # Filtra usando .isin() para capturar qualquer dia dentro da nossa lista
-    df_base_raw = df_wide[df_wide[COL_TIME].isin(VAL_BASELINE)]
-    df_peak_raw = df_wide[df_wide[COL_TIME].isin(VAL_PEAK)]
+    for idx, row in ranking_df.iterrows():
+        estudo = row['Study']
+        total = row['Total_Features']
+        lista_features = ", ".join(sorted(row['Feature']))
+        
+        print(f"{idx + 1}º LUGAR: Estudo {estudo} | Cobre {total}/11 features")
+        print(f"   ↳ {lista_features}\n")
     
-    # Agrupamos por paciente tirando a média. 
-    # Isso resolve se o paciente tiver coleta no dia 13 e 14 simultaneamente, e já joga o ID para o index!
-    df_base = df_base_raw.groupby(COL_PATIENT).mean()
-    df_peak = df_peak_raw.groupby(COL_PATIENT).mean()
+    # Exportando os resultados para CSV
+    output_name = 'ranking_estudos_features.csv'
+    ranking_df['Feature'] = ranking_df['Feature'].apply(lambda x: ", ".join(sorted(x)))
+    ranking_df.to_csv(output_name, index=False)
     
-    # Tira a coluna COL_TIME do caminho da matemática (ela virou lixo depois do groupby)
-    df_base = df_base.drop(columns=[COL_TIME], errors='ignore')
-    df_peak = df_peak.drop(columns=[COL_TIME], errors='ignore')
-    
-    # Diagnóstico para o usuário
-    pacientes_base = set(df_base.index)
-    pacientes_peak = set(df_peak.index)
-    pacientes_com_ambos = pacientes_base.intersection(pacientes_peak)
-    
-    print("-" * 50)
-    print(f"🔎 DIAGNÓSTICO DE PACIENTES PAREADOS:")
-    print(f" -> Pacientes com amostra no Baseline (Dia 0): {len(pacientes_base)}")
-    print(f" -> Pacientes com amostra no Peak (Dias 13, 14, 15): {len(pacientes_peak)}")
-    print(f" -> ✅ PACIENTES COM OS DOIS TEMPOS: {len(pacientes_com_ambos)}")
-    print("-" * 50)
-    
-    if len(pacientes_com_ambos) == 0:
-        print("❌ Nenhum paciente tem os dois tempos simultaneamente. Não é possível calcular o Delta.")
-        return None
-
-    # Calcula a diferença
-    df_delta = df_peak - df_base
-    
-    # Mantém apenas os pacientes que tinham as duas coletas (os que caíram no intersection)
-    df_delta = df_delta.loc[list(pacientes_com_ambos)]
-    
-    print("\nConcluído!")
-    print("\n=== VISUALIZAÇÃO DO DELTA (Peak - Baseline) ===")
-    print(df_delta.head())
-    
-    output_name = 'deltas_pacientes_citometria.csv'
-    df_delta.to_csv(output_name)
-    print(f"\n✅ Arquivo salvo com sucesso como: {output_name}")
-    
-    return df_delta
+    print(f"✅ Tabela do ranking salva em: {output_name}")
+    return ranking_df
 
 if __name__ == "__main__":
-    processar_deltas_citometria('fcs_analyzed_result.parquet')
+    # Certifique-se de apontar para o seu parquet original que contém a coluna Participant ID
+    df_ranking = rankear_estudos_features_maximizadas('./Dataset/Public_dt/fcs_analyzed_result.parquet')

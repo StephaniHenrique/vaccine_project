@@ -79,13 +79,22 @@ scaler = StandardScaler()
 df_standardize[common_features] = scaler.fit_transform(df_standardize[common_features])
 df_standardize.to_csv('Combined_Standardized.csv', index=False)
 
-df_train_final_standard = df_standardize[df_standardize['Role_id'] == 0].drop('Role_id', axis=1)
-df_val_final_standard = df_standardize[df_standardize['Role_id'] == 1].drop('Role_id', axis=1)
+df_JM_train_final_standard = df_standardize[df_standardize['Role_id'] == 0].drop('Role_id', axis=1)
+df_JM_val_final_standard = df_standardize[df_standardize['Role_id'] == 1].drop('Role_id', axis=1)
 df_JT_train_final_standard = df_standardize[df_standardize['Role_id'] == 2].drop('Role_id', axis=1)
 df_JT_val_final_standard = df_standardize[df_standardize['Role_id'] == 3].drop('Role_id', axis=1)
 
-df_train_final = pd.concat([df_train_final_standard, df_JT_train_final_standard], ignore_index=True).to_csv('JM_TRAIN_final_standard.csv', index=False)
-df_val_final = pd.concat([df_val_final_standard, df_JT_val_final_standard], ignore_index=True).to_csv('JM_VAL_final_standard.csv', index=False)
+df_JM_train_final = df_JM_train_final_standard.to_csv('JM_TRAIN_final_standard.csv', index=False)
+df_JM_val_final = df_JM_val_final_standard.to_csv('JM_VAL_final_standard.csv', index=False)
+df_JT_train_final = df_JT_train_final_standard.to_csv('JT_TRAIN_final_standard.csv', index=False)
+df_JT_val_final = df_JT_val_final_standard.to_csv('JT_VAL_final_standard.csv', index=False)
+
+df_train_combined = pd.concat([df_JM_train_final_standard, df_JT_train_final_standard], ignore_index=True).to_csv('TRAIN_combined_standard.csv', index=False)
+df_val_combined = pd.concat([df_JM_val_final_standard, df_JT_val_final_standard], ignore_index=True).to_csv('VAL_combined_standard.csv', index=False)
+
+df_train_JM_separate = pd.concat([df_JM_train_final_standard, df_JM_val_final_standard], ignore_index=True).to_csv('JM_combined_standard.csv', index=False)
+df_train_JT_separate = pd.concat([df_JT_train_final_standard, df_JT_val_final_standard], ignore_index=True).to_csv('JT_combined_standard.csv', index=False)
+
 # print("\nProcessamento concluído.")
 # print(f"Shape Treino: {df_train_final.shape}")
 # print(f"Shape Validação: {df_val_final.shape}")
