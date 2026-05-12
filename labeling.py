@@ -1,69 +1,67 @@
 import pandas as pd
 import numpy as np
-from scipy import stats
-from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-# 1. Carregar os dados (Simulando o df_effect que você já tem)
-# O seu CSV contém colunas como 'B.memory', 'CD8.GrzmB', 'NK', 'live.cd8', etc. 
-df = pd.read_csv('./Dataset/Public_dt/FCS_PUBLIC_no_standard.csv')
+# 1. Carregar os dados (USANDO OS DADOS PADRONIZADOS!)
+df_effect = pd.read_csv('./Dataset/Public_dt/FCS_PUBLIC_final_standard.csv')
+df_demo = pd.read_excel('./Dataset/Public_dt/Before_preprocessing/demographics_404.xlsx')
 
-# Selecionar apenas as colunas numéricas (features imunológicas)
-features_cols = ['B.memory', 'B.plasma', 'CD8.GrzmB', 'Macro', 'Mo0', 'NK', 'cd4.treg', 'live.cd4tconv', 'live.cd8']
-df_effect = df[features_cols].copy()
+# Juntar usando o Participant ID
+df_base = pd.merge(df_effect, df_demo[['Participant ID', 'Phenotype', 'Age Reported']], on='Participant ID')
 
-# --- ABORDAGEM 1: TESTE ESTATÍSTICO MULTIVARIADO (Score Composto) ---
-# Em vez de testar um por um, criamos um Score Z Combinado. 
-# Isso resume a "intensidade" da resposta imune em uma única label.
-
-scaler = StandardScaler()
-df_zscore = pd.DataFrame(scaler.fit_transform(df_effect), columns=features_cols)
-# Exemplo hipotético (ajuste conforme a biologia da doença estudada):
-# Células associadas à proteção (+) e associadas à supressão/falha (-)
+# 2. Calcular os pilares base (Biológico e Clínico) para usar nos cortes
 colunas_protetoras = ['B.memory', 'CD8.GrzmB']
-colunas_supressoras = ['cd4.treg'] # Exemplo: Tregs e Monócitos clássicos altos podem indicar pior prognóstico
+colunas_supressoras = ['cd4.treg']
 
-# Calcula o score somando as protetoras e subtraindo as supressoras
-df['Score_Biologico'] = df_zscore[colunas_protetoras].sum(axis=1) - df_zscore[colunas_supressoras].sum(axis=1)
+# Pilar Biológico (O Sangue) - Como é Z-score, a soma faz sentido!
+df_base['Score_Celular'] = df_base[colunas_protetoras].sum(axis=1) - df_base[colunas_supressoras].sum(axis=1)
+df_base['Resposta_Biologica'] = np.where(df_base['Score_Celular'] > 0, 1, 0) # 1 = Acima da média
 
-# Agora você pode usar percentis desse score para criar a label
-threshold = df['Score_Biologico'].quantile(0.75)
-df['Target'] = np.where(df['Score_Biologico'] > threshold, 1, 0)
+# Pilar Clínico (O Prontuário)
+grupos_fortes = ['Younger adult', 'Older adult, not-frail']
+df_base['Resposta_Clinica'] = np.where(df_base['Phenotype'].isin(grupos_fortes), 1, 0) # 1 = Jovem ou Idoso Saudável
 
-# Calculamos a média dos Z-scores de todas as células para cada participante
-# Isso considera todas as features simultaneamente.
-# df['Global_Response_Score'] = df_zscore.mean(axis=1)
 
-# # Criamos a label baseada em significância (ex: acima do percentil 75 é 'Alta Proteção')
-# threshold = df['Global_Response_Score'].quantile(0.75)
-# df['Target'] = np.where(df['Global_Response_Score'] > threshold, 1, 0)
+# ===============================================================================
+# DATASET 1: Apenas os Extremos (Híbrido "Purista")
+# ===============================================================================
+df_dataset1 = df_base.copy()
 
-# # --- ABORDAGEM 2: CLUSTERING (K-MEANS) ---
-# # O algoritmo agrupa os IDs (como SUB120417.404) por similaridade em todas as colunas 
+condicoes = [
+    (df_dataset1['Resposta_Biologica'] == 1) & (df_dataset1['Resposta_Clinica'] == 1),
+    (df_dataset1['Resposta_Biologica'] == 0) & (df_dataset1['Resposta_Clinica'] == 0)
+]
+escolhas = ['Alta', 'Baixa']
 
-# kmeans = KMeans(n_clusters=2, random_state=42, n_init=10)
-# df['Cluster_Label'] = kmeans.fit_predict(df_zscore)
+df_dataset1['Classificacao'] = np.select(condicoes, escolhas, default='Intermediario')
+df_dataset1 = df_dataset1[df_dataset1['Classificacao'] != 'Intermediario'].copy()
+df_dataset1['Target'] = np.where(df_dataset1['Classificacao'] == 'Alta', 1, 0)
 
-# # Analisar a média de cada marcador por cluster
-# analise_clusters = df.groupby('Cluster_Label')[features_cols].mean()
-# print(analise_clusters)
+# Deleta as colunas temporárias DE FORMA DEFINITIVA do dataframe antes de salvar
+colunas_para_remover = ['Participant ID', 'Score_Celular', 'Resposta_Biologica', 'Resposta_Clinica', 'Classificacao', 'Phenotype', 'Age Reported']
+df_dataset1 = df_dataset1.drop(columns=colunas_para_remover)
 
-# # --- VISUALIZAÇÃO (PCA) ---
-# # Como são muitas features, o PCA ajuda a ver os grupos em 2D
-# pca = PCA(n_components=2)
-# components = pca.fit_transform(df_zscore)
-# df['PCA1'] = components[:, 0]
-# df['PCA2'] = components[:, 1]
 
-# plt.figure(figsize=(10, 6))
-# sns.scatterplot(data=df, x='PCA1', y='PCA2', hue='Cluster_Label', style='Label_Estatistica', s=100)
-# plt.title('Comparação: Label por Cluster vs Label por Score Estatístico')
-# plt.savefig('pca_comparison.png')
+# ===============================================================================
+# DATASET 2: Apenas Resposta Imunológica (Foco no Sangue)
+# ===============================================================================
+df_dataset2 = df_base.copy()
+df_dataset2['Target'] = df_dataset2['Resposta_Biologica']
+df_dataset2 = df_dataset2.drop(columns=['Participant ID','Score_Celular', 'Resposta_Biologica', 'Resposta_Clinica', 'Phenotype', 'Age Reported'])
 
-# # Exibir os resultados finais
-# print(df[['Participant ID', 'Global_Response_Score', 'Label_Estatistica', 'Cluster_Label']].head())
 
-df.to_csv('FCS_PUBLIC_labeled.csv', index=False)
+# ===============================================================================
+# DATASET 3: Apenas Resposta Clínica (Foco na Demografia)
+# ===============================================================================
+df_dataset3 = df_base.copy()
+df_dataset3['Target'] = df_dataset3['Resposta_Clinica']
+df_dataset3 = df_dataset3.drop(columns=['Participant ID','Score_Celular', 'Resposta_Biologica', 'Resposta_Clinica', 'Phenotype', 'Age Reported'])
+
+
+# ===============================================================================
+# SALVAR (Sem sobrescrever arquivos errados!)
+# ===============================================================================
+df_dataset1.to_csv('Dataset1_Extremos_Hibrido.csv', index=False)
+df_dataset2.to_csv('Dataset2_Apenas_Imunologico.csv', index=False)
+df_dataset3.to_csv('Dataset3_Apenas_Clinico.csv', index=False)
+
+print("Tudo pronto! 3 Datasets criados com sucesso.")

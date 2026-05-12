@@ -79,12 +79,16 @@ from sklearn.svm import SVC
 ### Standard font size in the Matplotlib graphs
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'J&J_VAL_PUBLIC_IMUNOLOGICO_TRAIN' #MUDAR
-script_path = 'Private_dt'
-input_folder = f'./Dataset/{script_path}'
+exp_id = 'PRIV_DATA_MIXED_TRAIN_VAL' #MUDAR
+script_path = 'New_Testing' #MUDAR
+
+input_folder = f'./Dataset/Private_dt'
+input_folder_public = f'./Dataset/Private_dt'
+
 output_folder = f'./Results/{script_path}/{exp_id}'
-dataset_validation = 'TRAIN_combo_j&j_standard_IMUNOLOGICO' #MUDAR
-dataset = 'FCS_PUBLIC_final_standard_IMUNOLOGICO' #MUDAR
+
+dataset = 'TRAIN_combined_standard' #MUDAR
+dataset_validation = 'VAL_combined_standard' #MUDAR
 
 
 
@@ -156,8 +160,8 @@ scoring = {
     'accuracy_scorer': make_scorer(accuracy_score)
 }
 
-dataset_file = pd.read_csv(f"./Dataset/Public_dt/{dataset}.csv")
-df_val = pd.read_csv(f"{input_folder}/{dataset_validation}.csv")
+dataset_file = pd.read_csv(f"{input_folder}/{dataset}.csv")
+df_val = pd.read_csv(f"{input_folder_public}/{dataset_validation}.csv")
 
 dataset_q_rows = len(dataset_file)
 dataset_q_features = len(dataset_file.columns) - 1
@@ -1017,31 +1021,32 @@ if not(development_test):
         #         },
         #     ]
         # },
-        # 'MLPClassifier': { #MLP
-        #     'model': MLPClassifier(),
-        #     'params': [
-        #         {#Sem seleção de caracteristicas e transformação
-        #            'balance': [
-        #                 None,
-        #                 RandomUnderSampler(random_state=random_state_model),
-        #                 SMOTE(random_state=random_state_model)
-        #             ],
-        #             'select': [ None ],
-        #             'transform': [ None ], 
-        #             'classify__hidden_layer_sizes': [
-        #                 (n_neurons_r1_l1,n_neurons_r1_l2,n_neurons_r1_l3,),(n_neurons_r2_l1,n_neurons_r2_l2,n_neurons_r2_l3,),(n_neurons_r3_l1,n_neurons_r3_l2,n_neurons_r3_l3,)
-        #             ],
-        #             'classify__activation': ['identity','logistic','tanh','relu'],
-        #             'classify__solver': ['lbfgs','sgd','adam'],
-        #             'classify__alpha': [1.0e-5,1.0e-4,1.0e-3],
-        #             'classify__learning_rate': ['constant','invscaling','adaptive'],
-        #             'classify__learning_rate_init': [0.001,0.01,0.1,1.0],
-        #             'classify__max_iter': [1500],
-        #             'classify__random_state': [random_state_model],
-        #             'classify__tol': [1.0e-5,1.0e-4],
-        #             'classify__n_iter_no_change': [10,30,50]
-        #         },
-        #         {#SelectKbest sem transformação
+        'MLPClassifier': { #MLP
+            'model': MLPClassifier(),
+            'params': [
+                {#Sem seleção de caracteristicas e transformação
+                   'balance': [
+                        None,
+                        RandomUnderSampler(random_state=random_state_model),
+                        SMOTE(random_state=random_state_model)
+                    ],
+                    'select': [ None ],
+                    'transform': [ None ], 
+                    'classify__hidden_layer_sizes': [
+                        (n_neurons_r1_l1,n_neurons_r1_l2,n_neurons_r1_l3,),(n_neurons_r2_l1,n_neurons_r2_l2,n_neurons_r2_l3,),(n_neurons_r3_l1,n_neurons_r3_l2,n_neurons_r3_l3,)
+                    ],
+                    'classify__activation': ['identity','logistic','tanh','relu'],
+                    'classify__solver': ['lbfgs','sgd','adam'],
+                    'classify__alpha': [1.0e-5,1.0e-4,1.0e-3],
+                    'classify__learning_rate': ['constant','invscaling','adaptive'],
+                    'classify__learning_rate_init': [0.001,0.01,0.1,1.0],
+                    'classify__max_iter': [1500],
+                    'classify__random_state': [random_state_model],
+                    'classify__tol': [1.0e-5,1.0e-4],
+                    'classify__n_iter_no_change': [10,30,50]
+                },]
+        },
+        #       {#SelectKbest sem transformação
         #             'balance': [
         #                 None,
         #                 RandomUnderSampler(random_state=random_state_model),

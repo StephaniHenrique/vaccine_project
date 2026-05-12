@@ -1,3 +1,4 @@
+#Gerando os dados combinados para o dataset publico, considerando a diferença entre os tempos (similar ao que fizemos para o dataset privado)
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
