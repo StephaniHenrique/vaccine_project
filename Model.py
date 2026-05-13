@@ -79,17 +79,16 @@ from sklearn.svm import SVC
 ### Standard font size in the Matplotlib graphs
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'PRIV_DATA_MIXED_TRAIN_VAL' #MUDAR
+exp_id = 'J&J_TRAIN_HIBRID_VAL' #MUDAR
 script_path = 'New_Testing' #MUDAR
 
 input_folder = f'./Dataset/Private_dt'
-input_folder_public = f'./Dataset/Private_dt'
+input_folder_public = f'./Dataset/Public_dt'
 
 output_folder = f'./Results/{script_path}/{exp_id}'
 
-dataset = 'TRAIN_combined_standard' #MUDAR
-dataset_validation = 'VAL_combined_standard' #MUDAR
-
+dataset = 'TRAIN_combo_j&j_standard' #MUDAR
+dataset_validation = 'FCS_PUBLIC_HIBRID' #MUDAR
 
 
 if not os.path.exists(output_folder):
@@ -241,23 +240,25 @@ if not(development_test):
     n_neurons_r3_l3 = int(math.ceil((2*n_neurons_r3_l2)-1))
     
     models_parameters = {
-          # 'LinearDiscriminantAnalysis': { #LDA
-        #     'model': LinearDiscriminantAnalysis(),
-        #     'params': [
-        #         {#Sem seleção de caracteristicas e transformação
-        #            'balance': [
-        #                 None,
-        #                 RandomUnderSampler(random_state=random_state_model),
-        #                 SMOTE(random_state=random_state_model)
-        #             ],
-        #             'select': [ None ],
-        #             'transform': [ None ],
-        #             'classify__solver': ['svd','lsqr','eigen'],
-        #             'classify__shrinkage': [None,'auto',0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],
-        #             'classify__n_components': [1,None],  # 'n_components' = None => 'n_components' = min(n_classes - 1, n_features) => Se n_features >= 2 e n_classes = 3, então 'n_components' = 2 = None
-        #             'classify__store_covariance': [True],
-        #             'classify__tol': [1.0e-4] 
-        #         },
+          'LinearDiscriminantAnalysis': { #LDA
+            'model': LinearDiscriminantAnalysis(),
+            'params': [
+                {#Sem seleção de caracteristicas e transformação
+                   'balance': [
+                        None,
+                        RandomUnderSampler(random_state=random_state_model),
+                        SMOTE(random_state=random_state_model)
+                    ],
+                    'select': [ None ],
+                    'transform': [ None ],
+                    'classify__solver': ['svd','lsqr','eigen'],
+                    'classify__shrinkage': [None,'auto',0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],
+                    'classify__n_components': [1,None],  # 'n_components' = None => 'n_components' = min(n_classes - 1, n_features) => Se n_features >= 2 e n_classes = 3, então 'n_components' = 2 = None
+                    'classify__store_covariance': [True],
+                    'classify__tol': [1.0e-4] 
+                },
+            ]
+        },
         #         {#SelectKbest sem transformação
         #             'balance': [
         #                 None,
@@ -672,26 +673,26 @@ if not(development_test):
         #         },
         #     ]
         # },
-        # 'SVC': { #SVC
-        #     'model': SVC(),
-        #     'params': [
-        #         {#Sem seleção de caracteristicas e transformação
-        #            'balance': [
-        #                 None,
-        #                 RandomUnderSampler(random_state=random_state_model),
-        #                 SMOTE(random_state=random_state_model)
-        #             ],
-        #             'select': [ None ],
-        #             'transform': [ None ], 
-        #             'classify__C': [0.001,0.01,0.1,1.0,10.0,100.0],
-        #             'classify__kernel': ['linear','poly','rbf','sigmoid'],
-        #             'classify__degree': [3, 5, 10],
-        #             'classify__gamma': ['auto','scale',0.001,0.01,0.1],
-        #             'classify__probability': [True],
-        #             'classify__tol': [1.0e-4,1.0e-3],
-        #             'classify__max_iter': [1500,2000,2500,3000],
-        #             'classify__random_state': [random_state_model]
-        #         },
+        'SVC': { #SVC
+            'model': SVC(),
+            'params': [
+                {#Sem seleção de caracteristicas e transformação
+                   'balance': [
+                        None,
+                        RandomUnderSampler(random_state=random_state_model),
+                        SMOTE(random_state=random_state_model)
+                    ],
+                    'select': [ None ],
+                    'transform': [ None ], 
+                    'classify__C': [0.001,0.01,0.1,1.0,10.0,100.0],
+                    'classify__kernel': ['linear','poly','rbf','sigmoid'],
+                    'classify__degree': [3, 5, 10],
+                    'classify__gamma': ['auto','scale',0.001,0.01,0.1],
+                    'classify__probability': [True],
+                    'classify__tol': [1.0e-4,1.0e-3],
+                    'classify__max_iter': [1500,2000,2500,3000],
+                    'classify__random_state': [random_state_model]
+                },
         #         {#SelectKbest sem transformação
         #             'balance': [
         #                 None,
@@ -840,8 +841,8 @@ if not(development_test):
         #             'classify__max_iter': [1500,2000,2500,3000],
         #             'classify__random_state': [random_state_model]
         #         },
-        #     ]
-        # },
+            ]
+        },
         # 'XGBClassifier': { #XGB
         #     'model': XGBClassifier(),
         #     'params': [
@@ -1044,7 +1045,8 @@ if not(development_test):
                     'classify__random_state': [random_state_model],
                     'classify__tol': [1.0e-5,1.0e-4],
                     'classify__n_iter_no_change': [10,30,50]
-                },]
+                },
+            ]
         },
         #       {#SelectKbest sem transformação
         #             'balance': [

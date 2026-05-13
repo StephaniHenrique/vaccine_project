@@ -1,0 +1,6 @@
+Model,RMSE,MAE,R2,BestParams
+ElasticNet,369.43394750453166,108.2592190519453,0.16660621190302127,"{'model__alpha': 0.001, 'model__l1_ratio': 0.3, 'model__max_iter': 5000, 'model__random_state': 42, 'selector__k': 20}"
+Ridge,369.7879677447644,108.30518224539922,0.16500820156676432,"{'model__alpha': 0.01, 'selector__k': 20}"
+SVR,369.82340195932716,109.01959454018944,0.16484817096167947,"{'model__C': 10, 'model__epsilon': 0.5, 'model__gamma': 'scale', 'model__kernel': 'rbf', 'selector__k': 20}"
+MLPRegressor,370.8790733406624,110.3972783852891,0.16007343674048236,"{'model__activation': 'tanh', 'model__alpha': 0.0001, 'model__hidden_layer_sizes': (64, 32), 'model__learning_rate_init': 0.0001, 'model__max_iter': 2000, 'model__random_state': 42, 'model__solver': 'adam', 'selector__k': 20}"
+RandomForestRegressor,371.8382758361594,108.54075824158502,0.15572322369232428,"{'model__max_depth': 20, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 2, 'model__min_samples_split': 5, 'model__n_estimators': 500, 'model__n_jobs': -1, 'model__random_state': 42, 'selector__k': 20}"
