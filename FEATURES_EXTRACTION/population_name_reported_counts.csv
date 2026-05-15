@@ -1,0 +1,548 @@
+Population Name Reported,count
+CD14pCD16p,590
+CD14pCD16n,590
+CD19,587
+TFH,587
+CD3,587
+CD8,587
+CD4,587
+TFH2,586
+TFH1,586
+TFH17,586
+CD1c,553
+BDCA3,537
+pDC_CD40n,489
+mDC_CD40n,489
+mDC_CD40p,489
+pDC_CD40p,489
+pDC,489
+mDC,489
+pDC_CD2p,489
+mDC_CD86n,489
+pDC_CD86p,489
+mDC_CD2n,489
+mDC_CD86p,489
+pDC_CD2n,489
+pDC_CD86n,489
+mDC_CD2p,489
+CD14nCD16n_CD86,488
+CD14pCD16n_CD86,488
+mo,488
+CD14nCD16p,488
+CD14pCD16p_CD86,488
+CD14nCD16p_CD86,488
+CD14nCD16n,488
+BDCA3_CD40p,486
+BDCA3_CD86p,486
+BDCA3_CD86n,486
+BDCA3_CD40n,486
+BDCA3_CD2n,486
+BDCA3_CD2p,486
+CD8_CXCR5,485
+TH,485
+CD3_DR,485
+TFH_ICOS,485
+CD3_ICOS,485
+CD8_ICOS,485
+CD4_ICOS,485
+TFH_DR,485
+CD8_DR,485
+CD4_DR,485
+TH_DR,485
+TH_ICOS,485
+CD86,485
+CD3p_CD27,485
+CD3p_CD38,485
+CD3p_CD56,485
+CD3p_CD56_CD27,485
+CD19pCD20p,485
+CD3p_CD56_CD38,485
+CD19pCD20n,485
+CD19_CD27p,485
+PB,485
+CD138,485
+CD19pCD20p_CD86p,485
+CD19pCD20n_CD86p,485
+CD3p,485
+NK,485
+CD16n_NK,485
+CD16p_NK,485
+NK_CD27,485
+NK_CD38,485
+PB_CD86,485
+TFH2_DR,484
+TFH2_ICOS,484
+TFH1_17_DR,484
+CD8_CXCR3,484
+TH1_ICOS,484
+TFH1_17_ICOS,484
+TH1_17_DR,484
+TH1_17_ICOS,484
+TFH1_ICOS,484
+TFH1_DR,484
+TH2_DR,484
+TH17_ICOS,484
+TH2_ICOS,484
+TH17,484
+TH2,484
+TH1_17,484
+TH1,484
+TFH1_17,484
+TH1_DR,484
+TH17_DR,484
+TFH17_DR,484
+CD138_CD86,480
+CD8_CCR6,477
+CD1c_CD40n,451
+CD1c_CD2n,451
+CD1c_CD2p,451
+CD1c_CD40p,451
+CD1c_CD86p,451
+CD1c_CD86n,451
+Viable,410
+Viable/Singlets,410
+myeloid dendritic cell,363
+plasmacytoid dendritic cell,363
+ICOS+ T follicular helper cell,363
+neutrophil,363
+SLAN+ monocyte,363
+T cell,363
+CD8+ T cell,363
+CD4+ T cell,363
+T follicular helper cell,363
+Viable/Singlets/Lymphs,328
+Viable/Singlets/Lymphs/CD3+,328
+ICOS+ CD8+ T cell,303
+CXCR5+ CD8+ T cell,303
+CXCR3+ CD8+ T cell,303
+CCR6+ CD8+ T cell,303
+ICOS+ Th2 CD4+ T cell,303
+ICOS+ Th1/17 CD4+ T cell,303
+ICOS+ Th17 CD4+ T cell,303
+Th17 CD4+ T cell,303
+Th2 CD4+ T cell,303
+Th1/17 CD4+ T cell,303
+CD86+ myeloid dendritic cell,303
+CD1c+ myeloid dendritic cell,303
+CD2- CD1c+ myeloid dendritic cell,303
+CD2+ CD1c+ myeloid dendritic cell,303
+CD86+ CD1c+ myeloid dendritic cell,303
+CD86- CD1c+ myeloid dendritic cell,303
+BDCA3+ myeloid dendritic cell,303
+CD2- BDCA3+ myeloid dendritic cell,303
+CD2+ BDCA3+ myeloid dendritic cell,303
+CD86+ BDCA3+ myeloid dendritic cell,303
+CD86- BDCA3+ myeloid dendritic cell,303
+monocyte,303
+CD40+ monocyte,303
+CD14lo CD16+ monocyte,303
+CD16+ monocyte,303
+CD16- monocyte,303
+CD86- myeloid dendritic cell,303
+CD2+ myeloid dendritic cell,303
+CX3CR1+ CD16- monocyte,303
+CD2- myeloid dendritic cell,303
+B cell,303
+CD27+ B cell,303
+CD138+ B cell,303
+plasmablast,303
+transitional B cell,303
+naive B cell,303
+IgD+ memory B cell,303
+IgD- memory B cell,303
+IgD- CD27- B cell,303
+CD20+ B cell,303
+CD20- B cell,303
+ICOS+ Th1 CD4+ T cell,303
+CD2+ plasmacytoid dendritic cell,303
+CD86+ plasmacytoid dendritic cell,303
+CD86- plasmacytoid dendritic cell,303
+CD14lo CD16- monocyte,303
+CD2- plasmacytoid dendritic cell,303
+CX3CR1+ CD16+ monocyte,303
+ICOS+ Tfh1/17 CD4+ T cell,303
+eosinophil,303
+ICOS+ T cell,303
+ICOS+ CD4+ T cell,303
+Tfh1 CD4+ T cell,303
+ICOS+ Tfh1 CD4+ T cell,303
+Tfh1/17 CD4+ T cell,303
+Tfh17 CD4+ T cell,303
+SLAN- CD16- monocyte,303
+ICOS+ Tfh17 CD4+ T cell,303
+Tfh2 CD4+ T cell,303
+ICOS+ Tfh2 CD4+ T cell,303
+T helper cell,303
+CX3CR1- CD16+ monocyte,303
+Th1 CD4+ T cell,303
+QCGran,303
+ICOS+ T helper cell,303
+SLAN- CD16+ monocyte,303
+CX3CR1- CD16- monocyte,303
+HLA-DRhi CD16- monocyte,303
+HLA-DRhi CD16+ monocyte,303
+HLA-DRlo CD16+ monocyte,303
+HLA-DRlo CD16- monocyte,303
+CD11b+ CD16+ monocyte,303
+CD11b+ CD16- monocyte,303
+CD11b- CD16- monocyte,303
+CD11b- CD16+ monocyte,303
+CD86+ CD16- monocyte,303
+CD86+ CD16+ monocyte,303
+CD86- CD16+ monocyte,303
+CD86- CD16- monocyte,303
+SLAN+ CD16- monocyte,303
+SLAN+ CD16+ monocyte,303
+CD3+/CD8+,301
+CD3+/CD4+,301
+TFH17_ICOS,270
+CD86+ CD138+ B cell,264
+CD86+ B cell,264
+CD86+ plasmablast,264
+CD86+ naive B cell,264
+CD86+ IgD+ memory B cell,264
+CD86+ IgD- memory B cell,264
+CD86+ IgD- CD27- B cell,264
+CD86+ CD20+ B cell,264
+CD86+ transitional B cell,264
+CD86+ CD20- B cell,264
+Viable/Singlets/Lymphs/CD3+/CD4+,246
+Viable/Singlets/Lymphs/CD3+/CD8+,246
+TFH17_ICOSp,214
+CD40- CD1c+ myeloid dendritic cell,156
+HLA-DR+ CD4+ T cell,156
+HLA-DR+ T cell,156
+CD40- BDCA3+ myeloid dendritic cell,156
+CD40+ BDCA3+ myeloid dendritic cell,156
+HLA-DR+ Tfh1 CD4+ T cell,156
+CD40+ CD1c+ myeloid dendritic cell,156
+CD40- myeloid dendritic cell,156
+CD40+ myeloid dendritic cell,156
+CD40- plasmacytoid dendritic cell,156
+CD40+ plasmacytoid dendritic cell,156
+HLA-DR+ T follicular helper cell,156
+CD62L+ CD16- monocyte,156
+HLA-DR+ Tfh1/17 CD4+ T cell,156
+HLA-DR+ Th2 CD4+ T cell,156
+HLA-DR+ Tfh17 CD4+ T cell,156
+CD62L- CD16- monocyte,156
+CD62L- CD16+ monocyte,156
+CD62L+ CD16+ monocyte,156
+HLA-DR+ CD8+ T cell,156
+CD62L- neutrophil,156
+HLA-DR+ Th17 CD4+ T cell,156
+HLA-DR+ Th1 CD4+ T cell,156
+HLA-DR+ T helper cell,156
+HLA-DR+ Tfh2 CD4+ T cell,156
+HLA-DR+ Th1/17 CD4+ T cell,156
+"Q3: CD19+,, CD20-,Freq. of,B lym CD19+",116
+"Q2: CD19+,, CD20+,Freq. of,B lym CD19+",116
+"Naive B cell,Freq. of,Q2: CD19+, CD20+",116
+"Memory B cell,Freq. of,Q2: CD19+, CD20+",116
+"Transition B cell,Freq. of,Q2: CD19+, CD20+",116
+"Plasmablast,Freq. of,Q3: CD19+, CD20-",116
+"B lym CD27+,Freq. of,Q3: CD19+, CD20-",116
+"Plasma cells,Freq. of,B lym CD27+",116
+Plasmablast + Plasma Cells Abs#,116
+"B lym CD19+,Freq. of,WBC CD45+",116
+CD45+ cells/uL,116
+QC2_CD4_pLY,108
+ICOS_TFH17,102
+CD2n_CD1c,102
+CD16nCD11bp_immature1Neu,102
+CD40p_CD14dimCD16p,102
+CD11bp_CD14dimCD16p,102
+CD86p_CD14pCD16n,102
+CD62Lp_CD14pCD16n,102
+CD40p_CD14pCD16n,102
+CD11bp_CD14pCD16n,102
+CD86p_CD14pCD16p,102
+CD62Lp_CD14pCD16p,102
+CD40p_CD14pCD16p,102
+CD11bp_CD14pCD16p,102
+dn,102
+CD14dimCD16p,102
+CD14p,102
+CD16nCD11bn_immature2Neu,102
+CD86p_CD14dimCD16p,102
+CD16pCD11bn_Xartefact,102
+CD16pCD11bp_matureNeu,102
+Neutros,102
+Plasmacell,102
+CD2p_CD1c,102
+transitionalb_,102
+CD27pCD19,102
+CD20nCD19p,102
+CD20pCD19p,102
+CD27nIgDn_B,102
+IgDn_memory_B,102
+IgDp_memory_B,102
+naive_B,102
+CD62Lp_CD14dimCD16p,102
+Plasmablast_PC,102
+CCR6pCXCR3p_TFH,102
+nonTFH_CD4,102
+ICOS_CD8,102
+CD2p_BDCA2,102
+CD2n_BDCA2,102
+ICOS_CCR6pCXCR3p_nonTFH,102
+ICOS_TH17,102
+ICOS_TH2,102
+ICOS_TH1,102
+CCR6pCXCR3p_nonTFH,102
+TH1_nonTFH,102
+ICOS_CD4,102
+TEFF_CD4,102
+EM_CD4,102
+Naive_CD4,102
+CM_CD4,102
+ICOS_CCR6pCXCR3p_TFH,102
+ICOS_TFH,102
+ICOS_TFH2,102
+ICOS_TFH1,102
+BDCA2,102
+CD16hi CD11b- neutrophil,86
+CD16lo CD11b+ neutrophil,86
+CD16hi CD11b+ neutrophil,86
+CD16lo CD11b- neutrophil,86
+CD8_CCR6_abs,82
+TFH1_abs,82
+TH2_ICOSp_abs,82
+TH2_abs,82
+TH17_ICOSp_abs,82
+TH17_abs,82
+TH1_17_ICOSp_abs,82
+TH1_17_abs,82
+TH1_ICOSp_abs,82
+TH1_abs,82
+TH_ICOSp_abs,82
+TH_abs,82
+CD4_abs,82
+TFH2_ICOSp_abs,82
+TFH2_abs,82
+TFH17_ICOSp_abs,82
+TFH17_abs,82
+TFH1_17_ICOSp_abs,82
+TFH1_17_abs,82
+TFH1_ICOSp_abs,82
+CD4_ICOSp_abs,82
+TFH_abs,82
+TFH_ICOSp_abs,82
+CD8_abs,82
+"Viable/Singlets/Lymphs/CD3+/CD4+/Q3: CD45RA+, CD27D",82
+CD8_CXCR3_abs,82
+CD8_CXCR5_abs,82
+CD3_abs,82
+Viable/Singlets/Lymph/CD3+/CD8+,82
+Viable/Singlets/Lymph/CD3+/CD4+,82
+Viable/Singlets/Lymph/CD3+,82
+Viable/Singlets/Lymph,82
+Viable/Singlets/Lymphs/CD3+/CD4+/CD28+,82
+Viable/Singlets/Lymphs/CD3+/CD8+/CD28+,82
+Viable/Singlets/Lymphs/CD3+/CD4+/CD27+,82
+Viable/Singlets/Lymphs/CD3+/CD8+/CD27+,82
+"Viable/Singlets/Lymphs/CD3+/CD8+/Q4: CD45RAD, CD27D",82
+"Viable/Singlets/Lymphs/CD3+/CD8+/Q1: CD45RAD, CD27+",82
+"Viable/Singlets/Lymphs/CD3+/CD4+/Q4: CD45RAD, CD27D",82
+"Viable/Singlets/Lymphs/CD3+/CD4+/Q2: CD45RA+, CD27+",82
+"Viable/Singlets/Lymphs/CD3+/CD4+/Q1: CD45RAD, CD27+",82
+"Viable/Singlets/Lymphs/CD3+/CD8+/Q3: CD45RA+, CD27D",82
+Viable/Singlets/Lymphs/CD3-,82
+Viable/Singlets/Lymphs/CD3-/B cells,82
+Viable/Singlets/Lymphs/CD3+/CD3+ CD56+,82
+Viable/Singlets/Lymphs/CD3+/TCRgd,82
+Viable/Singlets/Monocytes,82
+CD8_ICOSp_abs,82
+CD3_ICOSp_abs,82
+Viable/Singlets/Monocytes/CD33+,82
+CD19pCD20n_CD86p_abs,80
+CD19_CD27p_abs,80
+CD19_CD86_abs,80
+CD19pCD20p_CD86p_abs,80
+IgDnCD27n_CD86p_abs,80
+IgDnCD27p_CD86p_abs,80
+IgDpCD27p_CD86p_abs,80
+naive_CD86p_abs,80
+CD19pCD20n_abs,80
+CD19pCD20p_abs,80
+IgDnCD27n_abs,80
+IgDnCD27p_abs,80
+IgDpCD27p_abs,80
+naive_abs,80
+trans_CD86p_abs,80
+trans_abs,80
+PB_CD86_abs,80
+PB_abs,80
+CD138_CD86_abs,80
+CD19_abs,80
+CD138_abs,80
+central memory CD4+ T cell,60
+T follicular helper cell type 2,60
+T follicular helper cell type 17,60
+ICOS+ T follicular helper cell type 1,60
+T follicular helper cell type 1,60
+effector memory CD4+ T cell,60
+effector CD4+ T cell,60
+ICOS+ T follicular helper cell type 2,60
+naive CD4+ T cell,60
+effector memory CD8+ T cell,60
+effector CD8+ T cell,60
+naive CD8+ T cell,60
+central memory CD8+ T cell,60
+CX3CR1lo HLA-DR+ monocyte,60
+CX3CR1hi HLA-DR+ monocyte,60
+HLA-DR+ monocyte,60
+granulocyte,60
+dendritic cell,60
+ICOS+ T follicular helper cell type 17,60
+CD45RAnCD4p_CD1c_pCD1c,54
+CD45RAnCD4n_CD1c_pCD1c,54
+CD45RApCD4n_CD1c_pCD1c,54
+CD45RApCD4p_CD1c_pCD1c,54
+CD56diCD16p_pLY,54
+CD56nCD16p_pLY,54
+CD45RAnCD4p_BDCA2_pBDCA2,54
+CTLA4p_pCD8,54
+CD25p_pCD8,54
+FoxP3p_pCD4,54
+CTLA4p_pCD4,54
+CD25p_pCD4,54
+QC3_CD8_pLY,54
+CD56diCD16n_pLY,54
+CD56br_pLY,54
+CD62Lp_pmatureNeu,54
+CD62Ln_pmatureNeu,54
+CD123_pWBC,54
+CD11c_pWBC,54
+CD45RAnCD4n_BDCA2_pBDCA2,54
+CD45RApCD4n_BDCA2_pBDCA2,54
+CD45RApCD4p_BDCA2_pBDCA2,54
+FoxP3p_pCD8,54
+QC4_CD4_pLY,48
+Bcl2_pCD4,48
+CD38bri_pCD4,48
+CD127loCD25p,48
+DR_pCD4,48
+Ki67nBcl2bri_pCD4,48
+Ki67_pCD4,48
+CD2pCD86n_BDCA2,48
+CD19hi,48
+Naive_CD8,48
+CM_CD8,48
+EM_CD8,48
+TEFF_CD8,48
+CD2p_BDCA3,48
+CD2n_BDCA3,48
+CD2nCD86p_BDCA3,48
+CD2pCD86p_BDCA3,48
+CD2pCD86n_BDCA3,48
+CD2nCD86n_BDCA3,48
+CD2nCD86p_BDCA2,48
+CD2pCD86p_BDCA2,48
+CD2nCD86n_BDCA2,48
+QC_CD4,48
+CD2nCD86p_CD1c,48
+CD2pCD86p_CD1c,48
+CD2pCD86n_CD1c,48
+CD2nCD86n_CD1c,48
+Slan,48
+CD11bp_Slan,48
+CD11bn_Slan,48
+CD2p_Slan,48
+CD2n_Slan,48
+CD86p_Slan,48
+CD86n_Slan,48
+CD14p_Slan,48
+CD14n_Slan,48
+GranB_pCD4,48
+DR_pCD8,48
+DRnCD38p_pCD4,48
+GranB_pCD8,48
+QC14_TEFF_pCD8,48
+QC12_EM_pCD8,48
+QC11_Naive_pCD8,48
+QC10_CM_pCD8,48
+Ki67nBcl2dim_pCD8,48
+Ki67pBcl2dim_pCD8,48
+DRpCD38p_pCD4,48
+Ki67nBcl2bri_pCD8,48
+DRnCD38n_pCD8,48
+DRpCD38n_pCD8,48
+DRpCD38p_pCD8,48
+DRnCD38p_pCD8,48
+Ki67_pCD8,48
+Ki67pBcl2bri_pCD8,48
+CD38bri_pCD8,48
+Ki67nBcl2dim_pCD4,48
+Bcl2_pCD8,48
+DRpCD38n_pCD4,48
+DRnCD38n_pCD4,48
+Ki67pBcl2bri_pCD4,48
+Ki67pBcl2dim_pCD4,48
+QC5_CM_pCD4,48
+QC6_Naive_pCD4,48
+QC7_EM_pCD4,48
+QC8_TEFF_pCD4,48
+QC9_CD8_pLY,48
+HLADR+ IgD- Memory B Cell,39
+HLADR+ CD138+ B Cell,39
+HLADR+ CD20- B Cell,39
+HLADR+ CD20+ B Cell,39
+HLADR+ CD27+ B Cell,39
+HLADR+ IgD+ Memory B Cell,39
+HLADR+ IgD- CD27- B cell,39
+HLADR+ Naive B Cell,39
+HLADR+ plasmablast,39
+HLADR+ transitional B Cell,39
+BDCA3_pmDC,15
+CD1c_pmDC,15
+Mo_SLAN_abs,14
+QCGran_abs,14
+eos_abs,14
+neu_abs,14
+pDC_abs,14
+CD1c_CD86p_abs,14
+pDC_CD2n_abs,14
+pDC_CD2p_abs,14
+BDCA3_CD86n_abs,14
+BDCA3_CD2n_abs,14
+BDCA3_abs,14
+CD1c_CD86n_abs,14
+CD16p_SLANn_abs,14
+CD1c_CD2p_abs,14
+CD1c_CD2n_abs,14
+CD1c_abs,14
+mDC_CD86n_abs,14
+mDC_CD86p_abs,14
+mDC_CD2p_abs,14
+mDC_CD2n_abs,14
+mDC_abs,14
+pDC_CD86n_abs,14
+pDC_CD86p_abs,14
+CD16n_SLANn_abs,14
+CD16p_HLADRn_abs,14
+CD16p_SLANp_abs,14
+CD16n_CX3CR1n_abs,14
+BDCA3_CD86p_abs,14
+Mo_abs,14
+Mo_CD40p_abs,14
+CD14nCD16p_abs,14
+CD14pCD16p_abs,14
+CD14pCD16n_abs,14
+CD14nCD16n_abs,14
+CD16n_CX3CR1p_abs,14
+CD16p_CX3CR1p_abs,14
+CD16p_CX3CR1n_abs,14
+CD16n_CD11bp_abs,14
+CD16n_SLANp_abs,14
+CD16p_CD11bp_abs,14
+CD16p_CD11bn_abs,14
+CD16n_CD11bn_abs,14
+CD16n_HLADRp_abs,14
+CD16p_HLADRp_abs,14
+CD16n_HLADRn_abs,14
+CD16n_CD86p_abs,14
+CD16p_CD86p_abs,14
+CD16p_CD86n_abs,14
+CD16n_CD86n_abs,14
+BDCA3_CD2p_abs,14

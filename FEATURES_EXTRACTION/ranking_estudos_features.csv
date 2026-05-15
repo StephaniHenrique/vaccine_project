@@ -1,0 +1,36 @@
+Study,Feature,Total_Features
+1486,"B.memory, B.plasma, DC, Macro, Mo0, NK, Neutro, cd4.treg, live.cd4tconv, live.cd8",10
+404,"B.memory, B.plasma, CD8.GrzmB, Macro, Mo0, NK, cd4.treg, live.cd4tconv, live.cd8",9
+369,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+478,"B.memory, Macro, Mo0, NK, live.cd4tconv, live.cd8",6
+416,"B.memory, B.plasma, Macro, NK, live.cd4tconv, live.cd8",6
+387,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+376,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+372,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+113,"B.memory, Macro, Mo0, NK, live.cd4tconv, live.cd8",6
+364,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+515,"B.memory, Macro, Mo0, NK, live.cd4tconv, live.cd8",6
+305,"B.memory, Macro, Mo0, NK, live.cd4tconv, live.cd8",6
+301,"B.memory, B.plasma, Macro, NK, live.cd4tconv, live.cd8",6
+296,"B.memory, B.plasma, Macro, NK, live.cd4tconv, live.cd8",6
+519,"B.memory, Macro, Mo0, NK, live.cd4tconv, live.cd8",6
+645,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+80,"B.memory, B.plasma, DC, Macro, live.cd4tconv, live.cd8",6
+144,"B.memory, B.plasma, Macro, Mo0, live.cd4tconv, live.cd8",6
+472,"B.memory, Macro, Mo0, NK, live.cd4tconv, live.cd8",6
+180,"B.memory, Macro, Mo0, live.cd4tconv, live.cd8",5
+312,"B.memory, NK, live.cd4tconv, live.cd8",4
+514,"B.memory, NK, live.cd4tconv, live.cd8",4
+820,"Macro, NK, live.cd4tconv, live.cd8",4
+887,"Macro, NK, live.cd4tconv, live.cd8",4
+984,"NK, live.cd4tconv, live.cd8",3
+278,"CD8.GrzmB, live.cd4tconv, live.cd8",3
+315,"live.cd4tconv, live.cd8",2
+314,"live.cd4tconv, live.cd8",2
+28,"live.cd4tconv, live.cd8",2
+522,"B.memory, B.plasma",2
+241,"live.cd4tconv, live.cd8",2
+167,"live.cd4tconv, live.cd8",2
+888,"live.cd4tconv, live.cd8",2
+112,"live.cd4tconv, live.cd8",2
+224,live.cd4tconv,1
