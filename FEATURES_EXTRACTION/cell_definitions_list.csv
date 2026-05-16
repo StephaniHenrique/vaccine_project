@@ -14,15 +14,15 @@ Population Definition Reported
 "Singlets/WBC/Lymph/Lin1-DR+/pDC/CD86-,Freq. of Parent"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3,Freq. of,WBC"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC,Freq. of,WBC"
-CD14pCD16n_pmo
-CD14pCD16p_CD86_pP
-CD14nCD16n_CD86_pP
-CD14pCD16p_pmo
+CD14posCD16neg_pmo
+CD14posCD16pos_CD86_pP
+CD14negCD16neg_CD86_pP
+CD14posCD16pos_pmo
 "Singlets/WBC/mono/CD3-CD19-/mo2/mo3,Freq. of,WBC"
 "Singlets/WBC/mono/CD3-CD19-/mo2/mo3/Q1: CD14,, CD16+,Freq. of,mo3"
-CD14pCD16n_CD86_pP
-CD14nCD16p_CD86_pP
-CD14nCD16n_pmo
+CD14posCD16neg_CD86_pP
+CD14negCD16pos_CD86_pP
+CD14negCD16neg_pmo
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD86-,Freq. of Parent"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD40+,Freq. of,BDCA3"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD86+,Freq. of,BDCA3"
@@ -101,7 +101,7 @@ CD14nCD16n_pmo
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD2,Freq. of Parent"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD2+,Freq. of,CD1c"
 CD3+
-granulocyte
+gran
 "Lin1-, HLA-DR+, BDCA2+, CD11c-"
 "Lin1-, HLA-DR+, BDCA2-, CD11c+"
 CD3+ AND CD4+ AND small lymphocyte
@@ -150,8 +150,8 @@ SLAN+
 "Lin1-, HLA-DR+, BDCA2+, CD11c-, CD2-"
 "CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6+, ICOS+"
 "CD19+, CD3-, CD14-, CD20+"
-CD16- granulocyte
-CD16+ granulocyte
+CD16- gran
+CD16+ gran
 "CD14lo, HLA-DR+, CD16-"
 "CD14lo, HLA-DR+, CD16+"
 "CD14+, HLA-DRlo, CD16-"
@@ -213,7 +213,7 @@ CD16+ granulocyte
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6-, HLA-DR+"
 "Lin1-, HLA-DR+, BDCA2+, CD11c-, CD40+"
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6-, HLA-DR+"
-"CD16+, CD62L- granulocyte"
+"CD16+, CD62L- gran"
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD40-"
 "Lin1-, HLA-DR+, BDCA2+, CD11c-, CD40-"
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD40+"
@@ -532,10 +532,10 @@ CD16+ neutrophil
 "sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q1: CD2-,, CD86+,Freq. of,Q3: BDCA-2+"
 "ly/CD3+/CD8+/Q1: HLA-DR,, CD38+,Freq. of,CD8+"
 "sing/WBC/lymono/Lin-DR+/Slan+/Q7: Slan+,, CD2-,Freq. of,Slan+"
-"CD16hi, CD11b+ granulocyte"
-"CD16lo, CD11b- granulocyte"
-"CD16lo, CD11b+ granulocyte"
-"CD16hi, CD11b- granulocyte"
+"CD16hi, CD11b+ gran"
+"CD16lo, CD11b- gran"
+"CD16lo, CD11b+ gran"
+"CD16hi, CD11b- gran"
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, HLA-DR+"
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6+, HLA-DR+"
 "CD19+, CD3-, CD14-, CD38+, CD24+, HLADR+"
