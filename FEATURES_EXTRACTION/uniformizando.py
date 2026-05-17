@@ -15,11 +15,12 @@ def normalize_marker(marker):
         'singlet': ['sing', 'singlets', 'singlet', 'doublet_excluded', 'sing-f', 'intact_singlet', 'single_cells', 'singlet_gate'],
         'lymphocyte': ['ly', 'lymp', 'lymph', 'lymphocyte', 'lymphs', 'lymphocytes', 'lymo', 'lymphos', 'lym'],
         'monocyte': ['mo', 'mono', 'monos', 'mnc', 'monocytes', 'pmo'],
-        'gran': ['gran', 'granulocytes', 'granulocyte', 'granulo', 'pmns'], 
+        'lymphocyte, monocyte': ['lymono'],
+        'gran': ['gran', 'grans', 'granulocytes', 'granulocyte', 'granulo', 'pmns'], 
         'intact': ['intact_cells', 'intact_cells_population', 'intact'],
         'viable': ['live', 'annexin-', 'live/dead stain', 'live/dead', '7aad-', 'pi-', 'dapi-', 'viability', 'viable'],
         'proliferated': ['cfse-', 'tracerviolet', 'cfse_low', 'cfse_dim', 'ctv_low', 'celltrace_low', 'proliferating'],
-        'neutro': ['neutro', 'neutrophil', 'neutrophils', 'neutros', 'pmn'],
+        'neutro': ['neutro', 'neutrophil', 'neutrophils', 'neutros', 'pmn', 'neutr', 'neu'],
         'mDC': ['mdc'],
         'pDC': ['pdc'],
         'mo2': ['mo2'],
@@ -28,10 +29,11 @@ def normalize_marker(marker):
         'TFH': ['tfh'],
         'PB': ['pb'],
         'NK': ['nk'],
-        'WBC': ['wbc'],
+        'WBC': ['wbc', 'swbc'],
         'Q1': ['q1', 'q1 cd14'],
-        'Q2': ['q2', 'q2 cd16', 'q2 cd19'], # NOVO
+        'Q2': ['q2', 'q2 cd16', 'q2 cd19'], 
         'Q3': ['q3', 'q3 cd19'],
+        'Q4': ['q4'], 'Q5': ['q5'], 'Q6': ['q6'], 'Q7': ['q7'], 'Q8': ['q8'],
         'TH': ['th'],
         'TH1': ['th1'],
         'TH2': ['th2'],
@@ -43,9 +45,15 @@ def normalize_marker(marker):
         'TFH17': ['tfh17'],
         }
     
+    m_base = re.sub(r'(_bright|_dim|_int|[+\-~]+)$', '', m_lower)
     for standard, variations in synonyms.items():
-        if m_lower in variations:
-            return standard
+        if m_base in variations or m_lower in variations:
+            # Substitui a base pelo padrão, mas preserva os sinais finais
+            state = m_lower.replace(m_base, '') if m_base in variations else ''
+            if state == '':
+                return standard
+            else:
+                return standard + state
 
 
     print(f"Marker after synonym check: '{m}'")
@@ -86,17 +94,17 @@ def parse_definition(definition):
     def_clean = re.sub(r'_?pP', '', str(def_clean), flags=re.IGNORECASE)  # Remove 'pP' que é um artefato comum
     
 
-    def_clean = re.sub(r'\b(AND|OR|Sum|of|cells?|small|B)\b', ' ', def_clean, flags=re.IGNORECASE)
+    def_clean = re.sub(r'\b(AND|OR|Sum|of|cells?|small|count|B)\b', ' ', def_clean, flags=re.IGNORECASE)
     
     # Remove a palavra 'small' (já que 'lymphocyte' será capturado normalmente depois)
     def_clean = re.sub(r'\bsmall\b', ' ', def_clean, flags=re.IGNORECASE)
 
     def_clean = re.sub(r'HLA-DR', 'HLADR', def_clean, flags=re.IGNORECASE)
-        
+    def_clean = re.sub(r'2-WBC', 'WBC', def_clean, flags=re.IGNORECASE)    
     # Remove as anotações estatísticas do final da string (ex: ,Freq. of Parent)
     def_clean = re.sub(r'(TH|TFH)/([0-9\-]+)', r'\1\2', def_clean, flags=re.IGNORECASE)
     def_clean = re.sub(r'[^a-zA-Z0-9\s+-]', ' ', def_clean)  # Remove caracteres especiais, mantendo apenas letras, números e espaçosß
-    def_clean = re.sub(r'(pos|neg|dim|lo|di)(?=[A-Z])', r'\1 ', def_clean, flags=re.IGNORECASE)
+    def_clean = re.sub(r'(pos|neg|dim|lo|di|bright|hi|br)(?=[A-Z])', r'\1 ', def_clean, flags=re.IGNORECASE)
     def_clean = re.sub(r'([+-])(?=[a-zA-Z])', r'\1 ', def_clean)
     # Divide a string onde houver uma barra (/) ou vírgula (,)
     markers = re.split(r'\s+', def_clean.strip())
@@ -107,8 +115,8 @@ def parse_definition(definition):
     # Remove duplicatas (ex: se "Lymph" e "ly" caírem na mesma linha e virarem "lymphocyte")
     normalized_markers = list(set(normalized_markers))
     
-    # Ordena alfabeticamente para garantir correspondência (ex: CD3+, CD4+ == CD4+, CD3+)
-    normalized_markers.sort()
+    # AJUSTE DE ORDEM ALFABÉTICA: key=str.lower força o Python a não dar prioridade às letras maiúsculas!
+    normalized_markers.sort(key=str.lower)
     
     # Junta tudo novamente
     return ", ".join(normalized_markers)
