@@ -14,15 +14,15 @@ Population Definition Reported,Cell Number Unit,Count,Unique_Studies,Unique_Pati
 "Singlets/WBC/Lymph/Lin1-DR+/pDC/CD86-,Freq. of Parent",cells/ul,489,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3,Freq. of,WBC",cells/ul,489,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC,Freq. of,WBC",cells/ul,489,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14pCD16n_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14pCD16p_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14nCD16n_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14pCD16p_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14posCD16neg_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14posCD16pos_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14negCD16neg_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14posCD16pos_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/mono/CD3-CD19-/mo2/mo3,Freq. of,WBC",cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/mono/CD3-CD19-/mo2/mo3/Q1: CD14,, CD16+,Freq. of,mo3",cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14pCD16n_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14nCD16p_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
-CD14nCD16n_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14posCD16neg_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14negCD16pos_CD86_pP,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
+CD14negCD16neg_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD86-,Freq. of Parent",cells/ul,486,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD40+,Freq. of,BDCA3",cells/ul,486,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD86+,Freq. of,BDCA3",cells/ul,486,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
@@ -101,7 +101,7 @@ CD14nCD16n_pmo,cells/ul,488,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD2,Freq. of Parent",cells/ul,451,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 "Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD2+,Freq. of,CD1c",cells/ul,451,2,77,9,"-7.0, 0.0, 1.0, 120.0, 240.0, 28.0, 3.0, 7.0, -5.0","296, 301"
 CD3+,ul,324,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
-granulocyte,ul,324,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
+grans,ul,324,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2+, CD11c-",ul,324,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2-, CD11c+",ul,324,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 CD3+ AND CD4+ AND small lymphocyte,cells/ml,301,1,44,62,"0.0, 14.0, 294.0, 42.0, 54.0, 68.0, 84.0, 13.0, 285.0, 39.0, 67.0, 81.0, 56.0, 70.0, 279.0, 69.0, 15.0, 43.0, 72.0, 89.0, 295.0, 57.0, 71.0, 85.0, 297.0, 302.0, 78.0, 41.0, 55.0, 83.0, 292.0, 46.0, 62.0, 74.0, 95.0, 63.0, 92.0, 309.0, 82.0, 18.0, 122.0, 59.0, 58.0, 80.0, 47.0, 305.0, 88.0, 91.0, 300.0, 16.0, 293.0, 45.0, 60.0, 90.0, 301.0, 65.0, 79.0, 86.0, 44.0, 35.0, 308.0, 315.0",167
@@ -150,8 +150,8 @@ SLAN+,ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2+, CD11c-, CD2-",ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6+, ICOS+",ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "CD19+, CD3-, CD14-, CD20+",ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
-CD16- granulocyte,ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
-CD16+ granulocyte,ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
+CD16- grans,ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
+CD16+ grans,ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "CD14lo, HLA-DR+, CD16-",ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "CD14lo, HLA-DR+, CD16+",ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
 "CD14+, HLA-DRlo, CD16-",ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369, 372, 376"
@@ -213,7 +213,7 @@ CD16+ granulocyte,ul,264,5,69,6,"0.0, 1.0, 28.0, 7.0, 40.0, 90.0","144, 364, 369
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6-, HLA-DR+",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2+, CD11c-, CD40+",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6-, HLA-DR+",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
-"CD16+, CD62L- granulocyte",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
+"CD16+, CD62L- grans",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD40-",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2+, CD11c-, CD40-",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD40+",ul,117,3,30,5,"0.0, 28.0, 7.0, 90.0, 1.0","369, 372, 376"
@@ -404,7 +404,7 @@ CD16+ neutrophil,ul,60,1,16,4,"0.0, 1.0, 28.0, 7.0",144
 "CD45+/CD3+/CD4/TFH/2,Freq. of,TFH",cells/ul,54,1,6,9,"-7.0, 0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD11b+,Freq. of,CD14+CD16+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+,Freq. of,2-CD14+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+,Freq. of,WBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+,Freq. of,WBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD62L+,Freq. of,CD14+CD16+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD40+,Freq. of,CD14+CD16+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD86+,Freq. of,CD14+CD16+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
@@ -445,18 +445,18 @@ CD16+ neutrophil,ul,60,1,16,4,"0.0, 1.0, 28.0, 7.0",144
 "sing/WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD20+,Freq. of,CD19+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/CD19+SCC/CD19+/nQ1: CD27-,, IgD+,Freq. of,CD19+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/CD19+SCC/CD19+/nCD19hi,Freq. of,CD19+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q10: Slan+,, CD86+,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q10: SLAN+,, CD86+,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/CD19+SCC/CD19+/n transitional,Freq. of Parent",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/CD19+SCC/CD19+,Freq. of,WBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/dn,Freq. of,2-CD14+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+/CD86+,Freq. of,CD14dimCD16+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q11: Slan+,, CD86-,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q14: Slan+,, CD14+,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q15: Slan+,, CD14-,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q2: Slan+,, CD11b+,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q3: Slan+,, CD11b-,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q11: SLAN+,, CD86-,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q14: SLAN+,, CD14+,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q15: SLAN+,, CD14-,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q2: SLAN+,, CD11b+,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q3: SLAN+,, CD11b-,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+/CD62L+,Freq. of,CD14dimCD16+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q6: Slan+,, CD2+,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q6: SLAN+,, CD2+,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD8+/Q2: HLA-DR+,, CD38+,Freq. of,CD8+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD8+/Q11: CD45RA+,, CCR7,Freq. of,CD8+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "sing/CD45+/CD3+/CD4/TFH/Q2: CCR6+,, CXCR3+,Freq. of,TFH",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
@@ -475,16 +475,16 @@ CD16+ neutrophil,ul,60,1,16,4,"0.0, 1.0, 28.0, 7.0",144
 "ly/CD3+/CD4+/Q8: K1-67,, bcl2di,Freq. of,CD4+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD4+/Q7: K1-67+,, bcl2di,Freq. of,CD4+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD8+/Q12: CD45RA,, CCR7,Freq. of,CD8+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/CD2-,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/CD2+,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+,Freq. of,sWBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q4: CD2-,, CD86-,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q3: CD2+,, CD86-,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q2: CD2+,, CD86+,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q1: CD2-,, CD86+,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/CD2-,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/CD2+,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+,Freq. of,sWBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+/CD2-,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+/CD2+,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+,Freq. of,sWBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+/Q4: CD2-,, CD86-,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+/Q3: CD2+,, CD86-,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+/Q2: CD2+,, CD86+,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+/Q1: CD2-,, CD86+,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+/CD2-,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+/CD2+,Freq. of,Q1:BDCA-3+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q1:BDCA-3+,Freq. of,sWBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD4+/Q6: K1-67+,, bcl2bri,Freq. of,CD4+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD4+/Q5: K1-67,, bcl2bri,Freq. of,CD4+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD4+/Q4: HLA-DR,, CD38,Freq. of,CD4+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
@@ -519,23 +519,23 @@ CD16+ neutrophil,ul,60,1,16,4,"0.0, 1.0, 28.0, 7.0",144
 "ly/CD3+/CD8+/DR,Freq. of,CD8+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
 "sing/CD45+/CD3+/CD4+,Freq. of,CD45+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "sing/CD45+/CD3+,Freq. of,CD45+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q4: CD2-,, CD86-,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q3: CD2+,, CD86-,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q2: CD2+,, CD86+,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q1: CD2-,, CD86+,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/CD2-,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/CD2+,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+,Freq. of,sWBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q4: CD2-,, CD86-,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q3: CD2+,, CD86-,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q2: CD2+,, CD86+,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q1: CD2-,, CD86+,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q4: CD2-,, CD86-,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q3: CD2+,, CD86-,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q2: CD2+,, CD86+,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q1: CD2-,, CD86+,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+/CD2-,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+/CD2+,Freq. of,CD1c+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q4: BDCA-2-,, BDCA-3-/CD1c+,Freq. of,sWBC",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+/Q4: CD2-,, CD86-,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+/Q3: CD2+,, CD86-,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+/Q2: CD2+,, CD86+,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"sing-F/sWBC/Lin2-DR+/grans-NK-/Q3: BDCA-2+/Q1: CD2-,, CD86+,Freq. of,Q3: BDCA-2+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
 "ly/CD3+/CD8+/Q1: HLA-DR,, CD38+,Freq. of,CD8+",cells/ul,48,1,6,8,"0.0, 1.0, 10.0, 14.0, 21.0, 28.0, 3.0, 7.0",180
-"sing/WBC/lymono/Lin-DR+/Slan+/Q7: Slan+,, CD2-,Freq. of,Slan+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
-"CD16hi, CD11b+ granulocyte",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
-"CD16lo, CD11b- granulocyte",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
-"CD16lo, CD11b+ granulocyte",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
-"CD16hi, CD11b- granulocyte",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
+"sing/WBC/lymono/Lin-DR+/SLAN+/Q7: SLAN+,, CD2-,Freq. of,SLAN+",cells/ul,48,1,6,8,"-7.0, 0.0, 0.5, 1.0, 10.0, 28.0, 3.0, 7.0",180
+"CD16hi, CD11b+ grans",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
+"CD16lo, CD11b- grans",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
+"CD16lo, CD11b+ grans",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
+"CD16hi, CD11b- grans",ul,47,2,13,5,"7.0, 90.0, 0.0, 28.0, 1.0","372, 376"
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, HLA-DR+",ul,45,1,11,5,"0.0, 28.0, 7.0, 90.0, 1.0",376
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6+, HLA-DR+",ul,45,1,11,5,"0.0, 28.0, 7.0, 90.0, 1.0",376
 "CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6+, HLA-DR+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
@@ -606,19 +606,19 @@ CD3+,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14+, HLA-DR+, CD16-, CX3CR1-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14+, HLA-DR+, CD16-, SLAN+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14+, HLA-DR+, CD16-, SLAN-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-"CD16hi, CD11b+ granulocyte",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+"CD16hi, CD11b+ grans",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD19+, CD3-, CD14-, CD20-, HLADR+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD19+, CD3-, CD14-, CD20-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD19+, CD3-, CD14-, CD20+, HLADR+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD19+, CD3-, CD14-, CD20+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD19+, CD3-, CD14-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-"CD16lo, CD11b- granulocyte",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-"CD16lo, CD11b+ granulocyte",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-"CD16hi, CD11b- granulocyte",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-CD16- granulocyte,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+"CD16lo, CD11b- grans",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+"CD16lo, CD11b+ grans",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+"CD16hi, CD11b- grans",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+CD16- grans,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14+, HLA-DR+, CD40+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-"CD16+, CD62L- granulocyte",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-CD16+ granulocyte,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+"CD16+, CD62L- grans",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+CD16+ grans,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14lo, HLA-DR+, CD16-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14lo, HLA-DR+, CD16+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD14+, HLA-DRlo, CD16-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
@@ -646,7 +646,7 @@ CD16+ granulocyte,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, CD86-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 SLAN+,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "CD3+, CD4+, CD8-, CXCR5-, CD45RA-, ICOS+",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
-granulocyte,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
+grans,cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD2-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD86-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645
 "Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-",cells/ul,39,1,10,4,"0.0, 28.0, 7.0, 90.0",645

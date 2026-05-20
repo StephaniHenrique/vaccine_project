@@ -1,0 +1,519 @@
+Normalized_Definition,Intermediate_Population
+"CD40-, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2+, HLA-DR+, Lin1-, lymphocyte, mDC, singlet, WBC",Myeloid DCs (Unspecified)
+"CD86-, HLA-DR+, Lin1-, lymphocyte, mDC, singlet, WBC",Myeloid DCs (Unspecified)
+"CD40+, HLA-DR+, Lin1-, lymphocyte, mDC, singlet, WBC",Myeloid DCs (Unspecified)
+"HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD40+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD40-, HLA-DR+, Lin1-, lymphocyte, mDC, singlet, WBC",Myeloid DCs (Unspecified)
+"CD86+, HLA-DR+, Lin1-, lymphocyte, mDC, singlet, WBC",Myeloid DCs (Unspecified)
+"CD86+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD86-, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD141+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"HLA-DR+, Lin1-, lymphocyte, mDC, singlet, WBC",Myeloid DCs (Unspecified)
+"CD14+, CD16-, monocyte",Classical Monocytes
+"CD14+, CD16+, CD86+",Unclassified / Potential Error
+"CD14-, CD16-, CD86+",Unclassified / Potential Error
+"CD14+, CD16+, monocyte",Intermediate Monocytes
+"CD14+, CD16+, CD19-, CD3-, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16-, CD86+",Unclassified / Potential Error
+"CD14-, CD16+, CD86+",Unclassified / Potential Error
+"CD14-, CD16-, monocyte",Monocytes (Unspecified)
+"CD141+, CD86-, HLA-DR+, Lin1-, lymphocyte, mDC, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD40+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD86+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD40-, HLA-DR+, Lin1-, lymphocyte, mDC, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD2+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD3+, CD8+, ICOS+, lymphocyte, singlet, WBC",CD8+ T cells (Other)
+"CD3+, CD8+, HLA-DR+, lymphocyte, singlet, WBC",CD8+ T cells (Other)
+"CD19+, CD27+, lymphocyte, plasmablast, singlet, WBC",Plasmablasts / Plasma cells
+"CD3+, CD8+, lymphocyte, singlet, WBC",CD8+ T cells (Other)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TH, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TH, WBC",CD4+ Helper T cells (Th subsets)
+"CD19+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD27+, lymphocyte, singlet, WBC",B cells (Other)
+"CD138+, CD19+, CD27+, lymphocyte, singlet, WBC",B cells (Other)
+"CD3-, lymphocyte, NK, singlet, WBC",NK cells
+"CD3+, CD4+, lymphocyte, singlet, TH, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD38+, CD56+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD27+, CD3+, CD56+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD27+, CD3-, lymphocyte, NK, singlet, WBC",NK cells
+"CD3+, CD56+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD3-, CD38+, lymphocyte, NK, singlet, WBC",NK cells
+"CD16+, CD20-, CD3-, CD56+, lymphocyte, NK, singlet, WBC",NK cells
+"CD3+, CD38+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD3+, CD4+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TFH, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, lymphocyte, singlet, TFH, WBC",T follicular helper (Tfh) cells
+"CD27+, CD3+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD3+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD19+, CD20-, CD56+, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD20-, CD56+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TFH, WBC",T follicular helper (Tfh) cells
+"CD19+, CD27+, CD86+, lymphocyte, plasmablast, singlet, WBC",Plasmablasts / Plasma cells
+"CD3+, CD8+, CXCR5+, lymphocyte, singlet, WBC",CD8+ T cells (Other)
+"CD3+, ICOS+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD3+, HLA-DR+, lymphocyte, singlet, WBC",T cells (Unspecified Subtype)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TFH2, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TH1-17, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, lymphocyte, singlet, TH1-17, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TH1, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TH1, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, lymphocyte, singlet, TH1, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, lymphocyte, singlet, TH17, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TH17, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TH17, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, lymphocyte, singlet, TH2, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TH2, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TH2, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TFH2, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TFH1, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, lymphocyte, singlet, TFH2, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, lymphocyte, singlet, TFH1, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, lymphocyte, singlet, TFH1-17, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TFH1-17, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TFH1-17, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TFH1, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TH1-17, WBC",CD4+ Helper T cells (Th subsets)
+"CD3+, CD4+, lymphocyte, singlet, TFH17, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, HLA-DR+, lymphocyte, singlet, TFH17, WBC",T follicular helper (Tfh) cells
+"CD3+, CD4+, ICOS+, lymphocyte, singlet, TFH17, WBC",T follicular helper (Tfh) cells
+"CD3+, CD8+, CXCR3+, lymphocyte, singlet, WBC",CD8+ T cells (Other)
+"CD138+, CD19+, CD27+, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CCR6+, CD3+, CD8+, lymphocyte, singlet, WBC",CD8+ T cells (Other)
+"CD1c+, CD40-, HLA-DR+, Lin1-, lymphocyte, mDC, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD1c+, CD40+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD1c+, CD86-, HLA-DR+, Lin1-, lymphocyte, mDC, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD1c+, CD86+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD1c+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD1c+, CD2+, HLA-DR+, Lin1-, lymphocyte, mDC, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+CD3+,T cells (Unspecified Subtype)
+gran,Granulocytes
+"CD11c-, CD303+, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CD11c+, CD303-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD3+, CD4+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD8+, lymphocyte",CD8+ T cells (Other)
+"CD11c+, CD141-, CD1c+, CD303-, CD86-, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD3+, CD4+, CD45RA-, CD8-, CXCR5-, ICOS+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5-, ICOS+",CD4+ T cells (Other)
+"CD11c+, CD2-, CD303-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD11c-, CD303+, CD86-, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CD11c+, CD2+, CD303-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5-, ICOS+",CD4+ T cells (Other)
+"CD11c+, CD141-, CD1c+, CD303-, CD86+, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141+, CD1c-, CD303-, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD3+, CD4+, CD8-, ICOS+",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5+",CD4+ T cells (Other)
+"CD11c+, CD141+, CD1c-, CD2+, CD303-, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141+, CD1c-, CD2-, CD303-, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141-, CD1c+, CD2-, CD303-, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD11c+, CD141-, CD1c+, CD2+, CD303-, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141-, CD1c+, CD303-, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD11c-, CD303+, CD86+, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CD3+, CD4-, CD8+",CD8+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD11c+, CD303-, CD86+, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5-",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5-",CD4+ T cells (Other)
+"CD14+, HLA-DR+",Unclassified / Potential Error
+"CD3+, CD4+, CD45RA-, CD8-, CXCR5-",CD4+ T cells (Other)
+"CD3+, CD4-, CD8+, ICOS+",CD8+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CD8-, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD3+, CD4-, CD8+, CXCR5+",CD8+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5-, ICOS+",CD4+ T cells (Other)
+SLAN+,Unclassified / Potential Error
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5-",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD11c-, CD2+, CD303+, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CD3+, CD4-, CD8+, CXCR3+",CD8+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5-, ICOS+",CD4+ T cells (Other)
+"CD11c+, CD303-, CD86-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5+",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4-, CD8+",CD8+ T cells (Other)
+"CD3+, ICOS+",T cells (Unspecified Subtype)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5-",CD4+ T cells (Other)
+"CD11c-, CD2-, CD303+, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD14-, CD19+, CD20+, CD3-",B cells (Other)
+"CD16-, gran",Granulocytes
+"CD16+, gran",Granulocytes
+"CD14+, CD16-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD40+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, HLA-DR+, SLAN-",Unclassified / Potential Error
+"CD14+, CD16-, HLA-DR+, SLAN+",Unclassified / Potential Error
+"CD14+, CD16-, CX3CR1-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CX3CR1+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CD86-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CD86+, HLA-DR+",Unclassified / Potential Error
+"CD11b-, CD14+, CD16-, HLA-DR+",Unclassified / Potential Error
+"CD11b+, CD14+, CD16-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, HLA-DR+, SLAN-",Unclassified / Potential Error
+"CD14+, CD16+, HLA-DR+, SLAN+",Unclassified / Potential Error
+"CD14+, CD16+, CX3CR1-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CX3CR1+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CD86-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CD86+, HLA-DR+",Unclassified / Potential Error
+"CD11b-, CD14+, CD16+, HLA-DR+",Unclassified / Potential Error
+"CD11b+, CD14+, CD16+, HLA-DR+",Unclassified / Potential Error
+"CD14-, CD19+, CD3-",B cells (Other)
+"CD11c+, CD141+, CD1c-, CD303-, CD86+, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD14-, CD19+, CD27-, CD3-, IgD-",B cells (Other)
+"B_switched_memory, CD14-, CD19+, CD27+, CD3-, CD86+, IgD-",Memory B cells
+"B_naive, CD14-, CD19+, CD27-, CD3-, CD86+, IgD+",Naive B cells
+"CD14-, CD19+, CD20-, CD3-, CD38+, CD86+",B cells (Other)
+"CD14-, CD19+, CD24+, CD3-, CD38+",B cells (Other)
+"CD14-, CD19+, CD24+, CD3-, CD38+, CD86+",B cells (Other)
+"CD138+, CD14-, CD19+, CD27+, CD3-, CD86+",B cells (Other)
+"CD14-, CD19+, CD3-, CD86+",B cells (Other)
+"B_unswitched_memory, CD14-, CD19+, CD27+, CD3-, IgD+",Memory B cells
+"CD3+, CD4+, CD8-",CD4+ T cells (Other)
+"CD138+, CD14-, CD19+, CD27+, CD3-",B cells (Other)
+"CD3+, CD4+, CD45RA-, CD8-, CXCR5+",CD4+ T cells (Other)
+"B_unswitched_memory, CD14-, CD19+, CD27+, CD3-, CD86+, IgD+",Memory B cells
+"B_switched_memory, CD14-, CD19+, CD27+, CD3-, IgD-",Memory B cells
+"CD14-, CD19+, CD20-, CD3-, CD86+",B cells (Other)
+"B_naive, CD14-, CD19+, CD27-, CD3-, IgD+",Naive B cells
+"CD14-, CD19+, CD20-, CD3-",B cells (Other)
+"CD14-, CD19+, CD20+, CD3-, CD86+",B cells (Other)
+"CD11c+, CD141+, CD1c-, CD303-, CD86-, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD14-, CD19+, CD20-, CD3-, CD38+",B cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5+",CD4+ T cells (Other)
+"CD14-, CD19+, CD27+, CD3-",B cells (Other)
+"CD14-, CD19+, CD27-, CD3-, CD86+, IgD-",B cells (Other)
+"CD3+, CD4-, CD8+, HLA-DR+",CD8+ T cells (Other)
+"CD14+, CD16-, CD62L+, HLA-DR+",Unclassified / Potential Error
+"CD11c+, CD303-, CD40-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD3+, HLA-DR+",T cells (Unspecified Subtype)
+"CD3+, CD4+, CD45RA-, CD8-, CXCR5+, HLA-DR+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5+, HLA-DR+",CD4+ T cells (Other)
+"CD14+, CD16-, CD62L-, HLA-DR+",Unclassified / Potential Error
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5+, HLA-DR+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5-, HLA-DR+",CD4+ T cells (Other)
+"CD11c-, CD303+, CD40+, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CCR6-, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5-, HLA-DR+",CD4+ T cells (Other)
+"CD16+, CD62L-, gran",Granulocytes
+"CD11c+, CD141+, CD1c-, CD303-, CD40-, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD11c-, CD303+, CD40-, HLA-DR+, Lin1-, pDC",Plasmacytoid DCs (pDC)
+"CD11c+, CD141+, CD1c-, CD303-, CD40+, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5+, HLA-DR+",CD4+ T cells (Other)
+"CD11c+, CD141-, CD1c+, CD303-, CD40+, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD303-, CD40+, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD14+, CD16+, CD62L+, HLA-DR+",Unclassified / Potential Error
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5+, HLA-DR+",CD4+ T cells (Other)
+"CD11c+, CD141-, CD1c+, CD303-, CD40-, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD14+, CD16+, CD62L-, HLA-DR+",Unclassified / Potential Error
+"CD3+, CD4+, CD8-, HLA-DR+",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3+, CXCR5-, HLA-DR+",CD4+ T cells (Other)
+"CD19+, CD20-, CD45+, lymphocyte, singlet",B cells (Other)
+"plasma_cell, plasmablast",Plasmablasts / Plasma cells
+"CD138+, CD19+, CD20-, CD27+, CD38+, CD45+, lymphocyte, singlet",B cells (Other)
+"CD19+, CD20-, CD27+, CD38+, CD45+, lymphocyte, singlet",B cells (Other)
+"B_naive, CD19+, CD20+, CD27-, CD45+, IgD+, lymphocyte, singlet",Naive B cells
+"CD19+, CD20-, CD27+, CD45+, lymphocyte, singlet",B cells (Other)
+"B_switched_memory, CD19+, CD20+, CD27+, CD45+, IgD-, lymphocyte, singlet",Memory B cells
+"CD19+, CD20+, CD24+, CD38+, CD45+, lymphocyte, singlet",B cells (Other)
+"CD19+, CD20+, CD45+, lymphocyte, singlet",B cells (Other)
+"CD45+, singlet",Unclassified / Potential Error
+"CD19+, CD45+, lymphocyte, singlet",B cells (Other)
+"CD3+, CD4+, CD45+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5-, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CXCR5+, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CXCR5-, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5-, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5-, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5-, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5-, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5-, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5+, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5-, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5-, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CXCR5-, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CXCR5+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5+, ICOS+, lymphocyte, singlet, WBC",CD4+ T cells (Other)
+"B_switched_memory, CD19+, CD27+, CD86+, IgD-, lymphocyte, singlet, WBC",Memory B cells
+"B_switched_memory, CD19+, CD27+, IgD-, lymphocyte, singlet, WBC",Memory B cells
+"B_unswitched_memory, CD19+, CD27+, CD86+, IgD+, lymphocyte, singlet, WBC",Memory B cells
+"B_unswitched_memory, CD19+, CD27+, IgD+, lymphocyte, singlet, WBC",Memory B cells
+"CD19+, CD20-, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD20-, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD20+, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD20+, lymphocyte, singlet, WBC",B cells (Other)
+"B_naive, CD19+, CD27-, CD86+, IgD+, lymphocyte, singlet, WBC",Naive B cells
+"B_naive, CD19+, CD27-, IgD+, lymphocyte, singlet, WBC",Naive B cells
+"CD19+, CD27-, IgD-, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD27-, CD86+, IgD-, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD20-, CD38+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD20-, CD38+, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD24+, CD38+, lymphocyte, singlet, WBC",B cells (Other)
+"CD19+, CD24+, CD38+, CD86+, lymphocyte, singlet, WBC",B cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CD8-, CXCR3-, CXCR5-, HLA-DR+",CD4+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CD8-, CXCR5-, HLA-DR+",CD4+ T cells (Other)
+"CD3+, CD8+, EM",Memory CD8+ T cells
+"CD3+, CD4+, CD45RA-, CXCR5+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5+",CD4+ T cells (Other)
+"HLA-DR+, Lin1-",Unclassified / Potential Error
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3+, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+",CD4+ T cells (Other)
+"CCR6-, CD3+, CD4+, CD45RA-, CXCR3-, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD3+, CD4+, CD45RA-, CXCR5+, ICOS+",CD4+ T cells (Other)
+"CD3+, CD8+",CD8+ T cells (Other)
+"CD3+, CD8+, CM",Memory CD8+ T cells
+"CD3+, CD8+, TEMRA",Memory CD8+ T cells
+"CD3+, CD8+, naive",Naive CD8+ T cells
+"CD3+, CD4+, TEMRA",Memory CD4+ T cells
+"CD3+, CD4+, CM",Memory CD4+ T cells
+"CD14+, CX3CR1+, HLA-DR+",Unclassified / Potential Error
+"CD3+, CD4+, EM",Memory CD4+ T cells
+"CD14+, SLAN+",Unclassified / Potential Error
+"CD16+, neutro",Granulocytes
+"CD3+, CD4+",CD4+ T cells (Other)
+"CD3+, CD4+, naive",Naive CD4+ T cells
+"CD3+, CD4+, CD45+, ICOS+",CD4+ T cells (Other)
+"CD303+, CD4+, CD45RA+, HLA-DR+, Lin2-, lymphocyte, monocyte, pDC, WBC",Plasmacytoid DCs (pDC)
+"CD1c+, CD4+, CD45RA+, HLA-DR+, Lin2-, lymphocyte, mDC1, monocyte, WBC",Myeloid DCs type 1 (mDC1)
+"CD2-, CD303+, HLA-DR+, Lin2-, lymphocyte, monocyte, pDC, WBC",Plasmacytoid DCs (pDC)
+"CD2+, CD303+, HLA-DR+, Lin2-, lymphocyte, monocyte, pDC, WBC",Plasmacytoid DCs (pDC)
+"CD303+, HLA-DR+, Lin2-, lymphocyte, monocyte, pDC, WBC",Plasmacytoid DCs (pDC)
+"CD19+, CD20+, WBC",B cells (Other)
+"CD3+, CD4+, CD45+, EM",Memory CD4+ T cells
+"CD3+, CD4+, CD45+, CM",Memory CD4+ T cells
+"CD3+, CD45+",T cells (Unspecified Subtype)
+"B_unswitched_memory, CD19+, CD27+, IgD+, WBC",Memory B cells
+"CD19+, n+, transitional+, WBC",B cells (Other)
+"CD19+, CD27+, nPlasmacell+, WBC",B cells (Other)
+"CD45+, gran, neutro, WBC",Granulocytes
+"CD11b+, CD16+, CD45+, CD62L+, gran, neutro, WBC",Granulocytes
+"CD11b+, CD16+, CD45+, CD62L-, gran, neutro, WBC",Granulocytes
+"CD11b+, CD16+, CD45+, gran, neutro, WBC",Granulocytes
+"lymphocyte, monocyte, WBC",Monocytes (Unspecified)
+"CD14+, CD16+, lymphocyte, monocyte, WBC",Intermediate Monocytes
+"CD11b+, CD14+, CD16+, lymphocyte, monocyte, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD40+, lymphocyte, monocyte, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD62L+, lymphocyte, monocyte, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD86+, lymphocyte, monocyte, WBC",Intermediate Monocytes
+"CD14+, CD16-, lymphocyte, monocyte, WBC",Classical Monocytes
+"CD11b+, CD14+, CD16-, lymphocyte, monocyte, WBC",Classical Monocytes
+"CD14+, CD16-, CD40+, lymphocyte, monocyte, WBC",Classical Monocytes
+"CD14+, CD16-, CD62L+, lymphocyte, monocyte, WBC",Classical Monocytes
+"CD14+, CD16-, CD86+, lymphocyte, monocyte, WBC",Classical Monocytes
+"CD14-, CD16-, lymphocyte, monocyte, WBC",Monocytes (Unspecified)
+"CD19+, WBC",B cells (Other)
+"CD3+, CD4+, CD45+, TFH",T follicular helper (Tfh) cells
+"CD19+, CD27+, WBC",B cells (Other)
+"CD19+, CD27+, plasmablast, WBC",Plasmablasts / Plasma cells
+"CD3+, CD4+, CD45+, naive",Naive CD4+ T cells
+"CD3+, CD4+, CD45+, TFH1",T follicular helper (Tfh) cells
+"CD3-, CD56+, lymphocyte",NK cells
+"CD3+, CD4+, CD45+, ICOS+, non+, TFH17",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, non+, TFH2",T follicular helper (Tfh) cells
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, non+, TFH",T follicular helper (Tfh) cells
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, ICOS+, non+, TFH",T follicular helper (Tfh) cells
+"CD3+, CD45+, CD8+",CD8+ T cells (Other)
+"CD3+, CD45+, CD8+, ICOS+",CD8+ T cells (Other)
+"CD1c+, CD2-, HLA-DR+, Lin2-, lymphocyte, mDC1, monocyte, WBC",Myeloid DCs type 1 (mDC1)
+"CD16+, CD3-, CD56+, lymphocyte",NK cells
+"CD16+, CD3-, CD56-, lymphocyte",Lymphocytes (Unspecified)
+"CD3+, CD4+, CD45+, non+, TFH1",T follicular helper (Tfh) cells
+"CD1c+, CD2+, HLA-DR+, Lin2-, lymphocyte, mDC1, monocyte, WBC",Myeloid DCs type 1 (mDC1)
+"CD1c+, HLA-DR+, Lin2-, lymphocyte, mDC1, monocyte, WBC",Myeloid DCs type 1 (mDC1)
+"CD123+, HLA-DR+, Lin2-, lymphocyte, monocyte, WBC",Monocytes (Unspecified)
+"CD11c+, HLA-DR+, Lin2-, lymphocyte, monocyte, WBC",Monocytes (Unspecified)
+"CD25+, CD3+, CD8+, lymphocyte",CD8+ T cells (Other)
+"CD3+, CD8+, CTLA4+, lymphocyte",CD8+ T cells (Other)
+"CD3+, CD4+, CD45+, ICOS+, TFH1",T follicular helper (Tfh) cells
+"CD3+, CD8+, FoxP3+, lymphocyte",Regulatory T cells (Treg)
+"CD3+, CD4+, CD45+, ICOS+, non+, TFH1",T follicular helper (Tfh) cells
+"CD16-, CD3-, CD56+, lymphocyte",NK cells
+"CD3+, CD4+, CD45+, TFH17",T follicular helper (Tfh) cells
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, TFH",T follicular helper (Tfh) cells
+"CD25+, CD3+, CD4+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD4+, CTLA4+, lymphocyte",CD4+ T cells (Other)
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, ICOS+, TFH",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, TFH17",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, Teff+",CD4+ T cells (Other)
+"CD3+, CD4+, CD45+, non+, TFH",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, TFH",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, TFH2",T follicular helper (Tfh) cells
+"CD3+, CD4+, FoxP3+, lymphocyte",Regulatory T cells (Treg)
+"CD3+, CD4+, CD45+, TFH2",T follicular helper (Tfh) cells
+"CD11b+, CD14+, CD16+, CD86+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD86+, monocyte, singlet, WBC",Intermediate Monocytes
+"HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD14+, CD16+, CD62L+, CD86+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD40+, CD86+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16-, CD86+, monocyte, singlet, WBC",Classical Monocytes
+"CD3+, CD8+, Ki67+, lymphocyte",CD8+ T cells (Other)
+"CD11b+, CD14+, CD16-, CD86+, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD86+, monocyte, singlet, WBC",Monocytes (Unspecified)
+"CD11b-, CD16+, CD45+, gran, neutro, singlet, WBC",Granulocytes
+"CD11b-, CD16-, CD45+, gran, neutro, singlet, WBC",Granulocytes
+"CD14+, CD16-, CD62L+, CD86+, monocyte, singlet, WBC",Classical Monocytes
+"CD3+, CD4+, CD45+, singlet, Teff+",CD4+ T cells (Other)
+"CD3+, CD4+, CD45+, non+, singlet, TFH",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, non+, singlet, TFH1",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, non+, singlet, TFH1",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, non+, singlet, TFH17",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, non+, singlet, TFH2",T follicular helper (Tfh) cells
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, non+, singlet, TFH",T follicular helper (Tfh) cells
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, ICOS+, non+, singlet, TFH",T follicular helper (Tfh) cells
+"CD3+, CD45+, CD8+, singlet",CD8+ T cells (Other)
+"CD3+, CD45+, CD8+, CM, singlet",Memory CD8+ T cells
+"CD3+, CD45+, CD8+, EM, singlet",Memory CD8+ T cells
+"CD3+, CD45+, CD8+, ICOS+, singlet",CD8+ T cells (Other)
+"CD3+, CD45+, CD8+, naive, singlet",Naive CD8+ T cells
+"CD3+, CD45+, CD8+, singlet, Teff+",CD8+ T cells (Other)
+"CD45+, gran, neutro, singlet, WBC",Granulocytes
+"CD11b+, CD16-, CD45+, gran, neutro, singlet, WBC",Granulocytes
+"CD11b+, CD16+, CD45+, gran, neutro, singlet, WBC",Granulocytes
+"CD14+, CD16-, CD40+, CD86+, monocyte, singlet, WBC",Classical Monocytes
+"CD3+, CD38+, CD8+, HLA-DR+, lymphocyte",CD8+ T cells (Other)
+"CD3+, CD8+, lymphocyte, naive",Naive CD8+ T cells
+"B_switched_memory, CD19+, CD27+, IgD-, singlet, WBC",Memory B cells
+"CD19+, CD20-, singlet, WBC",B cells (Other)
+"B_unswitched_memory, CD19+, CD27+, IgD+, singlet, WBC",Memory B cells
+"CD19+, CD27+, plasmablast, singlet, WBC",Plasmablasts / Plasma cells
+"CD19+, CD27+, plasma_cell, singlet, WBC",Plasmablasts / Plasma cells
+"CD19+, CD27+, singlet, WBC",B cells (Other)
+"CD19+, CD20+, singlet, WBC",B cells (Other)
+"B_naive, CD19+, CD27-, IgD+, singlet, WBC",Naive B cells
+"CD19+, nCD19+, singlet, WBC",B cells (Other)
+"CD86+, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD19+, n+, singlet, transitional+, WBC",B cells (Other)
+"CD19+, singlet, WBC",B cells (Other)
+"CD14+, CD14-, CD16-, CD86+, monocyte, singlet, WBC",Classical Monocytes
+"CD86-, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD14+, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD14-, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD11b+, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD11b-, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD2+, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, singlet, TFH",T follicular helper (Tfh) cells
+"CD19+, CD27-, IgD-, singlet, WBC",B cells (Other)
+"CCR6+, CD3+, CD4+, CD45+, CXCR3+, ICOS+, singlet, TFH",T follicular helper (Tfh) cells
+"CD127+, CD25+, CD3+, CD4+, CD45+, singlet",CD4+ T cells (Other)
+"CD3+, CD4+, CD45+, ICOS+, singlet, TFH",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, singlet, TFH2",T follicular helper (Tfh) cells
+"bcl2+, CD3+, CD8+, lymphocyte",CD8+ T cells (Other)
+"bcl2+, CD3+, CD4+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD4+, lymphocyte, naive",Naive CD4+ T cells
+"bcl2+, CD3+, CD4+, Ki67+, lymphocyte",CD4+ T cells (Other)
+"CD2-, CD303+, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2+, CD303+, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD303+, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD141+, CD2-, CD86-, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD2+, CD86-, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD2+, CD86+, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD2-, CD86+, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD2-, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, CD2+, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD141+, gran-, HLA-DR+, Lin2-, mDC2, NK-, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD3+, CD38+, CD4+, HLA-DR+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD4+, Ki67+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD4+, GranB+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD4+, HLA-DR+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD38+, CD4+, lymphocyte",CD4+ T cells (Other)
+"CD3+, CD38+, CD8+, lymphocyte",CD8+ T cells (Other)
+"bcl2+, CD3+, CD8+, Ki67+, lymphocyte",CD8+ T cells (Other)
+"CD3+, CD4+, CD45+, CM, singlet",Memory CD4+ T cells
+"CD3+, CD4+, CD45+, singlet, TFH2",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, singlet, TFH17",T follicular helper (Tfh) cells
+"CD3+, CD8+, GranB+, lymphocyte",CD8+ T cells (Other)
+"CD3+, CD4+, CD45+, singlet, TFH17",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, ICOS+, singlet, TFH1",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, singlet, TFH1",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, singlet, TFH",T follicular helper (Tfh) cells
+"CD3+, CD4+, CD45+, naive, singlet",Naive CD4+ T cells
+"CD3+, CD4+, CD45+, ICOS+, singlet",CD4+ T cells (Other)
+"CD3+, CD4+, CD45+, EM, singlet",Memory CD4+ T cells
+"CD3+, CD4+, CD45+, singlet",CD4+ T cells (Other)
+"CD3+, CD8+, HLA-DR+, lymphocyte",CD8+ T cells (Other)
+"CD3+, CD45+, singlet",T cells (Unspecified Subtype)
+"CD141-, CD1c+, CD2-, CD303-, CD86-, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD141-, CD1c+, CD2+, CD303-, CD86-, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD141-, CD1c+, CD2+, CD303-, CD86+, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD141-, CD1c+, CD2-, CD303-, CD86+, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD141-, CD1c+, CD2-, CD303-, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD141-, CD1c+, CD2+, CD303-, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD141-, CD1c+, CD303-, gran-, HLA-DR+, Lin2-, mDC1, NK-, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD2-, CD303+, CD86-, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2+, CD303+, CD86-, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2+, CD303+, CD86+, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2-, CD303+, CD86+, gran-, HLA-DR+, Lin2-, NK-, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD2-, HLA-DR+, Lin-, lymphocyte, monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"CD11b+, CD16+, gran",Granulocytes
+"CD11b-, CD16+, gran",Granulocytes
+"CD14-, CD19+, CD24+, CD3-, CD38+, HLA-DR+",B cells (Other)
+"CD14-, CD19+, CD20-, CD3-, CD38+, HLA-DR+",B cells (Other)
+"CD14-, CD19+, CD27-, CD3-, HLA-DR+, IgD-",B cells (Other)
+"B_naive, CD14-, CD19+, CD27-, CD3-, HLA-DR+, IgD+",Naive B cells
+"B_switched_memory, CD14-, CD19+, CD27+, CD3-, HLA-DR+, IgD-",Memory B cells
+"B_unswitched_memory, CD14-, CD19+, CD27+, CD3-, HLA-DR+, IgD+",Memory B cells
+"CD138+, CD14-, CD19+, CD27+, CD3-, HLA-DR+",B cells (Other)
+"CD14-, CD19+, CD27+, CD3-, HLA-DR+",B cells (Other)
+"CD14-, CD19+, CD20-, CD3-, HLA-DR+",B cells (Other)
+"CD14-, CD19+, CD20+, CD3-, HLA-DR+",B cells (Other)
+"CD11c+, CD1c+, CD303-, HLA-DR+, Lin1-, mDC1",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141+, CD303-, HLA-DR+, Lin1-, mDC2",Myeloid DCs type 2 (mDC2)
+"CD14+, CD16+, HLA-DR+, monocyte, singlet, SLAN-, WBC",Intermediate Monocytes
+"CD14+, CD16+, HLA-DR+, monocyte, singlet, SLAN+, WBC",Intermediate Monocytes
+"CD14+, CD16+, HLA-DR+, HLA-DR-, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD86+, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, CX3CR1-, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, CX3CR1+, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD14+, CD16+, CD86-, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD11b-, CD14+, CD16+, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD11b-, CD14+, CD16-, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD11b+, CD14+, CD16-, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD16+, neutro, singlet, WBC",Granulocytes
+"CD14+, CD16-, CD86+, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD16-, CD86-, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD16-, CX3CR1+, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD16-, CX3CR1-, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD16-, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD16-, HLA-DR+, HLA-DR-, monocyte, singlet, WBC",Classical Monocytes
+"CD14+, CD16-, HLA-DR+, monocyte, singlet, SLAN+, WBC",Classical Monocytes
+"CD14+, CD16-, HLA-DR+, monocyte, singlet, SLAN-, WBC",Classical Monocytes
+"CD14+, CD40+, HLA-DR+, monocyte, singlet, WBC",Monocytes (Unspecified)
+"monocyte, singlet, SLAN+, WBC",Monocytes (Unspecified)
+"neutro, singlet, WBC",Granulocytes
+"CD14+, CD14-, CD16-, HLA-DR+, monocyte, singlet, WBC",Classical Monocytes
+"CD11b+, CD14+, CD16+, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD11c-, CD303+, CD86+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD14+, CD14-, CD16+, HLA-DR+, monocyte, singlet, WBC",Intermediate Monocytes
+"CD11c-, CD303+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD11c-, CD2+, CD303+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD11c-, CD2-, CD303+, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD11c-, CD303+, CD86-, HLA-DR+, Lin1-, lymphocyte, pDC, singlet, WBC",Plasmacytoid DCs (pDC)
+"CD11c+, CD303-, HLA-DR+, Lin1-, lymphocyte, singlet, WBC",Lymphocytes (Unspecified)
+"CD11c+, CD141+, CD1c-, CD303-, HLA-DR+, Lin1-, lymphocyte, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141+, CD1c-, CD2+, CD303-, HLA-DR+, Lin1-, lymphocyte, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141+, CD1c-, CD2-, CD303-, HLA-DR+, Lin1-, lymphocyte, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141+, CD1c-, CD303-, CD86+, HLA-DR+, Lin1-, lymphocyte, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141+, CD1c-, CD303-, CD86-, HLA-DR+, Lin1-, lymphocyte, mDC2, singlet, WBC",Myeloid DCs type 2 (mDC2)
+"CD11c+, CD141-, CD1c+, CD303-, HLA-DR+, Lin1-, lymphocyte, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141-, CD1c+, CD2+, CD303-, HLA-DR+, Lin1-, lymphocyte, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141-, CD1c+, CD2-, CD303-, HLA-DR+, Lin1-, lymphocyte, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141-, CD1c+, CD303-, CD86+, HLA-DR+, Lin1-, lymphocyte, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD141-, CD1c+, CD303-, CD86-, HLA-DR+, Lin1-, lymphocyte, mDC1, singlet, WBC",Myeloid DCs type 1 (mDC1)
+"CD11c+, CD2+, CD303-, HLA-DR+, Lin1-, lymphocyte, singlet, WBC",Lymphocytes (Unspecified)
+"CD11c+, CD2-, CD303-, HLA-DR+, Lin1-, lymphocyte, singlet, WBC",Lymphocytes (Unspecified)
+"CD11c+, CD303-, CD86+, HLA-DR+, Lin1-, lymphocyte, singlet, WBC",Lymphocytes (Unspecified)
+"CD11c+, CD303-, CD86-, HLA-DR+, Lin1-, lymphocyte, singlet, WBC",Lymphocytes (Unspecified)
+"CD14+, HLA-DR+, monocyte, singlet, WBC",Monocytes (Unspecified)
+"CD16-, neutro, singlet, WBC",Granulocytes

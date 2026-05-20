@@ -1,0 +1,41 @@
+Normalized_Definition,Intermediate_Population
+"CD14+, CD16+, CD86+",Unclassified / Potential Error
+"CD14-, CD16-, CD86+",Unclassified / Potential Error
+"CD14+, CD16-, CD86+",Unclassified / Potential Error
+"CD14-, CD16+, CD86+",Unclassified / Potential Error
+"CD11c+, CD303-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD11c+, CD2-, CD303-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD11c+, CD2+, CD303-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD11c+, CD303-, CD86+, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD14+, HLA-DR+",Unclassified / Potential Error
+SLAN+,Unclassified / Potential Error
+"CD11c+, CD303-, CD86-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD14+, CD16-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD40+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, HLA-DR+, SLAN-",Unclassified / Potential Error
+"CD14+, CD16-, HLA-DR+, SLAN+",Unclassified / Potential Error
+"CD14+, CD16-, CX3CR1-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CX3CR1+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CD86-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CD86+, HLA-DR+",Unclassified / Potential Error
+"CD11b-, CD14+, CD16-, HLA-DR+",Unclassified / Potential Error
+"CD11b+, CD14+, CD16-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, HLA-DR+, SLAN-",Unclassified / Potential Error
+"CD14+, CD16+, HLA-DR+, SLAN+",Unclassified / Potential Error
+"CD14+, CD16+, CX3CR1-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CX3CR1+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CD86-, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CD86+, HLA-DR+",Unclassified / Potential Error
+"CD11b-, CD14+, CD16+, HLA-DR+",Unclassified / Potential Error
+"CD11b+, CD14+, CD16+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16-, CD62L+, HLA-DR+",Unclassified / Potential Error
+"CD11c+, CD303-, CD40-, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD14+, CD16-, CD62L-, HLA-DR+",Unclassified / Potential Error
+"CD11c+, CD303-, CD40+, HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD14+, CD16+, CD62L+, HLA-DR+",Unclassified / Potential Error
+"CD14+, CD16+, CD62L-, HLA-DR+",Unclassified / Potential Error
+"CD45+, singlet",Unclassified / Potential Error
+"HLA-DR+, Lin1-",Unclassified / Potential Error
+"CD14+, CX3CR1+, HLA-DR+",Unclassified / Potential Error
+"CD14+, SLAN+",Unclassified / Potential Error
