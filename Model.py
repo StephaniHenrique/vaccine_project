@@ -79,16 +79,16 @@ from sklearn.svm import SVC
 ### Standard font size in the Matplotlib graphs
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'J&J_TRAIN_HIBRID_VAL' #MUDAR
-script_path = 'New_Testing' #MUDAR
+exp_id = 'PUBLIC_TRAINING_CLUSTER' #MUDAR
+script_path = 'New_PUBLIC_DATA' #MUDAR
 
-input_folder = f'./Dataset/Private_dt'
-input_folder_public = f'./Dataset/Public_dt'
+input_folder = f'./'
+input_folder_public = f'./'
 
 output_folder = f'./Results/{script_path}/{exp_id}'
 
-dataset = 'TRAIN_combo_j&j_standard' #MUDAR
-dataset_validation = 'FCS_PUBLIC_HIBRID' #MUDAR
+dataset_validation = 'JM_combined_standard' #MUDAR
+dataset = 'FCS_PUBLIC_efeito_calculado' #MUDAR
 
 
 if not os.path.exists(output_folder):

@@ -1,0 +1,629 @@
+Intermediate_Population,Population Definition Reported,144,167,180,296,301,314,364,369,372,376,387,522,645
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6+, HLA-DR+",,,,,,,,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6+, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6-, HLA-DR+",,,,,,,,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6-, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6+, HLA-DR+",,,,,,,,,,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6+, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6+,HLA-DR+",,,,,,,,X,X,,,,
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6-, HLA-DR+",,,,,,,,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6-, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, HLA-DR+",,,,,,,,,,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, CXCR5-, CD45RA-,HLA-DR+",,,,,,,,X,X,,,,
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, HLA-DR+",,,,,,,,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD3+, CD4+, CD8-, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD4+ Helper T cells,"CD45+/CD3+/CD4/ICOS,Freq. of,CD4",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3+, CCR6+/ICOS+",,,,,,,,,,,X,,
+Activated CD4+ Helper T cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3+, CCR6-/ICOS+",,,,,,,,,,,X,,
+Activated CD4+ Helper T cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3-, CCR6+/ICOS+",,,,,,,,,,,X,,
+Activated CD4+ Helper T cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3-, CCR6-/ICOS+",,,,,,,,,,,X,,
+Activated CD4+ Helper T cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/ICOS+",,,,,,,,,,,X,,
+Activated CD4+ Helper T cells,Singlet/WBC/Lymph/CD3/CD4/ICOS+,,,,,,,,,,,X,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/ICOS+,Freq. of,CD3",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/1-17/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/1-17/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/1/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/1/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/17/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/17/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/2/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/2/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/ICOS+,Freq. of,TH",,,,X,X,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/CD38bri,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/DR,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/GranB,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Ki67,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q1: HLA-DR,, CD38+,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q2: HLA-DR+,, CD38+,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q3: HLA-DR+,, CD38,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q4: HLA-DR,, CD38,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q5: K1-67,, bcl2bri,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q6: K1-67+,, bcl2bri,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q7: K1-67+,, bcl2di,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"ly/CD3+/CD4+/Q8: K1-67,, bcl2di,Freq. of,CD4+",,,X,,,,,,,,,,
+Activated CD4+ Helper T cells,"sing/CD45+/CD3+/CD4/ICOS,Freq. of,CD4",,,X,,,,,,,,,,
+Activated CD8+ T cells,"CD3+, CD4-, CD8+, HLA-DR+",,,,,,,,X,X,X,,,X
+Activated CD8+ T cells,"CD3+, CD4-, CD8+, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated CD8+ T cells,"CD45+/CD3+/CD8/ICOS,Freq. of,CD8",,,X,,,,,,,,,,
+Activated CD8+ T cells,Singlet/WBC/Lymph/CD3/CD8/ICOS+,,,,,,,,,,,X,,
+Activated CD8+ T cells,"Singlets/WBC/Lymph/CD3/CD8/DR,Freq. of,CD8",,,,X,X,,,,,,,,
+Activated CD8+ T cells,"Singlets/WBC/Lymph/CD3/CD8/ICOS+,Freq. of,CD8",,,,X,X,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/CD38bri,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/DR,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/GranB,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/Ki67,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/Q1: HLA-DR,, CD38+,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/Q2: HLA-DR+,, CD38+,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/Q3: HLA-DR+,, CD38,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/Q6: K1-67+,, bcl2bri,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"ly/CD3+/CD8+/Q7: K1-67+,, bcl2di,Freq. of,CD8+",,,X,,,,,,,,,,
+Activated CD8+ T cells,"sing/CD45+/CD3+/CD8/ICOS,Freq. of,CD8",,,X,,,,,,,,,,
+Activated CD8+ T cells,"sing/CD45+/CD3+/CD8/Teff,Freq. of,CD8",,,X,,,,,,,,,,
+Activated Classical Monocytes,"CD14+, HLA-DR+, CD16-, CD86+",X,,,,,,X,X,X,X,,,X
+Activated Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, CD86+",,,,,,,,,,,X,,
+Activated Classical Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16-/CD40+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Activated Classical Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16-/CD86+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Activated Classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16-/CD40+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Activated Classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16-/CD86+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Activated Double Negative B cells,"CD19+, CD3-, CD14-, CD27-, IgD-, CD86+",X,,,,,,X,X,X,X,,,
+Activated Double Negative B cells,"CD19+, CD3-, CD14-, CD27-, IgD-, HLADR+",,,,,,,,,,,,,X
+Activated Double Negative B cells,"Singlet/WBC/Lymph/CD19/CD27-, IgD-/CD86+",,,,,,,,,,,X,,
+Activated Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CD86+",X,,,,,,X,X,X,X,,,X
+Activated Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, CD86+",,,,,,,,,,,X,,
+Activated Intermediate Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16+/CD40+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Activated Intermediate Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16+/CD86+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Activated Intermediate Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD40+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Activated Intermediate Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD86+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Activated Non-classical Monocytes,"WBC/2-WBC/lymono/monos/CD14dimCD16+/CD40+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Activated Non-classical Monocytes,"WBC/2-WBC/lymono/monos/CD14dimCD16+/CD86+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Activated Non-classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+/CD40+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Activated Non-classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+/CD86+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Activated Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD20-, CD86+",X,,,,,,X,X,X,X,,,
+Activated Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD20-, HLADR+",,,,,,,,,,,,,X
+Activated Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD27+, CD138+, CD86+",X,,,,,,X,X,X,X,,,
+Activated Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD27+, CD138+, HLADR+",,,,,,,,,,,,,X
+Activated Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD38+, CD20-, CD86+",X,,,,,,X,X,X,X,,,
+Activated Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD38+, CD20-, HLADR+",,,,,,,,,,,,,X
+Activated Plasmablasts / Plasma cells,"Singlet/WBC/Lymph/CD19/CD19+, CD20-/CD86+",,,,,,,,,,,X,,
+Activated Plasmablasts / Plasma cells,Singlet/WBC/Lymph/CD19/CD27+/CD138+/CD86+,,,,,,,,,,,X,,
+Activated Plasmablasts / Plasma cells,"Singlet/WBC/Lymph/CD19/CD38+, CD20-/CD86+",,,,,,,,,,,X,,
+Activated Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/CD27/CD138/CD86,Freq. of Parent",,,,X,X,,,,,,,,
+Activated Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/CD27/PB/CD86,Freq. of Parent",,,,X,X,,,,,,,,
+Activated Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/Q2: CD19+,, CD20-CD56+/CD86,Freq. of Parent",,,,X,X,,,,,,,,
+Activated Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/Q3: CD19+,, CD20-CD56/CD86,Freq. of Parent",,,,X,X,,,,,,,,
+Activated T cells,"CD3+, HLA-DR+",,,,,,,,X,X,X,,,X
+Activated T cells,"CD3+, ICOS+",X,,,,,,X,X,X,X,,,X
+Activated T cells,Singlet/WBC/Lymph/CD3/ICOS+,,,,,,,,,,,X,,
+Activated T cells,"Singlets/WBC/Lymph/CD3+/CD38,Freq. of Parent",,,,X,X,,,,,,,,
+Activated T cells,"Singlets/WBC/Lymph/CD3/DR,Freq. of Parent",,,,X,X,,,,,,,,
+Activated T cells,"Singlets/WBC/Lymph/CD3/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+Activated Transitional B cells,"CD19+, CD3-, CD14-, CD38+, CD24+, CD86+",X,,,,,,X,X,X,X,,,
+Activated Transitional B cells,"CD19+, CD3-, CD14-, CD38+, CD24+, HLADR+",,,,,,,,,,,,,X
+Activated Transitional B cells,"Singlet/WBC/Lymph/CD19/CD38+, CD24+/CD86+",,,,,,,,,,,X,,
+Activated Unspecified B cells,"CD19+, CD3-, CD14-, CD20+, CD86+",X,,,,,,X,X,X,X,,,
+Activated Unspecified B cells,"CD19+, CD3-, CD14-, CD20+, HLADR+",,,,,,,,,,,,,X
+Activated Unspecified B cells,"CD19+, CD3-, CD14-, CD86+",X,,,,,,X,X,X,X,,,
+Activated Unspecified B cells,"Singlet/WBC/Lymph/CD19/CD19+, CD20+/CD86+",,,,,,,,,,,X,,
+Activated Unspecified B cells,Singlet/WBC/Lymph/CD19/CD86+,,,,,,,,,,,X,,
+Activated Unspecified B cells,"Singlets/WBC/Lymph/CD19/CD86,Freq. of,CD19",,,,X,X,,,,,,,,
+Activated pDCs,"Lin1-, HLA-DR+, BDCA2+, CD11c-, CD40+",,,,,,,,X,X,X,,,X
+Activated pDCs,"Lin1-, HLA-DR+, BDCA2+, CD11c-, CD86+",X,,,,,,X,X,X,X,,,X
+Activated pDCs,"Singlet/WBC/Lymo/Lin1-DR+/BDCA2+, CD11c-/CD86+",,,,,,,,,,,X,,
+Activated pDCs,"Singlets/WBC/Lymph/Lin1-DR+/pDC/CD40+,Freq. of,pDC",,,,X,X,,,,,,,,
+Activated pDCs,"Singlets/WBC/Lymph/Lin1-DR+/pDC/CD86+,Freq. of,pDC",,,,X,X,,,,,,,,
+CD2 Functional pDC Subsets,"Lin1-, HLA-DR+, BDCA2+, CD11c-, CD2+",X,,,,,,X,X,X,X,,,X
+CD2 Functional pDC Subsets,"Lin1-, HLA-DR+, BDCA2+, CD11c-, CD2-",X,,,,,,X,X,X,X,,,X
+CD2 Functional pDC Subsets,"Singlet/WBC/Lymo/Lin1-DR+/BDCA2+, CD11c-/CD2+",,,,,,,,,,,X,,
+CD2 Functional pDC Subsets,"Singlet/WBC/Lymo/Lin1-DR+/BDCA2+, CD11c-/CD2-",,,,,,,,,,,X,,
+CD2 Functional pDC Subsets,"Singlets/WBC/Lymph/Lin1-DR+/pDC/CD2+,Freq. of,pDC",,,,X,X,,,,,,,,
+CD2 Functional pDC Subsets,"Singlets/WBC/Lymph/Lin1-DR+/pDC/CD2,Freq. of Parent",,,,X,X,,,,,,,,
+CD2 Functional pDC Subsets,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+/CD2+,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH,Freq. of,CD4",,,,X,X,,,,,,,,
+CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/1,Freq. of,TH",,,,X,X,,,,,,,,
+CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/1-17,Freq. of,TH",,,,X,X,,,,,,,,
+CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/17,Freq. of,TH",,,,X,X,,,,,,,,
+CD4+ Helper T cells,"Singlets/WBC/Lymph/CD3/CD4/TH/2,Freq. of,TH",,,,X,X,,,,,,,,
+CD4+ T cells (Other),CD3+ AND CD4+ AND small lymphocyte,,X,,,,,,,,,,,
+CD4+ T cells (Other),"CD3+, CD4+",X,,,,,,,,,,,,
+CD4+ T cells (Other),"CD3+, CD4+, CD8-",X,,,,,,X,X,X,X,,,X
+CD4+ T cells (Other),"CD45+/CD3+/CD4,Freq. of,CD45+",,,X,,,,,,,,,,
+CD4+ T cells (Other),"CD45+/CD3+/CD4/Teff,Freq. of,CD4",,,X,,,,,,,,,,
+CD4+ T cells (Other),Singlet/WBC/Lymph/CD3/CD4,,,,,,,,,,,X,,
+CD4+ T cells (Other),"Singlets/WBC/Lymph/CD3/CD4,Freq. of,CD3",,,,X,X,,,,,,,,
+CD4+ T cells (Other),"ly/CD3+/CD4+,Freq. of,ly",,,X,,,,,,,,,,
+CD4+ T cells (Other),"ly/CD3+/CD4+/bcl2,Freq. of,CD4+",,,X,,,,,,,,,,
+CD4+ T cells (Other),"sing/CD45+/CD3+/CD4+,Freq. of,CD45+",,,X,,,,,,,,,,
+CD4+ T cells (Other),"sing/CD45+/CD3+/CD4,Freq. of,CD45+",,,X,,,,,,,,,,
+CD4+ T cells (Other),"sing/CD45+/CD3+/CD4/Teff,Freq. of,CD4",,,X,,,,,,,,,,
+CD8+ Regularoty T cells (CD8+ Treg),"ly/CD3+/CD8+/CD25+,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ Regularoty T cells (CD8+ Treg),"ly/CD3+/CD8+/CTLA4+,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ Regularoty T cells (CD8+ Treg),"ly/CD3+/CD8+/FoxP3+,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ T cells (Other),CD3+ AND CD8+ AND small lymphocyte,,X,,,,,,,,,,,
+CD8+ T cells (Other),"CD3+, CD4-, CD8+",X,,,,,,X,X,X,X,,,X
+CD8+ T cells (Other),"CD3+, CD8+",X,,,,,,,,,,,,
+CD8+ T cells (Other),"CD45+/CD3+/CD8,Freq. of,CD45+",,,X,,,,,,,,,,
+CD8+ T cells (Other),Singlet/WBC/Lymph/CD3/CD8,,,,,,,,,,,X,,
+CD8+ T cells (Other),"Singlets/WBC/Lymph/CD3/CD8,Freq. of,CD3",,,,X,X,,,,,,,,
+CD8+ T cells (Other),"ly/CD3+/CD8+,Freq. of,ly",,,X,,,,,,,,,,
+CD8+ T cells (Other),"ly/CD3+/CD8+/Q4: HLA-DR,, CD38,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ T cells (Other),"ly/CD3+/CD8+/Q5: K1-67,, bcl2bri,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ T cells (Other),"ly/CD3+/CD8+/Q8: K1-67,, bcl2di,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ T cells (Other),"ly/CD3+/CD8+/bcl2,Freq. of,CD8+",,,X,,,,,,,,,,
+CD8+ T cells (Other),"sing/CD45+/CD3+/CD8,Freq. of,CD45+",,,X,,,,,,,,,,
+Central Memory CD4+ T cells (TCM),"CD3+, CD4+, CCR7+, CD45RA-",X,,,,,,,,,,,,
+Central Memory CD4+ T cells (TCM),"CD45+/CD3+/CD4/CM,Freq. of,CD4",,,X,,,,,,,,,,
+Central Memory CD4+ T cells (TCM),"ly/CD3+/CD4+/Q9: CD45RA,, CCR7+,Freq. of,CD4+",,,X,,,,,,,,,,
+Central Memory CD4+ T cells (TCM),"sing/CD45+/CD3+/CD4/CM,Freq. of,CD4",,,X,,,,,,,,,,
+Central Memory CD8+ T cells (TCM),"CD3+, CD8+, CCR7+, CD45RA-",X,,,,,,,,,,,,
+Central Memory CD8+ T cells (TCM),"ly/CD3+/CD8+/Q9: CD45RA,, CCR7+,Freq. of,CD8+",,,X,,,,,,,,,,
+Central Memory CD8+ T cells (TCM),"sing/CD45+/CD3+/CD8/CM,Freq. of,CD8",,,X,,,,,,,,,,
+Classical Monocytes,"CD14+, HLA-DR+, CD16-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CD11b+",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CD11b-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CD62L+",,,,,,,,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CD62L-",,,,,,,,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CD86-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CX3CR1+",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, CX3CR1-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, SLAN+",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DR+, CD16-, SLAN-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DRhi, CD16-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14+, HLA-DRlo, CD16-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"CD14lo, HLA-DR+, CD16-",X,,,,,,X,X,X,X,,,X
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD14+, CD16-",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, CD11b+",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, CD11b-",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, CD86-",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, CX3CR1+",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, CX3CR1-",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, HLADR+",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, HLADR-",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, SLAN+",,,,,,,,,,,X,,
+Classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16-, SLAN-",,,,,,,,,,,X,,
+Classical Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16-,Freq. of,monos",,,X,,,,,,,,,,
+Classical Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16-/CD11b+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Classical Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16-/CD62L+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16-,Freq. of,2-CD14+",,,X,,,,,,,,,,
+Classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16-/CD11b+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16-/CD62L+,Freq. of,CD14+CD16-",,,X,,,,,,,,,,
+Dendritic Cells (Pan-DC),"Lin1-, HLA-DR+",X,,,,,,,,,,,,
+Double Negative (DN) / Atypical B cells,"CD19+, CD3-, CD14-, CD27-, IgD-",X,,,,,,X,X,X,X,,,X
+Double Negative (DN) / Atypical B cells,"Singlet/WBC/Lymph/CD19/CD27-, IgD-",,,,,,,,,,,X,,
+Double Negative (DN) / Atypical B cells,"sing/WBC/CD19+SCC/CD19+/nQ4: CD27-,, IgD-,Freq. of,CD19+",,,X,,,,,,,,,,
+Effector Memory CD4+ (TEM),"CD3+, CD4+, CCR7-, CD45RA-",X,,,,,,,,,,,,
+Effector Memory CD4+ (TEM),"CD45+/CD3+/CD4/EM,Freq. of,CD4",,,X,,,,,,,,,,
+Effector Memory CD4+ (TEM),"ly/CD3+/CD4+/Q12: CD45RA,, CCR7,Freq. of,CD4+",,,X,,,,,,,,,,
+Effector Memory CD4+ (TEM),"sing/CD45+/CD3+/CD4/EM,Freq. of,CD4",,,X,,,,,,,,,,
+Effector Memory CD8+ (TEM),"CD3+, CD8+, CCR7-, CD45RA-",X,,,,,,,,,,,,
+Effector Memory CD8+ (TEM),"ly/CD3+/CD8+/Q12: CD45RA,, CCR7,Freq. of,CD8+",,,X,,,,,,,,,,
+Effector Memory CD8+ (TEM),"sing/CD45+/CD3+/CD8/EM,Freq. of,CD8",,,X,,,,,,,,,,
+Granulocytes,CD16+ neutrophil,X,,,,,,,,,,,,
+Granulocytes,Singlet/WBC/Neutro,,,,,,,,,,,X,,
+Granulocytes,Singlet/WBC/Neutro/CD16+,,,,,,,,,,,X,,
+Granulocytes,Singlet/WBC/Neutro/CD16-,,,,,,,,,,,X,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr,Freq. of,2-WBC",,,X,,,,,,,,,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q1: CD16,, CD11b+,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q2: CD16+,, CD11b+,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q2: CD16+,, CD11b+/CD62L+,Freq. of,Q2: CD16+, CD11b+",,,X,,,,,,,,,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q2: CD16+,, CD11b+/CD62L-,Freq. of,Q2: CD16+, CD11b+",,,X,,,,,,,,,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q3: CD16+,, CD11b,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q4: CD16,, CD11b,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"sing/WBC/2-WBC/2-grans/Neu-CD45/Neutr,Freq. of,2-WBC",,,X,,,,,,,,,,
+Granulocytes,"sing/WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q1: CD16-,, CD11b+,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"sing/WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q2: CD16+,, CD11b+,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"sing/WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q3: CD16+,, CD11b-,Freq. of,Neutr",,,X,,,,,,,,,,
+Granulocytes,"sing/WBC/2-WBC/2-grans/Neu-CD45/Neutr/Q4: CD16-,, CD11b-,Freq. of,Neutr",,,X,,,,,,,,,,
+Inactive pDCs,"Lin1-, HLA-DR+, BDCA2+, CD11c-, CD40-",,,,,,,,X,X,X,,,X
+Inactive pDCs,"Lin1-, HLA-DR+, BDCA2+, CD11c-, CD86-",X,,,,,,X,X,X,X,,,X
+Inactive pDCs,"Singlet/WBC/Lymo/Lin1-DR+/BDCA2+, CD11c-/CD86-",,,,,,,,,,,X,,
+Inactive pDCs,"Singlets/WBC/Lymph/Lin1-DR+/pDC/CD40-,Freq. of Parent",,,,X,X,,,,,,,,
+Inactive pDCs,"Singlets/WBC/Lymph/Lin1-DR+/pDC/CD86-,Freq. of Parent",,,,X,X,,,,,,,,
+Leukocytes (Unspecified),"Singlet/CD45+,Count",X,,,,,,,,,,,X,
+Memory B cells,"CD19+, CD3-, CD14-, CD27+, IgD-",X,,,,,,X,X,X,X,,,X
+Memory B cells,"CD19+, CD3-, CD14-, CD27+, IgD-, CD86+",X,,,,,,X,X,X,X,,,
+Memory B cells,"CD19+, CD3-, CD14-, CD27+, IgD-, HLADR+",,,,,,,,,,,,,X
+Memory B cells,"Singlet/CD45+/B lym CD19+/Q2: CD19+,, CD20+/CD27+,, IgD-,Freq. of,Q2: CD19+, CD20+",X,,,,,,,,,,,X,
+Memory B cells,"Singlet/WBC/Lymph/CD19/CD27+, IgD-",,,,,,,,,,,X,,
+Memory B cells,"Singlet/WBC/Lymph/CD19/CD27+, IgD-/CD86+",,,,,,,,,,,X,,
+Memory B cells,"WBC/CD19+SCC/CD19+/nQ3: CD27+,, IgD,Freq. of,CD19+",,,X,,,,,,,,,,
+Memory B cells,"sing/WBC/CD19+SCC/CD19+/nQ3: CD27+,, IgD-,Freq. of,CD19+",,,X,,,,,,,,,,
+Memory CD4+ T cells (Other),"CD3+, CD4+, CD8-, CXCR5-, CD45RA-",X,,,,,,X,X,X,X,,,X
+Memory CD4+ T cells (Other),"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6+",X,,,,,,X,X,X,X,,,X
+Memory CD4+ T cells (Other),"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3+, CCR6-",X,,,,,,X,X,X,X,,,X
+Memory CD4+ T cells (Other),"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6+",X,,,,,,X,X,X,X,,,X
+Memory CD4+ T cells (Other),"CD3+, CD4+, CD8-, CXCR5-, CD45RA-, CXCR3-, CCR6-",X,,,,,,X,X,X,X,,,X
+Memory CD4+ T cells (Other),"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-",,,,,,,,,,,X,,
+Memory CD4+ T cells (Other),"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3+, CCR6+",,,,,,,,,,,X,,
+Memory CD4+ T cells (Other),"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3+, CCR6-",,,,,,,,,,,X,,
+Memory CD4+ T cells (Other),"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3-, CCR6+",,,,,,,,,,,X,,
+Memory CD4+ T cells (Other),"Singlet/WBC/Lymph/CD3/CD4/CXCR5-, CD45RA-/CXCR3-, CCR6-",,,,,,,,,,,X,,
+Memory CD8+ T cells (Other),"CD3+, CD4-, CD8+, CCR6+",X,,,,,,X,X,X,X,,,X
+Memory CD8+ T cells (Other),"CD3+, CD4-, CD8+, CXCR3+",X,,,,,,X,X,X,X,,,X
+Memory CD8+ T cells (Other),"CD3+, CD4-, CD8+, CXCR5+",X,,,,,,X,X,X,X,,,X
+Memory CD8+ T cells (Other),Singlet/WBC/Lymph/CD3/CD8/CCR6+,,,,,,,,,,,X,,
+Memory CD8+ T cells (Other),Singlet/WBC/Lymph/CD3/CD8/CXCR3+,,,,,,,,,,,X,,
+Memory CD8+ T cells (Other),Singlet/WBC/Lymph/CD3/CD8/CXCR5+,,,,,,,,,,,X,,
+Memory CD8+ T cells (Other),"Singlets/WBC/Lymph/CD3/CD8/CCR6,Freq. of,CD8",,,,X,X,,,,,,,,
+Memory CD8+ T cells (Other),"Singlets/WBC/Lymph/CD3/CD8/CXCR3,Freq. of,CD8",,,,X,X,,,,,,,,
+Memory CD8+ T cells (Other),"Singlets/WBC/Lymph/CD3/CD8/CXCR5,Freq. of,CD8",,,,X,X,,,,,,,,
+Memory T cells,"Singlets/WBC/Lymph/CD3+/CD27,Freq. of Parent",,,,X,X,,,,,,,,
+Monocytes (Unspecified),"CD14+, HLA-DR+",X,,,,,,X,X,X,X,,,X
+Monocytes (Unspecified),"CD14+, HLADR+",X,,,,,,,,,,,,
+Monocytes (Unspecified),Singlet/WBC/Mono/CD14+/HLADR,,,,,,,,,,,X,,
+Monocytes (Unspecified),"Singlet/WBC/Mono/CD14+/HLADR/CD14-, CD16-",,,,,,,,,,,X,,
+Monocytes (Unspecified),"WBC/2-WBC/lymono/monos,Freq. of,2-WBC",,,X,,,,,,,,,,
+Monocytes (Unspecified),"WBC/2-WBC/lymono/monos/dn,Freq. of,monos",,,X,,,,,,,,,,
+Monocytes (Unspecified),"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/dn,Freq. of,2-CD14+",,,X,,,,,,,,,,
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD2+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD2-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD40+",,,,,,,,X,X,X,,,X
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD40-",,,,,,,,X,X,X,,,X
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD86+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs (Unspecified),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD86-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs (Unspecified),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+",,,,,,,,,,,X,,
+Myeloid DCs (Unspecified),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/CD2+",,,,,,,,,,,X,,
+Myeloid DCs (Unspecified),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/CD2-",,,,,,,,,,,X,,
+Myeloid DCs (Unspecified),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/CD86+",,,,,,,,,,,X,,
+Myeloid DCs (Unspecified),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/CD86-",,,,,,,,,,,X,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC,Freq. of,WBC",,,,X,X,,,,,,,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD2+,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD2,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD40+,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD40-,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD86+,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs (Unspecified),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD86-,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+, CD2+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+, CD2-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+, CD40+",,,,,,,,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+, CD40-",,,,,,,,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+, CD86+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3-, CD1c+, CD86-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 1 (mDC1),"Lin1-, HLA-DR+, BDCA2-, CD11c+, CD1c+",,,,,,,,,X,X,,,
+Myeloid DCs type 1 (mDC1),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3-, CD1c+",,,,,,,,,,,X,,
+Myeloid DCs type 1 (mDC1),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3-, CD1c+/CD2+",,,,,,,,,,,X,,
+Myeloid DCs type 1 (mDC1),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3-, CD1c+/CD2-",,,,,,,,,,,X,,
+Myeloid DCs type 1 (mDC1),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3-, CD1c+/CD86+",,,,,,,,,,,X,,
+Myeloid DCs type 1 (mDC1),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3-, CD1c+/CD86-",,,,,,,,,,,X,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c,Freq. of,WBC",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD2+,Freq. of,CD1c",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD2,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD40+,Freq. of,CD1c",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD40-,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD86+,Freq. of,CD1c",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"Singlets/WBC/Lymph/Lin1-DR+/mDC/CD1c/CD86-,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+,Freq. of,sWBC",,,X,,,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+/CD2+,Freq. of,Q1: BDCA-1+",,,X,,,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+/CD2-,Freq. of,Q1: BDCA-1+",,,X,,,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+/Q5: CD45RA,, CD4+,Freq. of,Q1: BDCA-1+",,,X,,,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+/Q6: CD45RA+,, CD4+,Freq. of,Q1: BDCA-1+",,,X,,,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+/Q7: CD45RA+,, CD4,Freq. of,Q1: BDCA-1+",,,X,,,,,,,,,,
+Myeloid DCs type 1 (mDC1),"sWBC/lymono/Lin2-Dr+/Q1: BDCA-1+/Q8: CD45RA,, CD4,Freq. of,Q1: BDCA-1+",,,X,,,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+",,,,,,,,,X,X,,,
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD2+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD2-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD40+",,,,,,,,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD40-",,,,,,,,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD86+",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Lin1-, HLA-DR+, BDCA2-, CD11c+, BDCA3+, CD1c-, CD86-",X,,,,,,X,X,X,X,,,X
+Myeloid DCs type 2 (mDC2),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3+, CD1c-",,,,,,,,,,,X,,
+Myeloid DCs type 2 (mDC2),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3+, CD1c-/CD2+",,,,,,,,,,,X,,
+Myeloid DCs type 2 (mDC2),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3+, CD1c-/CD2-",,,,,,,,,,,X,,
+Myeloid DCs type 2 (mDC2),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3+, CD1c-/CD86+",,,,,,,,,,,X,,
+Myeloid DCs type 2 (mDC2),"Singlet/WBC/Lymo/Lin1-DR+/BDCA2-, CD11c+/BDCA3+, CD1c-/CD86-",,,,,,,,,,,X,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3,Freq. of,WBC",,,,X,X,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD2+,Freq. of,BDCA3",,,,X,X,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD2,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD40+,Freq. of,BDCA3",,,,X,X,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD40-,Freq. of Parent",,,,X,X,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD86+,Freq. of,BDCA3",,,,X,X,,,,,,,,
+Myeloid DCs type 2 (mDC2),"Singlets/WBC/Lymph/Lin1-DR+/mDC/BDCA3/CD86-,Freq. of Parent",,,,X,X,,,,,,,,
+NK cells,"Lymp/CD3-/CD56br,Freq. of,Lymp",,,X,,,,,,,,,,
+NK cells,"Lymp/CD3-/CD56diCD16+,Freq. of,Lymp",,,X,,,,,,,,,,
+NK cells,"Lymp/CD3-/CD56diCD16-,Freq. of,Lymp",,,X,,,,,,,,,,
+NK cells,"Singlets/WBC/Lymph/CD3-/NK,Freq. of,Lymph",,,,X,X,,,,,,,,
+NK cells,"Singlets/WBC/Lymph/CD3-/NK/CD27,Freq. of Parent",,,,X,X,,,,,,,,
+NK cells,"Singlets/WBC/Lymph/CD3-/NK/CD38,Freq. of Parent",,,,X,X,,,,,,,,
+NK cells,"Singlets/WBC/Lymph/CD3-/NK/Q1: CD16,, CD20-CD56+,Freq. of,NK",,,,X,X,,,,,,,,
+NK cells,"Singlets/WBC/Lymph/CD3-/NK/Q2: CD16+,, CD20-CD56+,Freq. of,NK",,,,X,X,,,,,,,,
+NKT-like cells,"Singlets/WBC/Lymph/CD3+/CD56,Freq. of,CD3+",,,,X,X,,,,,,,,
+NKT-like cells,"Singlets/WBC/Lymph/CD3+/CD56/CD27,Freq. of Parent",,,,X,X,,,,,,,,
+NKT-like cells,"Singlets/WBC/Lymph/CD3+/CD56/CD38,Freq. of Parent",,,,X,X,,,,,,,,
+Naive B cells,"CD19+, CD3-, CD14-, CD27-, IgD+",X,,,,,,X,X,X,X,,,X
+Naive B cells,"CD19+, CD3-, CD14-, CD27-, IgD+, CD86+",X,,,,,,X,X,X,X,,,
+Naive B cells,"CD19+, CD3-, CD14-, CD27-, IgD+, HLADR+",,,,,,,,,,,,,X
+Naive B cells,"Singlet/CD45+/B lym CD19+/Q2: CD19+,, CD20+/CD27-,, IgD+,Freq. of,Q2: CD19+, CD20+",X,,,,,,,,,,,X,
+Naive B cells,"Singlet/WBC/Lymph/CD19/CD27-, IgD+",,,,,,,,,,,X,,
+Naive B cells,"Singlet/WBC/Lymph/CD19/CD27-, IgD+/CD86+",,,,,,,,,,,X,,
+Naive B cells,"sing/WBC/CD19+SCC/CD19+/nQ1: CD27-,, IgD+,Freq. of,CD19+",,,X,,,,,,,,,,
+Naive CD4+ T cells,"CD3+, CD4+, CCR7+, CD45RA+",X,,,,,,,,,,,,
+Naive CD4+ T cells,"CD45+/CD3+/CD4/Naive,Freq. of,CD4",,,X,,,,,,,,,,
+Naive CD4+ T cells,"ly/CD3+/CD4+/Q10: CD45RA+,, CCR7+,Freq. of,CD4+",,,X,,,,,,,,,,
+Naive CD4+ T cells,"sing/CD45+/CD3+/CD4/Naive,Freq. of,CD4",,,X,,,,,,,,,,
+Naive CD8+ T cells,"CD3+, CD8+, CCR7+, CD45RA+",X,,,,,,,,,,,,
+Naive CD8+ T cells,"ly/CD3+/CD8+/Q10: CD45RA+,, CCR7+,Freq. of,CD8+",,,X,,,,,,,,,,
+Naive CD8+ T cells,"sing/CD45+/CD3+/CD8/Naive,Freq. of,CD8",,,X,,,,,,,,,,
+Non-classical Monocytes,SLAN+,X,,,,,,X,X,X,X,,,X
+Non-classical Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD14-, CD16+",,,,,,,,,,,X,,
+Non-classical Monocytes,Singlet/WBC/Mono/SLAN+,,,,,,,,,,,X,,
+Non-classical Monocytes,"Singlets/WBC/mono/CD3-CD19-/mo2/mo3/Q1: CD14,, CD16+,Freq. of,mo3",,,,X,X,,,,,,,,
+Non-classical Monocytes,"WBC/2-WBC/lymono/monos/CD14dimCD16+,Freq. of,monos",,,X,,,,,,,,,,
+Non-classical Monocytes,"WBC/2-WBC/lymono/monos/CD14dimCD16+/CD11b+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Non-classical Monocytes,"WBC/2-WBC/lymono/monos/CD14dimCD16+/CD62L+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Non-classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+,Freq. of,2-CD14+",,,X,,,,,,,,,,
+Non-classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+/CD11b+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Non-classical Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14dimCD16+/CD62L+,Freq. of,CD14dimCD16+",,,X,,,,,,,,,,
+Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD20-",X,,,,,,X,X,X,X,,,X
+Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD27+, CD138+",X,,,,,,X,X,X,X,,,X
+Plasmablasts / Plasma cells,"CD19+, CD3-, CD14-, CD38+, CD20-",X,,,,,,X,X,X,X,,,X
+Plasmablasts / Plasma cells,"Singlet/CD45+/B lym CD19+/Q3: CD19+, CD20-/B lym CD27+,Freq. of,Q3: CD19+, CD20-",X,,,,,,,,,,,X,
+Plasmablasts / Plasma cells,"Singlet/CD45+/B lym CD19+/Q3: CD19+, CD20-/B lym CD27+/CD38+,Freq. of,Q3: CD19+, CD20-",X,,,,,,,,,,,X,
+Plasmablasts / Plasma cells,"Singlet/CD45+/B lym CD19+/Q3: CD19+, CD20-/B lym CD27+/CD38+/CD138+,Freq. of,B lym CD27+",X,,,,,,,,,,,X,
+Plasmablasts / Plasma cells,"Singlet/CD45+/B lym CD19+/Q3: CD19+,, CD20-,Freq. of,B lym CD19+",X,,,,,,,,,,,X,
+Plasmablasts / Plasma cells,"Singlet/WBC/Lymph/CD19/CD19+, CD20-",,,,,,,,,,,X,,
+Plasmablasts / Plasma cells,Singlet/WBC/Lymph/CD19/CD27+/CD138+,,,,,,,,,,,X,,
+Plasmablasts / Plasma cells,"Singlet/WBC/Lymph/CD19/CD38+, CD20-",,,,,,,,,,,X,,
+Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/CD27/CD138,Freq. of,CD19",,,,X,X,,,,,,,,
+Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/CD27/PB,Freq. of,CD19",,,,X,X,,,,,,,,
+Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/Q2: CD19+,, CD20-CD56+,Freq. of,CD19",,,,X,X,,,,,,,,
+Plasmablasts / Plasma cells,"Singlets/WBC/Lymph/CD19/Q3: CD19+,, CD20-CD56,Freq. of,CD19",,,,X,X,,,,,,,,
+Plasmablasts / Plasma cells,Sum of Plasma cells and Plasmablast,X,,,,,,,,,,,X,
+Plasmablasts / Plasma cells,"WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD27+/nPlasmablast,Freq. of,CD19+",,,X,,,,,,,,,,
+Plasmablasts / Plasma cells,"WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD27+/nPlasmacell,Freq. of,CD19+",,,X,,,,,,,,,,
+Plasmablasts / Plasma cells,"sing/WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD27+/Plasmacell,Freq. of,CD19+",,,X,,,,,,,,,,
+Plasmablasts / Plasma cells,"sing/WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD27+/nPlasmablast,Freq. of,CD19+",,,X,,,,,,,,,,
+Plasmablasts / Plasma cells,"sing/WBC/CD19+SCC/CD19+/nQ3: CD19+,, CD20-,Freq. of,CD19+",,,X,,,,,,,,,,
+Regulatory T cells (CD4+ Treg),"ly/CD3+/CD4+/CD25+,Freq. of,CD4+",,,X,,,,,,,,,,
+Regulatory T cells (CD4+ Treg),"ly/CD3+/CD4+/CTLA4+,Freq. of,CD4+",,,X,,,,,,,,,,
+Regulatory T cells (CD4+ Treg),"ly/CD3+/CD4+/FoxP3+,Freq. of,CD4+",,,X,,,,,,,,,,
+Regulatory T cells (CD4+ Treg),"sing/CD45+/CD3+/CD4+/CD127loCD25+,Freq. of,CD4+",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD14+, HLA-DR+, CD40+",X,,,,,,X,X,X,X,,,X
+Sem Categoria Macro,"CD14+, HLA-DR+, CX3CR1hi",X,,,,,,,,,,,,
+Sem Categoria Macro,"CD14+, HLA-DR+, CX3CR1lo",X,,,,,,,,,,,,
+Sem Categoria Macro,"CD14+, SLAN+",X,,,,,,,,,,,,
+Sem Categoria Macro,CD14nCD16n_CD86_pP,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD14nCD16n_pmo,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD14nCD16p_CD86_pP,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD14pCD16n_CD86_pP,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD14pCD16n_pmo,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD14pCD16p_CD86_pP,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD14pCD16p_pmo,,,,X,X,,,,,,,,
+Sem Categoria Macro,CD16+ granulocyte,X,,,,,,X,X,X,X,,,X
+Sem Categoria Macro,"CD16+, CD62L- granulocyte",,,,,,,,X,X,X,,,X
+Sem Categoria Macro,CD16- granulocyte,X,,,,,,X,X,X,X,,,X
+Sem Categoria Macro,"CD16hi, CD11b+ granulocyte",,,,,,,,,X,X,,,X
+Sem Categoria Macro,"CD16hi, CD11b- granulocyte",,,,,,,,,X,X,,,X
+Sem Categoria Macro,"CD16lo, CD11b+ granulocyte",,,,,,,,,X,X,,,X
+Sem Categoria Macro,"CD16lo, CD11b- granulocyte",,,,,,,,,X,X,,,X
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH,Freq. of,CD4",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH/1,Freq. of,CD4",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH/1/ICOS,Freq. of,1",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH/17/ICOS,Freq. of,17",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH/2/ICOS,Freq. of,2",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH/Q2: CCR6+,, CXCR3+,Freq. of,CD4",,,X,,,,,,,,,,
+Sem Categoria Macro,"CD45+/CD3+/CD4/non TFH/Q2: CCR6+,, CXCR3+/ICOS,Freq. of,Q2: CCR6+, CXCR3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"Lymp/CD3-/CD56-CD16+,Freq. of,Lymp",,,X,,,,,,,,,,
+Sem Categoria Macro,Singlet/WBC/Mono/CD14+/HLADR/CD40+,,,,,,,,,,,X,,
+Sem Categoria Macro,Viable,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymph,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymph/CD3+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymph/CD3+/CD4+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymph/CD3+/CD8+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD3+ CD56+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD4+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD4+/CD27+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD4+/CD28+,,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD4+/Q1: CD45RAD, CD27+",,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD4+/Q2: CD45RA+, CD27+",,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD4+/Q3: CD45RA+, CD27D",,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD4+/Q4: CD45RAD, CD27D",,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD8+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD8+/CD27+,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/CD8+/CD28+,,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD8+/Q1: CD45RAD, CD27+",,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD8+/Q3: CD45RA+, CD27D",,,,,,X,,,,,,,
+Sem Categoria Macro,"Viable/Singlets/Lymphs/CD3+/CD8+/Q4: CD45RAD, CD27D",,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3+/TCRgd,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3-,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Lymphs/CD3-/B cells,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Monocytes,,,,,,X,,,,,,,
+Sem Categoria Macro,Viable/Singlets/Monocytes/CD33+,,,,,,X,,,,,,,
+Sem Categoria Macro,"WBC/CD19+SCC/CD19+/nQ1: CD27,, IgD+,Freq. of,CD19+",,,X,,,,,,,,,,
+Sem Categoria Macro,"WBC/CD19+SCC/CD19+/nQ4: CD27,, IgD,Freq. of,CD19+",,,X,,,,,,,,,,
+Sem Categoria Macro,granulocyte,X,,,,,,X,X,X,X,,,X
+Sem Categoria Macro,"sWBC/lymono/Lin2-Dr+/CD11c+,Freq. of,sWBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sWBC/lymono/Lin2-Dr+/CD123+,Freq. of,sWBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+/CD2-,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+,Freq. of,sWBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/CD2+,Freq. of,Q1:BDCA-3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/CD2-,Freq. of,Q1:BDCA-3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q1: CD2-,, CD86+,Freq. of,Q1:BDCA-3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q2: CD2+,, CD86+,Freq. of,Q1:BDCA-3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q3: CD2+,, CD86-,Freq. of,Q1:BDCA-3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q1:BDCA-3+/Q4: CD2-,, CD86-,Freq. of,Q1:BDCA-3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+,Freq. of,sWBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/CD2+,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/CD2-,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q1: CD2-,, CD86+,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q2: CD2+,, CD86+,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q3: CD2+,, CD86-,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q3: BDCA-2+/Q4: CD2-,, CD86-,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+,Freq. of,sWBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/CD2+,Freq. of,CD1c+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/CD2-,Freq. of,CD1c+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q1: CD2-,, CD86+,Freq. of,CD1c+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q2: CD2+,, CD86+,Freq. of,CD1c+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q3: CD2+,, CD86-,Freq. of,CD1c+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing-F/sWBC/Lin2-DR+/minus grans-NK/Q4: BDCA-2-,, BDCA-3-/CD1c+/Q4: CD2-,, CD86-,Freq. of,CD1c+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH,Freq. of,CD4",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH/1,Freq. of,CD4",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH/1/ICOS,Freq. of,1",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH/17/ICOS,Freq. of,17",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH/2/ICOS,Freq. of,2",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH/Q2: CCR6+,, CXCR3+,Freq. of,CD4",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/CD45+/CD3+/CD4/non TFH/Q2: CCR6+,, CXCR3+/ICOS,Freq. of,Q2: CCR6+, CXCR3+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+,Freq. of,2-WBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+,Freq. of,WBC",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q10: Slan+,, CD86+,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q11: Slan+,, CD86-,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q14: Slan+,, CD14+,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q15: Slan+,, CD14-,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q2: Slan+,, CD11b+,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q3: Slan+,, CD11b-,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q6: Slan+,, CD2+,Freq. of,Slan+",,,X,,,,,,,,,,
+Sem Categoria Macro,"sing/WBC/lymono/Lin-DR+/Slan+/Q7: Slan+,, CD2-,Freq. of,Slan+",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6+, HLA-DR+",,,,,,,,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6+, ICOS+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6-",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6-, HLA-DR+",,,,,,,,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3+, CCR6-, ICOS+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3-, CCR6+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3-, CCR6+, HLA-DR+",,,,,,,,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3-, CCR6+, ICOS+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3-, CCR6-",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3-, CCR6-, HLA-DR+",,,,,,,,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, CXCR3-, CCR6-, ICOS+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, HLA-DR+",,,,,,,,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CD8-, CXCR5+, CD45RA-, ICOS+",X,,,,,,X,X,X,X,,,X
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, CXCR3+, CCR6-",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, CXCR3+, CCR6-, ICOS+",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, CXCR3-, CCR6+",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, CXCR3-, CCR6+, ICOS+",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, CXCR3-, CCR6-",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, CXCR3-, CCR6-, ICOS+",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD3+, CD4+, CXCR5+, CD45RA-, ICOS+",X,,,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH,Freq. of,CD4",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/1,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/1/ICOS,Freq. of,1",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/17,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/17/ICOS,Freq. of,17",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/2,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/2/ICOS,Freq. of,2",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/ICOS,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/Q2: CCR6+,, CXCR3+,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"CD45+/CD3+/CD4/TFH/Q2: CCR6+,, CXCR3+/ICOS,Freq. of,Q2: CCR6+, CXCR3+",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3+, CCR6+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3+, CCR6+/ICOS+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3+, CCR6-",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3+, CCR6-/ICOS+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3-, CCR6+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3-, CCR6+/ICOS+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3-, CCR6-",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/CXCR3-, CCR6-/ICOS+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlet/WBC/Lymph/CD3/CD4/CXCR5+, CD45RA-/ICOS+",,,,,,,,,,,X,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH,Freq. of,CD4",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/1,Freq. of,TFH",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/1-17,Freq. of,TFH",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/1-17/DR,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/1-17/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/1/DR,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/1/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/17,Freq. of,TFH",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/17/DR,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/17/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/2,Freq. of,TFH",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/2/DR,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/2/ICOS+,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/DR,Freq. of Parent",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"Singlets/WBC/Lymph/CD3/CD4/TFH/ICOS+,Freq. of,TFH",,,,X,X,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH,Freq. of,CD4",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/1,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/1/ICOS,Freq. of Parent",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/17,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/17/ICOS,Freq. of Parent",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/2,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/2/ICOS,Freq. of Parent",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/ICOS,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/Q2: CCR6+,, CXCR3+,Freq. of,TFH",,,X,,,,,,,,,,
+T follicular helper (Tfh) cells,"sing/CD45+/CD3+/CD4/TFH/Q2: CCR6+,, CXCR3+/ICOS,Freq. of,Q2: CCR6+, CXCR3+",,,X,,,,,,,,,,
+TEMRA CD4+ T cells,"CD3+, CD4+, CCR7-, CD45RA+",X,,,,,,,,,,,,
+TEMRA CD4+ T cells,"ly/CD3+/CD4+/Q11: CD45RA+,, CCR7,Freq. of,CD4+",,,X,,,,,,,,,,
+TEMRA CD8+ T cells,"CD3+, CD8+, CCR7-, CD45RA+",X,,,,,,,,,,,,
+TEMRA CD8+ T cells,"ly/CD3+/CD8+/Q11: CD45RA+,, CCR7,Freq. of,CD8+",,,X,,,,,,,,,,
+Total / Baseline pDCs,"Lin1-, HLA-DR+, BDCA2+, CD11c-",X,,,,,,X,X,X,X,,,X
+Total / Baseline pDCs,"Singlet/WBC/Lymo/Lin1-DR+/BDCA2+, CD11c-",,,,,,,,,,,X,,
+Total / Baseline pDCs,"Singlets/WBC/Lymph/Lin1-DR+/pDC,Freq. of,WBC",,,,X,X,,,,,,,,
+Total / Baseline pDCs,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+,Freq. of,sWBC",,,X,,,,,,,,,,
+Total / Baseline pDCs,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+/Q5: CD45RA,, CD4+,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Total / Baseline pDCs,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+/Q6: CD45RA+,, CD4+,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Total / Baseline pDCs,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+/Q7: CD45RA+,, CD4,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Total / Baseline pDCs,"sWBC/lymono/Lin2-Dr+/Q3: BDCA-2+/Q8: CD45RA,, CD4,Freq. of,Q3: BDCA-2+",,,X,,,,,,,,,,
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CD11b+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CD11b-",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CD62L+",,,,,,,,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CD62L-",,,,,,,,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CD86-",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CX3CR1+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, CX3CR1-",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, SLAN+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DR+, CD16+, SLAN-",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DRhi CD16+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14+, HLA-DRlo, CD16+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"CD14lo, HLA-DR+, CD16+",X,,,,,,X,X,X,X,,,X
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD14+, CD16+",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, CD11b+",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, CD11b-",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, CD86-",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, CX3CR1+",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, CX3CR1-",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, HLADR+",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, HLADR-",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, SLAN+",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlet/WBC/Mono/CD14+/HLADR/CD16+, SLAN-",,,,,,,,,,,X,,
+Total Intermediate Monocytes,"Singlets/WBC/mono/CD3-CD19-/mo2/mo3,Freq. of,WBC",,,,X,X,,,,,,,,
+Total Intermediate Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16+,Freq. of,monos",,,X,,,,,,,,,,
+Total Intermediate Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16+/CD11b+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Total Intermediate Monocytes,"WBC/2-WBC/lymono/monos/CD14+CD16+/CD62L+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Total Intermediate Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+,Freq. of,2-CD14+",,,X,,,,,,,,,,
+Total Intermediate Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD11b+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Total Intermediate Monocytes,"sing/WBC/2-WBC/2-mono/mo-CD86/2-CD14+/CD14+CD16+/CD62L+,Freq. of,CD14+CD16+",,,X,,,,,,,,,,
+Total T cells,CD3+,X,,,,,,X,X,X,X,,,X
+Total T cells,"CD45+/CD3+,Freq. of,CD45+",,,X,,,,,,,,,,
+Total T cells,Singlet/WBC/Lymph/CD3,,,,,,,,,,,X,,
+Total T cells,"Singlets/WBC/Lymph/CD3+,Freq. of,Lymph",,,,X,X,,,,,,,,
+Total T cells,"Singlets/WBC/Lymph/CD3,Freq. of,Lymph",,,,X,X,,,,,,,,
+Total T cells,"sing/CD45+/CD3+,Freq. of,CD45+",,,X,,,,,,,,,,
+Transitional B cells,"CD19+, CD3-, CD14-, CD38+, CD24+",X,,,,,,X,X,X,X,,,X
+Transitional B cells,"Singlet/CD45+/B lym CD19+/Q2: CD19+,, CD20+/CD24+,,CD38+,Freq. of,Q2: CD19+, CD20+",X,,,,,,,,,,,X,
+Transitional B cells,"Singlet/WBC/Lymph/CD19/CD38+, CD24+",,,,,,,,,,,X,,
+Transitional B cells,"WBC/CD19+SCC/CD19+/n transitional,Freq. of,CD19+",,,X,,,,,,,,,,
+Transitional B cells,"sing/WBC/CD19+SCC/CD19+/n transitional,Freq. of Parent",,,X,,,,,,,,,,
+Unspecified B cells,"CD19+, CD3-, CD14-",X,,,,,,X,X,X,X,,,X
+Unspecified B cells,"CD19+, CD3-, CD14-, CD20+",X,,,,,,X,X,X,X,,,X
+Unspecified B cells,"Singlet/CD45+/B lym CD19+,Freq. of,CD45+",X,,,,,,,,,,,X,
+Unspecified B cells,"Singlet/CD45+/B lym CD19+/Q2: CD19+,, CD20+,Freq. of,B lym CD19+",X,,,,,,,,,,,X,
+Unspecified B cells,Singlet/WBC/Lymph/CD19,,,,,,,,,,,X,,
+Unspecified B cells,"Singlet/WBC/Lymph/CD19/CD19+, CD20+",,,,,,,,,,,X,,
+Unspecified B cells,"Singlets/WBC/Lymph/CD19,Freq. of,Lymph",,,,X,X,,,,,,,,
+Unspecified B cells,"WBC/CD19+SCC/CD19+,Freq. of,WBC",,,X,,,,,,,,,,
+Unspecified B cells,"WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD20+,Freq. of,CD19+",,,X,,,,,,,,,,
+Unspecified B cells,"WBC/CD19+SCC/CD19+/nQ3: CD19+,, CD20,Freq. of,CD19+",,,X,,,,,,,,,,
+Unspecified B cells,"sing/WBC/CD19+SCC/CD19+,Freq. of,WBC",,,X,,,,,,,,,,
+Unspecified B cells,"sing/WBC/CD19+SCC/CD19+/nCD19hi,Freq. of,CD19+",,,X,,,,,,,,,,
+Unspecified B cells,"sing/WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD20+,Freq. of,CD19+",,,X,,,,,,,,,,
+Unswitched Memory B cells,"CD19+, CD3-, CD14-, CD27+",X,,,,,,X,X,X,X,,,X
+Unswitched Memory B cells,"CD19+, CD3-, CD14-, CD27+, HLADR+",,,,,,,,,,,,,X
+Unswitched Memory B cells,"CD19+, CD3-, CD14-, CD27+, IgD+",X,,,,,,X,X,X,X,,,X
+Unswitched Memory B cells,"CD19+, CD3-, CD14-, CD27+, IgD+, CD86+",X,,,,,,X,X,X,X,,,
+Unswitched Memory B cells,"CD19+, CD3-, CD14-, CD27+, IgD+, HLADR+",,,,,,,,,,,,,X
+Unswitched Memory B cells,Singlet/WBC/Lymph/CD19/CD27+,,,,,,,,,,,X,,
+Unswitched Memory B cells,"Singlet/WBC/Lymph/CD19/CD27+, IgD+",,,,,,,,,,,X,,
+Unswitched Memory B cells,"Singlet/WBC/Lymph/CD19/CD27+, IgD+/CD86+",,,,,,,,,,,X,,
+Unswitched Memory B cells,"Singlets/WBC/Lymph/CD19/CD27,Freq. of,CD19",,,,X,X,,,,,,,,
+Unswitched Memory B cells,"WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD27+,Freq. of,CD19+",,,X,,,,,,,,,,
+Unswitched Memory B cells,"WBC/CD19+SCC/CD19+/nQ2: CD27+,, IgD+,Freq. of,CD19+",,,X,,,,,,,,,,
+Unswitched Memory B cells,"sing/WBC/CD19+SCC/CD19+/nQ2: CD19+,, CD27+,Freq. of,CD19+",,,X,,,,,,,,,,
+Unswitched Memory B cells,"sing/WBC/CD19+SCC/CD19+/nQ2: CD27+,, IgD+,Freq. of,CD19+",,,X,,,,,,,,,,
