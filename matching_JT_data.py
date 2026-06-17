@@ -16,7 +16,7 @@ map_lungs = {
     'route of administration': 'Treatment',
     'tissues': 'Tissue',
     'Mouse number ': 'Mouse',
-    'Mouse dose': 'Timepoint',  # Usamos a dose como proxy para o tempo, já que não temos uma coluna de tempo explícita
+    'Mouse dose': 'Timepoint',  
     ' Target': 'Target',
     '% T conv (/ live CD45)': 'live.cd4tconv',
     '% Treg (/ CD4+ T cells)': 'cd4.treg',
@@ -32,18 +32,18 @@ map_spleen = {
     'route of administration': 'Treatment',
     'tissues': 'Tissue',
     'Mouse number ': 'Mouse',
-    'Mouse dose': 'Timepoint',  # Usamos a dose como proxy para o tempo, já que não temos uma coluna de tempo explícita
+    'Mouse dose': 'Timepoint',  
     ' Target': 'Target',
-    'Tconv (/ CD4 T cells)': 'live.cd4tconv',  # Frequência, mesmo sem o símbolo de %
+    'Tconv (/ CD4 T cells)': 'live.cd4tconv',  
     '% Treg (/CD4+ T cells)': 'cd4.treg',
     '% CD8 (/live CD45+ cells)': 'live.cd8',
-    'GrnzB (/ CD8 T cells)': 'CD8.GrzmB',        # Frequência
+    'GrnzB (/ CD8 T cells)': 'CD8.GrzmB',        
     '%dendritic cell (/live CD45+)': 'DC',
-    'monocytes (/live CD45+)': 'Mo0',            # Frequência
+    'monocytes (/live CD45+)': 'Mo0',            
     '% memory (/B cells)': 'B.memory',
     '% Plasma cells (/B cells)': 'B.plasma',
     '%macrophages (/ liveCD45+)': 'Macro',
-    'neutrophil (/ live CD45+)': 'Neutro',       # Frequência
+    'neutrophil (/ live CD45+)': 'Neutro',       
     '% NK (/ live CD45+)': 'NK'
 }
 
@@ -66,16 +66,18 @@ for col in julia_columns:
     if col not in df_spleen_harmonized.columns:
         df_spleen_harmonized[col] = pd.NA
 
-# Reordenar as colunas para o mesmo padrão da Julia
+
 df_lungs_harmonized = df_lungs_harmonized[julia_columns]
 df_spleen_harmonized = df_spleen_harmonized[julia_columns]
 
 df_final = pd.concat([df_lungs_harmonized, df_spleen_harmonized], ignore_index=True)
 
-# Visualizar o resultado
-print("Colunas integradas com sucesso. Shape do dataset final:", df_final.shape)
+
+print(df_final.shape)
 print(df_final.head())
 df_final.to_csv('Lungs_Spleen_harmonized.csv', index=False)
+
+#same process as matching_JM_data.py but with the new dataset
 
 group_cols = ['Experiment', 'Treatment', 'Tissue', 'Mouse']
 
@@ -97,16 +99,8 @@ for col in feature_cols:
     val_pre = pd.to_numeric(df_combined[f'{col}_pre'], errors='coerce')
     val_peak = pd.to_numeric(df_combined[f'{col}_peak'], errors='coerce')
 
-    # OPÇÃO 1: Subtração Simples (Descomente a linha abaixo se preferir usar subtração)
     # df_effect[col] = val_peak - val_pre
-    
-    # OPÇÃO 2: Log2 Fold Change (Recomendado para dados biológicos)
-    # Adicionamos um número muito pequeno (1e-5) para evitar divisão por zero ou log(0)
     df_effect[col] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
 
-# scaler = StandardScaler()
-# df_effect[feature_cols] = scaler.fit_transform(df_effect[feature_cols])
-
-print("Dataset com efeitos calculados:")
 print(df_effect.head())
 df_effect.to_csv('JT_no_standard.csv', index=False)

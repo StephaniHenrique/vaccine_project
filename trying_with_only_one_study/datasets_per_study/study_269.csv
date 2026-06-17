@@ -1,0 +1,163 @@
+Participant ID,Age Reported,Gender,Race,Cohort,Study Time Collected,Study Time Collected Unit,Plasmablast,Phenotype,Age Unit,Age Event,Ethnicity,Species,Description,Virus,HAI_Baseline,HAI_Peak,HAI_Rate,Study_ID
+SUB112829.269,26.0,Male,White,LAIV group 2008,7.0,Days,307.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,40.0,40.0,1.0,269
+SUB112829.269,26.0,Male,White,LAIV group 2008,7.0,Days,307.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,40.0,40.0,1.0,269
+SUB112829.269,26.0,Male,White,LAIV group 2008,7.0,Days,307.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,20.0,40.0,2.0,269
+SUB112831.269,40.0,Male,Black or African American,LAIV group 2008,7.0,Days,154.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112831.269,40.0,Male,Black or African American,LAIV group 2008,7.0,Days,154.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112831.269,40.0,Male,Black or African American,LAIV group 2008,7.0,Days,154.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112832.269,26.0,Male,White,TIV Group 2008,7.0,Days,108.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,20.0,20.0,1.0,269
+SUB112832.269,26.0,Male,White,TIV Group 2008,7.0,Days,108.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112832.269,26.0,Male,White,TIV Group 2008,7.0,Days,108.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112834.269,27.0,Male,White,TIV Group 2008,7.0,Days,323.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,160.0,32.0,269
+SUB112834.269,27.0,Male,White,TIV Group 2008,7.0,Days,323.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,80.0,16.0,269
+SUB112834.269,27.0,Male,White,TIV Group 2008,7.0,Days,323.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,40.0,8.0,269
+SUB112836.269,28.0,Female,White,LAIV group 2008,7.0,Days,70.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112836.269,28.0,Female,White,LAIV group 2008,7.0,Days,70.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112836.269,28.0,Female,White,LAIV group 2008,7.0,Days,70.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112838.269,39.0,Male,White,LAIV group 2008,7.0,Days,28.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112838.269,39.0,Male,White,LAIV group 2008,7.0,Days,28.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112838.269,39.0,Male,White,LAIV group 2008,7.0,Days,28.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112839.269,23.0,Female,White,LAIV group 2008,7.0,Days,60.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,320.0,320.0,1.0,269
+SUB112839.269,23.0,Female,White,LAIV group 2008,7.0,Days,60.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,10.0,20.0,2.0,269
+SUB112839.269,23.0,Female,White,LAIV group 2008,7.0,Days,60.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,10.0,20.0,2.0,269
+SUB112840.269,22.0,Female,White,LAIV group 2008,7.0,Days,221.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,20.0,5.0,0.25,269
+SUB112840.269,22.0,Female,White,LAIV group 2008,7.0,Days,221.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112840.269,22.0,Female,White,LAIV group 2008,7.0,Days,221.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,20.0,20.0,1.0,269
+SUB112841.269,28.0,Female,White,TIV Group 2008,7.0,Days,203.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,10.0,640.0,64.0,269
+SUB112841.269,28.0,Female,White,TIV Group 2008,7.0,Days,203.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,640.0,128.0,269
+SUB112841.269,28.0,Female,White,TIV Group 2008,7.0,Days,203.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,20.0,80.0,4.0,269
+SUB112842.269,28.0,Male,White,TIV Group 2008,7.0,Days,116.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,160.0,160.0,1.0,269
+SUB112842.269,28.0,Male,White,TIV Group 2008,7.0,Days,116.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,80.0,16.0,269
+SUB112842.269,28.0,Male,White,TIV Group 2008,7.0,Days,116.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,80.0,80.0,1.0,269
+SUB112844.269,29.0,Female,White,LAIV group 2008,7.0,Days,39.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112844.269,29.0,Female,White,LAIV group 2008,7.0,Days,39.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,20.0,4.0,269
+SUB112844.269,29.0,Female,White,LAIV group 2008,7.0,Days,39.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,20.0,20.0,1.0,269
+SUB112845.269,30.0,Female,White,TIV Group 2008,7.0,Days,311.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,20.0,4.0,269
+SUB112845.269,30.0,Female,White,TIV Group 2008,7.0,Days,311.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112845.269,30.0,Female,White,TIV Group 2008,7.0,Days,311.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112846.269,31.0,Female,White,TIV Group 2008,7.0,Days,37.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,20.0,20.0,1.0,269
+SUB112846.269,31.0,Female,White,TIV Group 2008,7.0,Days,37.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112846.269,31.0,Female,White,TIV Group 2008,7.0,Days,37.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112847.269,24.0,Male,White,TIV Group 2008,7.0,Days,455.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,320.0,320.0,1.0,269
+SUB112847.269,24.0,Male,White,TIV Group 2008,7.0,Days,455.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,80.0,320.0,4.0,269
+SUB112847.269,24.0,Male,White,TIV Group 2008,7.0,Days,455.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,320.0,320.0,1.0,269
+SUB112848.269,39.0,Female,White,TIV Group 2008,7.0,Days,10.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,640.0,640.0,1.0,269
+SUB112848.269,39.0,Female,White,TIV Group 2008,7.0,Days,10.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,80.0,16.0,269
+SUB112848.269,39.0,Female,White,TIV Group 2008,7.0,Days,10.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,80.0,160.0,2.0,269
+SUB112849.269,39.0,Female,Black or African American,LAIV group 2008,7.0,Days,74.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,80.0,80.0,1.0,269
+SUB112849.269,39.0,Female,Black or African American,LAIV group 2008,7.0,Days,74.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,10.0,10.0,1.0,269
+SUB112849.269,39.0,Female,Black or African American,LAIV group 2008,7.0,Days,74.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112850.269,41.0,Male,White,LAIV group 2008,7.0,Days,268.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112850.269,41.0,Male,White,LAIV group 2008,7.0,Days,268.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,10.0,10.0,1.0,269
+SUB112850.269,41.0,Male,White,LAIV group 2008,7.0,Days,268.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112851.269,42.0,Female,Asian,TIV Group 2008,7.0,Days,397.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,5.0,1.0,269
+SUB112851.269,42.0,Female,Asian,TIV Group 2008,7.0,Days,397.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112851.269,42.0,Female,Asian,TIV Group 2008,7.0,Days,397.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112852.269,21.0,Female,Black or African American,TIV Group 2008,7.0,Days,1358.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,10.0,320.0,32.0,269
+SUB112852.269,21.0,Female,Black or African American,TIV Group 2008,7.0,Days,1358.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,320.0,64.0,269
+SUB112852.269,21.0,Female,Black or African American,TIV Group 2008,7.0,Days,1358.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,40.0,160.0,4.0,269
+SUB112853.269,47.0,Female,White,TIV Group 2008,7.0,Days,503.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,160.0,160.0,1.0,269
+SUB112853.269,47.0,Female,White,TIV Group 2008,7.0,Days,503.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,20.0,320.0,16.0,269
+SUB112853.269,47.0,Female,White,TIV Group 2008,7.0,Days,503.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,160.0,32.0,269
+SUB112854.269,46.0,Male,Black or African American,LAIV group 2008,7.0,Days,346.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112854.269,46.0,Male,Black or African American,LAIV group 2008,7.0,Days,346.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,10.0,2.0,269
+SUB112854.269,46.0,Male,Black or African American,LAIV group 2008,7.0,Days,346.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112855.269,32.0,Female,Black or African American,TIV Group 2008,7.0,Days,109.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,40.0,80.0,2.0,269
+SUB112855.269,32.0,Female,Black or African American,TIV Group 2008,7.0,Days,109.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,320.0,640.0,2.0,269
+SUB112855.269,32.0,Female,Black or African American,TIV Group 2008,7.0,Days,109.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,80.0,80.0,1.0,269
+SUB112856.269,46.0,Female,Black or African American,TIV Group 2008,7.0,Days,22.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,160.0,160.0,1.0,269
+SUB112856.269,46.0,Female,Black or African American,TIV Group 2008,7.0,Days,22.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,640.0,640.0,1.0,269
+SUB112856.269,46.0,Female,Black or African American,TIV Group 2008,7.0,Days,22.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,40.0,40.0,1.0,269
+SUB112857.269,33.0,Male,White,TIV Group 2008,7.0,Days,606.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,640.0,160.0,0.25,269
+SUB112857.269,33.0,Male,White,TIV Group 2008,7.0,Days,606.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,80.0,16.0,269
+SUB112857.269,33.0,Male,White,TIV Group 2008,7.0,Days,606.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,20.0,160.0,8.0,269
+SUB112858.269,28.0,Male,Asian,LAIV group 2008,7.0,Days,158.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112858.269,28.0,Male,Asian,LAIV group 2008,7.0,Days,158.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112858.269,28.0,Male,Asian,LAIV group 2008,7.0,Days,158.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112860.269,32.0,Female,White,LAIV group 2008,7.0,Days,100.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,40.0,40.0,1.0,269
+SUB112860.269,32.0,Female,White,LAIV group 2008,7.0,Days,100.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,20.0,20.0,1.0,269
+SUB112860.269,32.0,Female,White,LAIV group 2008,7.0,Days,100.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112861.269,33.0,Male,White,TIV Group 2008,7.0,Days,935.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,80.0,160.0,2.0,269
+SUB112861.269,33.0,Male,White,TIV Group 2008,7.0,Days,935.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,320.0,64.0,269
+SUB112861.269,33.0,Male,White,TIV Group 2008,7.0,Days,935.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,40.0,80.0,2.0,269
+SUB112862.269,21.0,Female,Asian,LAIV group 2008,7.0,Days,2667.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,10.0,2.0,269
+SUB112862.269,21.0,Female,Asian,LAIV group 2008,7.0,Days,2667.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,20.0,20.0,1.0,269
+SUB112862.269,21.0,Female,Asian,LAIV group 2008,7.0,Days,2667.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112863.269,29.0,Female,White,TIV Group 2008,7.0,Days,132.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,40.0,40.0,1.0,269
+SUB112863.269,29.0,Female,White,TIV Group 2008,7.0,Days,132.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,40.0,8.0,269
+SUB112863.269,29.0,Female,White,TIV Group 2008,7.0,Days,132.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,20.0,160.0,8.0,269
+SUB112864.269,25.0,Female,White,LAIV group 2008,7.0,Days,93.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,20.0,20.0,1.0,269
+SUB112864.269,25.0,Female,White,LAIV group 2008,7.0,Days,93.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,160.0,160.0,1.0,269
+SUB112864.269,25.0,Female,White,LAIV group 2008,7.0,Days,93.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112865.269,25.0,Female,White,LAIV group 2008,7.0,Days,94.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,20.0,4.0,269
+SUB112865.269,25.0,Female,White,LAIV group 2008,7.0,Days,94.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112865.269,25.0,Female,White,LAIV group 2008,7.0,Days,94.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112866.269,34.0,Male,White,LAIV group 2008,7.0,Days,40.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,40.0,80.0,2.0,269
+SUB112866.269,34.0,Male,White,LAIV group 2008,7.0,Days,40.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,20.0,20.0,1.0,269
+SUB112866.269,34.0,Male,White,LAIV group 2008,7.0,Days,40.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112867.269,37.0,Male,White,LAIV group 2008,7.0,Days,123.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112867.269,37.0,Male,White,LAIV group 2008,7.0,Days,123.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112867.269,37.0,Male,White,LAIV group 2008,7.0,Days,123.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112868.269,37.0,Male,White,LAIV group 2008,7.0,Days,62.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,20.0,20.0,1.0,269
+SUB112868.269,37.0,Male,White,LAIV group 2008,7.0,Days,62.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112868.269,37.0,Male,White,LAIV group 2008,7.0,Days,62.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,80.0,80.0,1.0,269
+SUB112869.269,41.0,Male,White,LAIV group 2008,7.0,Days,64.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112869.269,41.0,Male,White,LAIV group 2008,7.0,Days,64.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,40.0,40.0,1.0,269
+SUB112869.269,41.0,Male,White,LAIV group 2008,7.0,Days,64.0,healthy adult,Years,Age at enrollment,Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112870.269,33.0,Male,White,LAIV group 2008,7.0,Days,218.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112870.269,33.0,Male,White,LAIV group 2008,7.0,Days,218.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112870.269,33.0,Male,White,LAIV group 2008,7.0,Days,218.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112871.269,46.0,Female,Black or African American,TIV Group 2008,7.0,Days,292.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,40.0,8.0,269
+SUB112871.269,46.0,Female,Black or African American,TIV Group 2008,7.0,Days,292.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,40.0,8.0,269
+SUB112871.269,46.0,Female,Black or African American,TIV Group 2008,7.0,Days,292.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112872.269,39.0,Female,White,TIV Group 2008,7.0,Days,65.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,40.0,8.0,269
+SUB112872.269,39.0,Female,White,TIV Group 2008,7.0,Days,65.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,20.0,40.0,2.0,269
+SUB112872.269,39.0,Female,White,TIV Group 2008,7.0,Days,65.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,20.0,20.0,1.0,269
+SUB112873.269,25.0,Male,White,LAIV group 2008,7.0,Days,579.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112873.269,25.0,Male,White,LAIV group 2008,7.0,Days,579.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112873.269,25.0,Male,White,LAIV group 2008,7.0,Days,579.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112874.269,23.0,Female,White,TIV Group 2008,7.0,Days,5818.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,320.0,64.0,269
+SUB112874.269,23.0,Female,White,TIV Group 2008,7.0,Days,5818.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112874.269,23.0,Female,White,TIV Group 2008,7.0,Days,5818.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112875.269,25.0,Female,White,TIV Group 2008,7.0,Days,2729.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,80.0,16.0,269
+SUB112875.269,25.0,Female,White,TIV Group 2008,7.0,Days,2729.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112875.269,25.0,Female,White,TIV Group 2008,7.0,Days,2729.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112876.269,27.0,Female,White,LAIV group 2008,7.0,Days,178.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,160.0,160.0,1.0,269
+SUB112876.269,27.0,Female,White,LAIV group 2008,7.0,Days,178.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112876.269,27.0,Female,White,LAIV group 2008,7.0,Days,178.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112877.269,27.0,Male,White,TIV Group 2008,7.0,Days,2561.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,40.0,8.0,269
+SUB112877.269,27.0,Male,White,TIV Group 2008,7.0,Days,2561.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,40.0,8.0,269
+SUB112877.269,27.0,Male,White,TIV Group 2008,7.0,Days,2561.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112878.269,28.0,Female,White,TIV Group 2008,7.0,Days,1114.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,80.0,16.0,269
+SUB112878.269,28.0,Female,White,TIV Group 2008,7.0,Days,1114.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,160.0,32.0,269
+SUB112878.269,28.0,Female,White,TIV Group 2008,7.0,Days,1114.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,80.0,16.0,269
+SUB112879.269,35.0,Female,White,TIV Group 2008,7.0,Days,3988.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,40.0,8.0,269
+SUB112879.269,35.0,Female,White,TIV Group 2008,7.0,Days,3988.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,160.0,32.0,269
+SUB112879.269,35.0,Female,White,TIV Group 2008,7.0,Days,3988.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112880.269,26.0,Female,White,LAIV group 2008,7.0,Days,144.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112880.269,26.0,Female,White,LAIV group 2008,7.0,Days,144.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,80.0,16.0,269
+SUB112880.269,26.0,Female,White,LAIV group 2008,7.0,Days,144.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112881.269,29.0,Female,Black or African American,LAIV group 2008,7.0,Days,91.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112881.269,29.0,Female,Black or African American,LAIV group 2008,7.0,Days,91.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112881.269,29.0,Female,Black or African American,LAIV group 2008,7.0,Days,91.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112882.269,31.0,Female,White,TIV Group 2008,7.0,Days,180.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,20.0,20.0,1.0,269
+SUB112882.269,31.0,Female,White,TIV Group 2008,7.0,Days,180.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,80.0,16.0,269
+SUB112882.269,31.0,Female,White,TIV Group 2008,7.0,Days,180.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,5.0,5.0,1.0,269
+SUB112883.269,23.0,Female,Asian,LAIV group 2008,7.0,Days,113.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,20.0,4.0,269
+SUB112883.269,23.0,Female,Asian,LAIV group 2008,7.0,Days,113.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112883.269,23.0,Female,Asian,LAIV group 2008,7.0,Days,113.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112884.269,27.0,Male,White,TIV Group 2008,7.0,Days,18.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,80.0,80.0,1.0,269
+SUB112884.269,27.0,Male,White,TIV Group 2008,7.0,Days,18.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112884.269,27.0,Male,White,TIV Group 2008,7.0,Days,18.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,20.0,20.0,1.0,269
+SUB112885.269,28.0,Female,White,LAIV group 2008,7.0,Days,74.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112885.269,28.0,Female,White,LAIV group 2008,7.0,Days,74.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112885.269,28.0,Female,White,LAIV group 2008,7.0,Days,74.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112886.269,43.0,Female,White,LAIV group 2008,7.0,Days,39.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/South Dakota/06/2007,5.0,5.0,1.0,269
+SUB112886.269,43.0,Female,White,LAIV group 2008,7.0,Days,39.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112886.269,43.0,Female,White,LAIV group 2008,7.0,Days,39.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Florida/4/2006,5.0,5.0,1.0,269
+SUB112887.269,23.0,Female,White,TIV Group 2008,7.0,Days,104.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,5.0,80.0,16.0,269
+SUB112887.269,23.0,Female,White,TIV Group 2008,7.0,Days,104.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,5.0,1.0,269
+SUB112887.269,23.0,Female,White,TIV Group 2008,7.0,Days,104.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,10.0,80.0,8.0,269
+SUB112888.269,34.0,Female,White,TIV Group 2008,7.0,Days,577.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Brisbane/59/2007,80.0,80.0,1.0,269
+SUB112888.269,34.0,Female,White,TIV Group 2008,7.0,Days,577.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,A/Uruguay/716/2007,5.0,40.0,8.0,269
+SUB112888.269,34.0,Female,White,TIV Group 2008,7.0,Days,577.0,healthy adult,Years,Age at enrollment,Not Hispanic or Latino,Homo sapiens,Age at Trial 2,B/Brisbane/3/2007,320.0,40.0,0.125,269

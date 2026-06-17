@@ -1,0 +1,46 @@
+INFO:root:>>>>>>>>>>>>>>> START OF SCRIPT EXECUTION: 16/06/2026 00:17:31. <<<<<<<<<<<<<<<
+INFO:root:>>>>>>>>>> PIPELINE: Code/ESTUDO_301 <<<<<<<<<<<<<<<
+INFO:root:>>>>>>>>>> PIPELINE PARAMETERS:
+INFO:root:	 dataset = study_301_effect_encoded
+INFO:root:	 development_test = False
+INFO:root:	 n_jobs = 2
+INFO:root:	 pca_n_components = 11
+INFO:root:	 reducer_option = 0
+INFO:root:	 random_state_hout = [20, 40, 60, 80, 100]
+INFO:root:	 random_state_model = 42
+INFO:root:	 ref_metric = accuracy
+INFO:root:	 ref_metric_2 = f1_weighted
+INFO:root:	 sample_balancing_option = 0
+INFO:root:	 dataset studies = [301]
+INFO:root:	 dataset features = ['BDCA3', 'BDCA3_CD2n', 'BDCA3_CD2p', 'BDCA3_CD40n', 'BDCA3_CD40p', 'BDCA3_CD86n', 'BDCA3_CD86p', 'CD138', 'CD138_CD86', 'CD14nCD16n', 'CD14nCD16n_CD86', 'CD14nCD16p', 'CD14nCD16p_CD86', 'CD14pCD16n', 'CD14pCD16n_CD86', 'CD14pCD16p', 'CD14pCD16p_CD86', 'CD16n_NK', 'CD16p_NK', 'CD19', 'CD19_CD27p', 'CD19pCD20n', 'CD19pCD20n_CD86p', 'CD19pCD20p', 'CD19pCD20p_CD86p', 'CD1c', 'CD1c_CD2n', 'CD1c_CD2p', 'CD1c_CD40n', 'CD1c_CD40p', 'CD1c_CD86n', 'CD1c_CD86p', 'CD3', 'CD3_DR', 'CD3_ICOS', 'CD3p', 'CD3p_CD27', 'CD3p_CD38', 'CD3p_CD56', 'CD3p_CD56_CD27', 'CD3p_CD56_CD38', 'CD4', 'CD4_DR', 'CD4_ICOS', 'CD8', 'CD86', 'CD8_CCR6', 'CD8_CXCR3', 'CD8_CXCR5', 'CD8_DR', 'CD8_ICOS', 'NK', 'NK_CD27', 'NK_CD38', 'PB', 'PB_CD86', 'TFH', 'TFH1', 'TFH17', 'TFH17_DR', 'TFH17_ICOSp', 'TFH1_17', 'TFH1_17_DR', 'TFH1_17_ICOS', 'TFH1_DR', 'TFH1_ICOS', 'TFH2', 'TFH2_DR', 'TFH2_ICOS', 'TFH_DR', 'TFH_ICOS', 'TH', 'TH1', 'TH17', 'TH17_DR', 'TH17_ICOS', 'TH1_17', 'TH1_17_DR', 'TH1_17_ICOS', 'TH1_DR', 'TH1_ICOS', 'TH2', 'TH2_DR', 'TH2_ICOS', 'TH_DR', 'TH_ICOS', 'mDC', 'mDC_CD2n', 'mDC_CD2p', 'mDC_CD40n', 'mDC_CD40p', 'mDC_CD86n', 'mDC_CD86p', 'mo', 'pDC', 'pDC_CD2n', 'pDC_CD2p', 'pDC_CD40n', 'pDC_CD40p', 'pDC_CD86n', 'pDC_CD86p', 'Virus_A/California/7/2009', 'Virus_A/Victoria/361/2011', 'Virus_B/Wisconsin/01/2010']
+INFO:root:	 models_parameters = {'LinearDiscriminantAnalysis': {'model': LinearDiscriminantAnalysis(), 'params': [{'balance': [None, RandomUnderSampler(random_state=42), SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'classify__solver': ['svd', 'lsqr', 'eigen'], 'classify__shrinkage': [None, 'auto', 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], 'classify__n_components': [1, None], 'classify__store_covariance': [True], 'classify__tol': [0.0001]}]}, 'LogisticRegression': {'model': LogisticRegression(), 'params': [{'impute': [None, SimpleImputer(strategy='median')], 'balance': [None, RandomUnderSampler(random_state=42), SMOTE(random_state=42)], 'select': [SelectKBest(score_func=<function mutual_info_classif at 0x7e733242b420>)], 'select__k': [5, 7, 9], 'transform': [None], 'classify__penalty': ['l2'], 'classify__tol': [1e-08, 1e-06, 0.0001], 'classify__C': [0.01, 0.1, 1.0, 10.0, 100.0], 'classify__random_state': [42], 'classify__solver': ['lbfgs'], 'classify__max_iter': [100, 200, 500, 1000, 2000], 'classify__n_jobs': [2]}]}, 'RandomForestClassifier': {'model': RandomForestClassifier(), 'params': [{'impute': [None, SimpleImputer(strategy='median')], 'balance': [None, RandomUnderSampler(random_state=42), SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'classify__n_estimators': [10, 50, 100, 250, 500, 750, 1000], 'classify__criterion': ['gini', 'entropy', 'log_loss'], 'classify__max_features': ['sqrt', 'log2', None], 'classify__n_jobs': [2], 'classify__ccp_alpha': [0.0, 0.02, 0.04, 0.08], 'classify__random_state': [42]}]}, 'SVC': {'model': SVC(), 'params': [{'balance': [None, RandomUnderSampler(random_state=42), SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'classify__C': [0.001, 0.01, 0.1, 1.0, 10.0, 100.0], 'classify__kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'classify__degree': [3, 5, 10], 'classify__gamma': ['auto', 'scale', 0.001, 0.01, 0.1], 'classify__probability': [True], 'classify__tol': [0.0001, 0.001], 'classify__max_iter': [1500, 2000, 2500, 3000], 'classify__random_state': [42]}]}, 'MLPClassifier': {'model': MLPClassifier(), 'params': [{'balance': [None, RandomUnderSampler(random_state=42), SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'classify__hidden_layer_sizes': [(54, 28, 15), (72, 50, 36), (209, 417, 833)], 'classify__activation': ['identity', 'logistic', 'tanh', 'relu'], 'classify__solver': ['lbfgs', 'sgd', 'adam'], 'classify__alpha': [1e-05, 0.0001, 0.001], 'classify__learning_rate': ['constant', 'invscaling', 'adaptive'], 'classify__learning_rate_init': [0.001, 0.01, 0.1, 1.0], 'classify__max_iter': [1500], 'classify__random_state': [42], 'classify__tol': [1e-05, 0.0001], 'classify__n_iter_no_change': [10, 30, 50]}]}}
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM LinearDiscriminantAnalysis.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 16/06/2026 00:17:31. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 16/06/2026 00:17:33. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 16/06/2026 00:17:33. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 16/06/2026 00:17:34. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 16/06/2026 00:17:34. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 16/06/2026 00:17:35. <<<<<
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM LogisticRegression.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 16/06/2026 00:17:35. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 16/06/2026 00:18:52. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 16/06/2026 00:18:52. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 16/06/2026 00:20:20. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 16/06/2026 00:20:20. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 16/06/2026 00:21:47. <<<<<
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM RandomForestClassifier.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 16/06/2026 00:21:47. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 16/06/2026 00:26:46. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 16/06/2026 00:26:46. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 16/06/2026 00:32:02. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 16/06/2026 00:32:02. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 16/06/2026 00:37:27. <<<<<
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM SVC.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 16/06/2026 00:37:27. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 16/06/2026 00:37:51. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 16/06/2026 00:37:51. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 16/06/2026 00:38:14. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 16/06/2026 00:38:14. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 16/06/2026 00:38:37. <<<<<
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM MLPClassifier.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 16/06/2026 00:38:37. <<<<<

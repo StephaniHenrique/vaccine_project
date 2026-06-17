@@ -76,11 +76,11 @@ from sklearn.impute import SimpleImputer
 from sklearn.svm import SVC
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'PUBLIC_HAI_VIRUS_ENCODED_GROUPED_highSKF' #MUDAR
-script_path = 'New_PUBLIC_DATA' #MUDAR
+exp_id = 'PUBLIC_HAI_VIRUS_ENCODED_SKF_standardized' #MUDAR
+script_path = 'STUDY_301' #MUDAR
 
 output_folder = f'./Results/{script_path}/{exp_id}'
-dataset = 'FCS_PUBLIC_effect_encoded_grouped_virus' #MUDAR
+dataset = '301_final_standard' #MUDAR
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
@@ -108,14 +108,14 @@ reducer_option = 0 # 0 = no dimensionality reduction / 1 = PCA / 2 = LDA
 sample_balancing_option = 0 # 0 = no balancing / 1 = undersampling / 2 = oversampling
 
 random_state_hout = [20, 40, 60, 80, 100]
-k_cv= 5
-k_hout = 10
+k_cv= 2
+k_hout = 3
 
 random_state_model = 42
 random_state_inner_cv = 42
 
-ref_metric = 'f1_weighted'
-ref_metric_2 = 'accuracy'
+ref_metric_2 = 'f1_weighted'
+ref_metric = 'accuracy'
 
 logging.info(f'>>>>>>>>>> PIPELINE: Code/{script_path} <<<<<<<<<<<<<<<')
 
@@ -630,7 +630,7 @@ for model_name, model_parameters in models_parameters.items():
 
             except Exception as e:
                 logging.error(f'An error occurred. {e}')
-                if len(test_cv_it_metrics[mean_metric_name]) <= i:
+                if len(test_cv_it_metrics['accuracy']) <= i:
                     fill_metrics(test_cv_it_metrics)
         except Exception as e:
                 print(f"\n[!!!] ERRO FATAL NO FOLD {i}: {e}\n") # <--- ADICIONE ISTO
