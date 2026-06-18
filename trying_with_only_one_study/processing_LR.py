@@ -3,11 +3,12 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 import os
 
+#ARRUMAAAR
 #Studies that I choose after preprocessing.py
 selected_studies = [113, 296, 301, 311, 312, 314, 364, 478, 514, 519]
 
 input_file = 'datasets_per_study'
-out_file = 'datasets_processed'
+out_file = 'datasets_LR_processed'
 os.makedirs(out_file, exist_ok=True)
 
 
@@ -19,20 +20,11 @@ for study in selected_studies:
         continue
         
     df = pd.read_csv(file_path)
-    
-    #Labeling with HAI
-    if 'HAI_Peak' in df.columns and 'HAI_Baseline' in df.columns:
-        df["Fold_Change_HAI"] = df["HAI_Peak"] / (df["HAI_Baseline"] + 1e-8)
-        df["Label_HAI"] = (df["Fold_Change_HAI"] >= 4).astype(int)
-    else:
-        print(f"study {study} has no HAI DATA!!!!!")
-        continue
         
     #Keeping age and gender
     df["Age Reported"] = pd.to_numeric(df["Age Reported"], errors="coerce")
     le = LabelEncoder()
     df["Gender_Encoded"] = le.fit_transform(df["Gender"].astype(str))
-    
     
     #Calculating the FC effect
     ignored_columns = [
@@ -40,14 +32,13 @@ for study in selected_studies:
         'Study Time Collected', 'Study Time Collected Unit', 'Phenotype', 
         'Age Unit', 'Age Event', 'Ethnicity', 'Species', 'Description', 
         'Virus', 'HAI_Baseline', 'HAI_Peak', 'HAI_Rate', 'Study_ID',
-         'Gender_Encoded', 'Fold_Change_HAI', 'Label_HAI'
-    ]
+         'Gender_Encoded']
 
     features_fc = [col for col in df.columns if col not in ignored_columns]
 
     metadata_keep = [
-        'Participant ID', 'Virus', 'Label_HAI', 
-        'Age Reported', 'Gender_Encoded', 'Fold_Change_HAI', 
+        'Participant ID', 'Virus',
+        'Age Reported', 'Gender_Encoded',
         'HAI_Baseline', 'HAI_Peak'
     ]
 
@@ -61,32 +52,24 @@ for study in selected_studies:
         on=['Participant ID'] + [col for col in metadata_keep if col not in ['Participant ID']], 
         suffixes=('_baseline', '_peak')
     )
-    
-    if df_matched.empty:
-        print(f"study {study}: THere's no patients with day 0/7")
-        continue
+      
+    df_final_effected = df_matched[['Participant ID', 'Virus', 'HAI_Peak', 'HAI_Baseline']].copy()
 
-    
-    df_final = df_matched[['Participant ID', 'Virus', 'HAI_peak', 'HAI_baseline']].copy()
-    
-    #Calculate effect
+    # CORREÇÃO 2: Tudo abaixo foi indentado para ficar dentro do loop 'for study in selected_studies:'
     for feature in features_fc:
         col_base = f"{feature}_baseline"
         col_peak = f"{feature}_peak"
-        
+
         if col_base in df_matched.columns and col_peak in df_matched.columns:
-            val_pre = df_matched[col_base]
-            val_peak = df_matched[col_peak]
-            
-            #Log2 Fold Change
-            df_final_effected[feature] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
+            df_final_effected[feature] = np.log2(
+                (df_matched[col_peak] + 1e-5) / (df_matched[col_base] + 1e-5)
+            )
 
     df_final_effected = pd.get_dummies(
-        df_final_effected, 
-        columns=['Virus'], 
-        prefix='Virus', 
+        df_final_effected,
+        columns=['Virus'],
+        prefix='Virus',
         dtype=int
     )
 
-
-    df_final_effected.to_csv('{out_file}/study_{study}_effect_encoded.csv', index=False)
+    df_final_effected.to_csv(f"{out_file}/study_{study}_effect_encoded_LR.csv", index=False)

@@ -37,6 +37,10 @@ df["Gender"] = le.fit_transform(df["Gender"].astype(str))
 df["Virus"] = df["Virus"].str.replace("Wisonsin", "Wisconsin")
 df = pd.get_dummies(df, columns=["Virus"], dtype=int)
 
-df = df.drop(columns=['hai_baseline', 'hai_peak', 'Fold_Change_HAI'], errors='ignore')
+# df = df.drop(columns=['hai_baseline', 'hai_peak', 'Fold_Change_HAI'], errors='ignore')
 
-df.to_csv("./final_data/dataset_virus_encoded.csv", index=False)
+# df.to_csv("./final_data/dataset_virus_encoded.csv", index=False)
+
+#TO REGRESSION
+df =df.drop(columns=['Fold_Change_HAI', 'Label_HAI'], errors='ignore')
+df.to_csv("./final_data/dataset_virus_encoded_regression.csv", index=False)
