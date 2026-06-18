@@ -19,9 +19,9 @@ from sklearn.ensemble import (
 )
 
 
-df = pd.read_csv("./301_final_standard.csv")
+df = pd.read_csv("./dataset_virus_encoded_regression.csv")
 
-TARGET = "Label_HAI"
+TARGET = "hai_peak"
 
 #removing id
 if "Participant ID" in df.columns:
@@ -29,7 +29,7 @@ if "Participant ID" in df.columns:
 
 
 X = df.drop(columns=[TARGET])
-y = df[TARGET]
+y = np.log2(df[TARGET])
 
 
 meta_cols = ['Participant ID', 'Gender', 'Label_HAI', 'Virus_A/California/7/2009', 'Virus_A/Perth/16/2009', 'Virus_A/Perth/19/2009', 'Virus_A/Victoria/361/2011', 'Virus_B/Brisbane/60/2008', 'Virus_B/Massachusetts/2/2012', 'Virus_B/Wisconsin/01/2010']
@@ -38,12 +38,14 @@ flow_columns = [c for c in X.columns if c not in meta_cols]
 
 X_without_flow = X.drop(columns=flow_columns)
 
+print(X_without_flow)
+
 #MODELS AND EVALUATION SETUP
 models = {
     "Linear": LinearRegression(),
     "Ridge": Ridge(alpha=1.0),
-    "Lasso": Lasso(alpha=0.01),
-    "ElasticNet": ElasticNet(alpha=0.01, l1_ratio=0.5),
+    "Lasso": Lasso(alpha=0.01, max_iter=10000),
+    "ElasticNet": ElasticNet(alpha=0.01, l1_ratio=0.5, max_iter=100000),
     "RandomForest": RandomForestRegressor(
         n_estimators=300,
         random_state=42,
@@ -109,7 +111,7 @@ def evaluate(X_data, title):
 
 evaluate(X, "ALL FEATURES WITHOUT HAI")
 
-# evaluate(
-#     X_without_flow,
-#     "SEM CITOMETRIA DE FLUXO",
-# )
+evaluate(
+    X_without_flow,
+    "NO FC DATA",
+)
