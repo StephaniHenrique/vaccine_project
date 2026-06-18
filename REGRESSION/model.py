@@ -19,9 +19,10 @@ from sklearn.ensemble import (
 )
 
 
-df = pd.read_csv("./dataset_virus_encoded_regression.csv")
+# df = pd.read_csv("./dataset_virus_encoded_regression.csv")
+df = pd.read_csv("./study_301_effect_encoded_LR.csv")
 
-TARGET = "hai_peak"
+TARGET = "HAI_Peak"
 
 #removing id
 if "Participant ID" in df.columns:
