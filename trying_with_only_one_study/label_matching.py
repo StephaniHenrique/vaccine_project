@@ -2,12 +2,13 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 import os
+from sklearn.preprocessing import StandardScaler, FunctionTransformer, MinMaxScaler, KBinsDiscretizer
 
 #Studies that I choose after preprocessing.py
 selected_studies = [113, 296, 301, 311, 312, 314, 364, 478, 514, 519]
 
 input_file = 'datasets_per_study'
-out_file = 'datasets_processed'
+out_file = 'datasets_processed_ARCSINH'
 os.makedirs(out_file, exist_ok=True)
 
 
@@ -69,6 +70,20 @@ for study in selected_studies:
     
     df_final = df_matched[['Participant ID', 'Virus', 'Label_HAI']].copy()
     
+
+    cofator = 5  
+    arcsinh_transformer = FunctionTransformer(
+        func=lambda x: np.arcsinh(x / cofator),
+        validate=False
+    )
+
+    df_matched[features_fc] = arcsinh_transformer.transform(df_matched[features_fc])
+    num_bins = 10
+    discretizador_multiple = KBinsDiscretizer(n_bins=num_bins, encode='ordinal', strategy='uniform')
+    df_matched[features_fc] = discretizador_multiple.fit_transform(df_matched[features_fc])
+
+
+
     #Calculate effect
     for feature in features_fc:
         col_base = f"{feature}_baseline"
@@ -79,7 +94,8 @@ for study in selected_studies:
             val_peak = df_matched[col_peak]
             
             #Log2 Fold Change
-            df_final_effected[feature] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
+            df_final_effected[feature] = val_peak - val_pre
+            # df_final_effected[feature] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
 
     df_final_effected = pd.get_dummies(
         df_final_effected, 
@@ -89,4 +105,4 @@ for study in selected_studies:
     )
 
 
-    df_final_effected.to_csv('{out_file}/study_{study}_effect_encoded.csv', index=False)
+    df_final_effected.to_csv('{out_file}/study_{study}_effect_encoded_ARCSINH.csv', index=False)
