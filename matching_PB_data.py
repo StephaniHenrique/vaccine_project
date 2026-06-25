@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('./dataset_virus_encoded.csv')
+df = pd.read_csv('./multiple_arcsinh.csv')
 
 meta_cols = [
     col for col in df.columns 
@@ -24,9 +24,9 @@ for base_col in baseline_cols:
     if peak_col in df.columns:
         val_pre = df[base_col]
         val_peak = df[peak_col]
-        
+        df_effect[feature_name] = val_peak - val_pre
         #Log2 Fold Change 
-        df_effect[feature_name] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
+        # df_effect[feature_name] = np.log2((val_peak + 1e-5) / (val_pre + 1e-5))
     else:
         print(f"Warning: Peak column for {feature_name} not found. Skipping.")
 
@@ -35,4 +35,4 @@ print(f"Samples processed: {len(df_effect)}")
 print(len(df_effect.columns))
 
 # 4. Salvar o novo dataset pronto para os modelos
-df_effect.to_csv('FCS_PUBLIC_effect_encoded_virus.csv', index=False)
+df_effect.to_csv('MULTIPLE_EFFECT_ARCSINH.csv', index=False)

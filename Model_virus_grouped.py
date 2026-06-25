@@ -76,11 +76,11 @@ from sklearn.impute import SimpleImputer
 from sklearn.svm import SVC
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'PUBLIC_HAI_VIRUS_ENCODED_SKF_standardized' #MUDAR
-script_path = 'STUDY_301' #MUDAR
+exp_id = 'PUBLIC_DATA_DIF_TRANSFORM' #MUDAR
+script_path = 'MULTIPLE_ARCSINH' #MUDAR
 
 output_folder = f'./Results/{script_path}/{exp_id}'
-dataset = '301_final_standard' #MUDAR
+dataset = 'MULTIPLE_EFFECT_ARCSINH' #MUDAR
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
@@ -306,32 +306,32 @@ if not(development_test):
                 },
             ]
         },
-        'MLPClassifier': { #MLP
-            'model': MLPClassifier(),
-            'params': [
-                {#Sem seleção de caracteristicas e transformação
-                   'balance': [
-                        None,
-                        RandomUnderSampler(random_state=random_state_model),
-                        SMOTE(random_state=random_state_model)
-                    ],
-                    'select': [ None ],
-                    'transform': [ None ], 
-                    'classify__hidden_layer_sizes': [
-                        (n_neurons_r1_l1,n_neurons_r1_l2,n_neurons_r1_l3,),(n_neurons_r2_l1,n_neurons_r2_l2,n_neurons_r2_l3,),(n_neurons_r3_l1,n_neurons_r3_l2,n_neurons_r3_l3,)
-                    ],
-                    'classify__activation': ['identity','logistic','tanh','relu'],
-                    'classify__solver': ['lbfgs','sgd','adam'],
-                    'classify__alpha': [1.0e-5,1.0e-4,1.0e-3],
-                    'classify__learning_rate': ['constant','invscaling','adaptive'],
-                    'classify__learning_rate_init': [0.001,0.01,0.1,1.0],
-                    'classify__max_iter': [1500],
-                    'classify__random_state': [random_state_model],
-                    'classify__tol': [1.0e-5,1.0e-4],
-                    'classify__n_iter_no_change': [10,30,50]
-                },
-            ]
-        },
+        # 'MLPClassifier': { #MLP
+        #     'model': MLPClassifier(),
+        #     'params': [
+        #         {#Sem seleção de caracteristicas e transformação
+        #            'balance': [
+        #                 None,
+        #                 RandomUnderSampler(random_state=random_state_model),
+        #                 SMOTE(random_state=random_state_model)
+        #             ],
+        #             'select': [ None ],
+        #             'transform': [ None ], 
+        #             'classify__hidden_layer_sizes': [
+        #                 (n_neurons_r1_l1,n_neurons_r1_l2,n_neurons_r1_l3,),(n_neurons_r2_l1,n_neurons_r2_l2,n_neurons_r2_l3,),(n_neurons_r3_l1,n_neurons_r3_l2,n_neurons_r3_l3,)
+        #             ],
+        #             'classify__activation': ['identity','logistic','tanh','relu'],
+        #             'classify__solver': ['lbfgs','sgd','adam'],
+        #             'classify__alpha': [1.0e-5,1.0e-4,1.0e-3],
+        #             'classify__learning_rate': ['constant','invscaling','adaptive'],
+        #             'classify__learning_rate_init': [0.001,0.01,0.1,1.0],
+        #             'classify__max_iter': [1500],
+        #             'classify__random_state': [random_state_model],
+        #             'classify__tol': [1.0e-5,1.0e-4],
+        #             'classify__n_iter_no_change': [10,30,50]
+        #         },
+        #     ]
+        # },
     }
 
 logging.info(f'\t models_parameters = {models_parameters}')
