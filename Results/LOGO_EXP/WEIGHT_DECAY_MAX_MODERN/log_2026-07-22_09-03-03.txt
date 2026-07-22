@@ -1,0 +1,74 @@
+INFO:root:>>>>>>>>>>>>>>> START OF SCRIPT EXECUTION: 22/07/2026 09:03:03. <<<<<<<<<<<<<<<
+INFO:root:>>>>>>>>>> PIPELINE: Code/LOGO_EXP <<<<<<<<<<<<<<<
+INFO:root:>>>>>>>>>> PIPELINE PARAMETERS:
+INFO:root:	 dataset = processed_data_vac_maximized_no_dpc
+INFO:root:	 n_jobs = -1
+INFO:root:	 random_state_cv = 42
+INFO:root:	 random_state_model = 42
+INFO:root:	 ref_metric = balanced_accuracy
+INFO:root:	 ref_metric_2 = accuracy
+INFO:root:	 quantidade de grupos = 8
+INFO:root:	 models_parameters = {'LightGBM': {'model': LGBMClassifier(n_jobs=1, random_state=42, verbose=-1), 'params': [{'balance': [None, SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [50, 100, 200], 'classify__max_depth': [3, 5, -1], 'classify__learning_rate': [0.01, 0.05, 0.1], 'classify__subsample': [0.8, 1.0], 'classify__colsample_bytree': [0.8, 1.0]}, {'balance': [None, SMOTE(random_state=42)], 'select': [None], 'transform': [StandardScaler()], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [50, 100, 200], 'classify__max_depth': [3, 5, -1], 'classify__learning_rate': [0.01, 0.05, 0.1], 'classify__subsample': [0.8, 1.0], 'classify__colsample_bytree': [0.8, 1.0]}, {'balance': [None, SMOTE(random_state=42)], 'select': [SelectKBest(score_func=<function mutual_info_classif at 0x7a970c879120>)], 'select__k': [10, 20, 'all'], 'transform': [None], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [50, 100, 200], 'classify__max_depth': [3, 5, -1], 'classify__learning_rate': [0.01, 0.05, 0.1], 'classify__subsample': [0.8, 1.0], 'classify__colsample_bytree': [0.8, 1.0]}]}, 'XGBoost': {'model': XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=True, eval_metric='logloss',
+              feature_types=None, feature_weights=None, gamma=None,
+              grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=1,
+              num_parallel_tree=None, ...), 'params': [{'balance': [None, SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [50, 100, 200], 'classify__max_depth': [3, 5, 7], 'classify__learning_rate': [0.01, 0.05, 0.1], 'classify__subsample': [0.8, 1.0], 'classify__colsample_bytree': [0.8, 1.0]}, {'balance': [None, SMOTE(random_state=42)], 'select': [None], 'transform': [StandardScaler()], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [50, 100, 200], 'classify__max_depth': [3, 5, 7], 'classify__learning_rate': [0.01, 0.05, 0.1], 'classify__subsample': [0.8, 1.0], 'classify__colsample_bytree': [0.8, 1.0]}, {'balance': [None, SMOTE(random_state=42)], 'select': [SelectKBest(score_func=<function mutual_info_classif at 0x7a970c879120>)], 'select__k': [10, 20, 'all'], 'transform': [None], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [50, 100, 200], 'classify__max_depth': [3, 5, 7], 'classify__learning_rate': [0.01, 0.05, 0.1], 'classify__subsample': [0.8, 1.0], 'classify__colsample_bytree': [0.8, 1.0]}]}, 'RandomForest': {'model': RandomForestClassifier(n_jobs=1, random_state=42), 'params': [{'balance': [None, SMOTE(random_state=42)], 'select': [None], 'transform': [None], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [100, 200, 300], 'classify__max_depth': [None, 5, 10], 'classify__max_features': ['sqrt', 'log2']}, {'balance': [None, SMOTE(random_state=42)], 'select': [None], 'transform': [StandardScaler()], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [100, 200, 300], 'classify__max_depth': [None, 5, 10], 'classify__max_features': ['sqrt', 'log2']}, {'balance': [None, SMOTE(random_state=42)], 'select': [SelectKBest(score_func=<function mutual_info_classif at 0x7a970c879120>)], 'select__k': [10, 20, 'all'], 'transform': [None], 'impute': [None, SimpleImputer(strategy='median')], 'classify__n_estimators': [100, 200, 300], 'classify__max_depth': [None, 5, 10], 'classify__max_features': ['sqrt', 'log2']}]}}
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM LightGBM.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 22/07/2026 09:03:03. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 22/07/2026 09:07:28. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 22/07/2026 09:07:29. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 22/07/2026 09:12:01. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 22/07/2026 09:12:01. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 22/07/2026 09:16:34. <<<<<
+INFO:root:>>>>> HOLDOUT 3: Start of algorithm hyperparameter tuning: 22/07/2026 09:16:34. <<<<<
+INFO:root:>>>>> HOLDOUT 3: End of algorithm hyperparameter tuning: 22/07/2026 09:21:00. <<<<<
+INFO:root:>>>>> HOLDOUT 4: Start of algorithm hyperparameter tuning: 22/07/2026 09:21:00. <<<<<
+INFO:root:>>>>> HOLDOUT 4: End of algorithm hyperparameter tuning: 22/07/2026 09:25:43. <<<<<
+INFO:root:>>>>> HOLDOUT 5: Start of algorithm hyperparameter tuning: 22/07/2026 09:25:43. <<<<<
+INFO:root:>>>>> HOLDOUT 5: End of algorithm hyperparameter tuning: 22/07/2026 09:30:10. <<<<<
+INFO:root:>>>>> HOLDOUT 6: Start of algorithm hyperparameter tuning: 22/07/2026 09:30:11. <<<<<
+INFO:root:>>>>> HOLDOUT 6: End of algorithm hyperparameter tuning: 22/07/2026 09:34:35. <<<<<
+INFO:root:>>>>> HOLDOUT 7: Start of algorithm hyperparameter tuning: 22/07/2026 09:34:35. <<<<<
+INFO:root:>>>>> HOLDOUT 7: End of algorithm hyperparameter tuning: 22/07/2026 09:39:18. <<<<<
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM XGBoost.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 22/07/2026 09:39:18. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 22/07/2026 09:51:31. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 22/07/2026 09:51:31. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 22/07/2026 10:04:07. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 22/07/2026 10:04:07. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 22/07/2026 10:16:14. <<<<<
+INFO:root:>>>>> HOLDOUT 3: Start of algorithm hyperparameter tuning: 22/07/2026 10:16:14. <<<<<
+INFO:root:>>>>> HOLDOUT 3: End of algorithm hyperparameter tuning: 22/07/2026 10:28:11. <<<<<
+INFO:root:>>>>> HOLDOUT 4: Start of algorithm hyperparameter tuning: 22/07/2026 10:28:11. <<<<<
+INFO:root:>>>>> HOLDOUT 4: End of algorithm hyperparameter tuning: 22/07/2026 10:41:04. <<<<<
+INFO:root:>>>>> HOLDOUT 5: Start of algorithm hyperparameter tuning: 22/07/2026 10:41:04. <<<<<
+INFO:root:>>>>> HOLDOUT 5: End of algorithm hyperparameter tuning: 22/07/2026 10:54:07. <<<<<
+INFO:root:>>>>> HOLDOUT 6: Start of algorithm hyperparameter tuning: 22/07/2026 10:54:07. <<<<<
+INFO:root:>>>>> HOLDOUT 6: End of algorithm hyperparameter tuning: 22/07/2026 11:12:22. <<<<<
+INFO:root:>>>>> HOLDOUT 7: Start of algorithm hyperparameter tuning: 22/07/2026 11:12:22. <<<<<
+INFO:root:>>>>> HOLDOUT 7: End of algorithm hyperparameter tuning: 22/07/2026 11:25:09. <<<<<
+INFO:root:>>>>>>>>>> PROCESSING ALGORITHM RandomForest.
+INFO:root:>>>>> HOLDOUT 0: Start of algorithm hyperparameter tuning: 22/07/2026 11:25:10. <<<<<
+INFO:root:>>>>> HOLDOUT 0: End of algorithm hyperparameter tuning: 22/07/2026 11:27:47. <<<<<
+INFO:root:>>>>> HOLDOUT 1: Start of algorithm hyperparameter tuning: 22/07/2026 11:27:47. <<<<<
+INFO:root:>>>>> HOLDOUT 1: End of algorithm hyperparameter tuning: 22/07/2026 11:30:28. <<<<<
+INFO:root:>>>>> HOLDOUT 2: Start of algorithm hyperparameter tuning: 22/07/2026 11:30:28. <<<<<
+INFO:root:>>>>> HOLDOUT 2: End of algorithm hyperparameter tuning: 22/07/2026 11:33:11. <<<<<
+INFO:root:>>>>> HOLDOUT 3: Start of algorithm hyperparameter tuning: 22/07/2026 11:33:12. <<<<<
+INFO:root:>>>>> HOLDOUT 3: End of algorithm hyperparameter tuning: 22/07/2026 11:35:50. <<<<<
+INFO:root:>>>>> HOLDOUT 4: Start of algorithm hyperparameter tuning: 22/07/2026 11:35:51. <<<<<
+INFO:root:>>>>> HOLDOUT 4: End of algorithm hyperparameter tuning: 22/07/2026 11:38:27. <<<<<
+INFO:root:>>>>> HOLDOUT 5: Start of algorithm hyperparameter tuning: 22/07/2026 11:38:27. <<<<<
+INFO:root:>>>>> HOLDOUT 5: End of algorithm hyperparameter tuning: 22/07/2026 11:41:04. <<<<<
+INFO:root:>>>>> HOLDOUT 6: Start of algorithm hyperparameter tuning: 22/07/2026 11:41:04. <<<<<
+INFO:root:>>>>> HOLDOUT 6: End of algorithm hyperparameter tuning: 22/07/2026 11:43:39. <<<<<
+INFO:root:>>>>> HOLDOUT 7: Start of algorithm hyperparameter tuning: 22/07/2026 11:43:40. <<<<<
+INFO:root:>>>>> HOLDOUT 7: End of algorithm hyperparameter tuning: 22/07/2026 11:46:13. <<<<<
+INFO:root:>>>>>>>>>>>>>>> END OF SCRIPT EXECUTION: 22/07/2026 11:46:13. <<<<<<<<<<<<<<<

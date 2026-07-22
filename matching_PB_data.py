@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('./multiple_arcsinh.csv')
+df = pd.read_csv('./dataset_virus_encoded.csv')
 
 meta_cols = [
     col for col in df.columns 
@@ -35,4 +35,4 @@ print(f"Samples processed: {len(df_effect)}")
 print(len(df_effect.columns))
 
 # 4. Salvar o novo dataset pronto para os modelos
-df_effect.to_csv('MULTIPLE_EFFECT_ARCSINH.csv', index=False)
+df_effect.to_csv('MULTIPLE_EFFECT_ARCSINH_no_standard.csv', index=False)

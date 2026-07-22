@@ -77,10 +77,10 @@ from sklearn.svm import SVC
 
 matplotlib.rcParams.update({'font.size': 15})
 exp_id = 'PUBLIC_DATA_DIF_TRANSFORM' #MUDAR
-script_path = 'MULTIPLE_ARCSINH' #MUDAR
+script_path = 'MULTIPLE_ARCSINH_EFFECT_FIRST' #MUDAR
 
 output_folder = f'./Results/{script_path}/{exp_id}'
-dataset = 'MULTIPLE_EFFECT_ARCSINH' #MUDAR
+dataset = 'multiple_arcsinh_final' #MUDAR
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 

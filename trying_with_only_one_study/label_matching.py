@@ -78,11 +78,9 @@ for study in selected_studies:
     )
 
     df_matched[features_fc] = arcsinh_transformer.transform(df_matched[features_fc])
-    num_bins = 10
-    discretizador_multiple = KBinsDiscretizer(n_bins=num_bins, encode='ordinal', strategy='uniform')
-    df_matched[features_fc] = discretizador_multiple.fit_transform(df_matched[features_fc])
 
-
+    scaler=MinMaxScaler()
+    df_matched[features_fc] = scaler.fit_transform(df_matched[features_fc])
 
     #Calculate effect
     for feature in features_fc:
