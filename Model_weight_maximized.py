@@ -32,15 +32,15 @@ from sklearn.impute import SimpleImputer
 
 
 matplotlib.rcParams.update({'font.size': 15})
-exp_id = 'WEIGHT_DECAY_MAX_MODERN' #MUDAR
+exp_id = 'H5NP_TRAINING_VALIDATION_SEP_SIMPLEST' #MUDAR
 script_path = 'LOGO_EXP' #MUDAR
 
 input_folder = f'./Dataset/weight_decay'
 input_folder_public = f'./Dataset/weight_decay'
 output_folder = f'./Results/{script_path}/{exp_id}'
 
-dataset_validation = 'processed_data_rab_maximized_no_dpc' #MUDAR
-dataset = 'processed_data_vac_maximized_no_dpc' #MUDAR
+dataset_validation = 'H5NP_NOPBS_SEPARATE_PROCESSED_NOEXP' #MUDAR
+dataset = 'H5NP_NOPBS_PROCESSED_NOEXP' #MUDAR
 
 
 if not os.path.exists(output_folder):

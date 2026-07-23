@@ -46,8 +46,7 @@ def prepare_ml_datasets(input_csv, imputation_strategy='interpolate', encoding_s
 
     df['vector'] = df['vector'].str.replace(r'^(PBS-challenge-|PBS-)', '', case=False, regex=True)
    
-    df['Group'] = (df['exp'].astype(str) + '_' + 
-                   df['Strain'].astype(str) + '_' + 
+    df['Group'] = (df['Strain'].astype(str) + '_' + 
                    df['vector'].astype(str))
     
     df_vac = df.copy()
@@ -148,7 +147,7 @@ def prepare_ml_datasets(input_csv, imputation_strategy='interpolate', encoding_s
     return X, y, metadata, df_vac
 
 if __name__ == "__main__":
-    input_csv = "./vector_rab.csv"
+    input_csv = "./Vector_outcomes_Filtered_Subset_h5np_nopbs.csv"
     list_imputation = ['percentage_change']
     list_encoding = ['grouped_3']
     augmentations = ['ros', 'smote', 'adasyn']
@@ -165,5 +164,5 @@ if __name__ == "__main__":
                 input_csv, 
                 imputation_strategy=imputation, encoding_strategy=encoding, reduce_3 = reduce_3, curve=curve, possible_vectors=all_vectors)
 
-            df.to_csv(f"./processed_data_rab_maximized_no_dpc.csv", index=False)
+            df.to_csv(f"./H5NP_NOPBS_PROCESSED_NOEXP.csv", index=False)
              
