@@ -1,1 +1,5 @@
 nohup: ignoring input
+/home/stephani/Desktop/vaccine_proj/vaccine_project/venv/lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py:359: UserWarning: resource_tracker: There appear to be 8 leaked semlock objects to clean up at shutdown
+  warnings.warn(
+/home/stephani/Desktop/vaccine_proj/vaccine_project/venv/lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py:359: UserWarning: resource_tracker: There appear to be 26 leaked folder objects to clean up at shutdown
+  warnings.warn(
